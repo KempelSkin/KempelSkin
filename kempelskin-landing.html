@@ -1,334 +1,2893 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-CL">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>KempelSkin | Catálogo K-Beauty</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kempel Skin — Skincare Coreano Original en Chile</title>
+
+<!-- SEO -->
+<meta name="description" content="Skincare coreano original en Chile. Celimax, Mixsoon, SKIN1004, Dr Althea, Beauty of Joseon y más. Importado desde Corea · Despacho a todo Chile · Compra segura.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://kempelskin.cl/">
+
+<!-- Open Graph — redes sociales -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kempelskin.cl/">
+<meta property="og:title" content="Kempel Skin — Skincare Coreano Original en Chile">
+<meta property="og:description" content="Rutinas coreanas seleccionadas para hidratar, iluminar y fortalecer tu piel. Productos originales con despacho a todo Chile.">
+<meta property="og:image" content="https://cdn.shopify.com/s/files/1/0609/5496/8134/files/SKINCARE_CELIMAX_CHILE.png?v=1777687987">
+<meta property="og:locale" content="es_CL">
+<meta property="og:site_name" content="Kempel Skin Chile">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kempel Skin — Skincare Coreano Original en Chile">
+<meta name="twitter:description" content="Rutinas coreanas seleccionadas para hidratar, iluminar y fortalecer tu piel. Despacho a todo Chile.">
+<meta name="twitter:image" content="https://cdn.shopify.com/s/files/1/0609/5496/8134/files/SKINCARE_CELIMAX_CHILE.png?v=1777687987">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+
 <style>
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;background:#fbf7f2;color:#352b27}button,a{font-family:inherit}.topbar{position:sticky;top:0;z-index:50;background:rgba(251,247,242,.94);backdrop-filter:blur(14px);border-bottom:1px solid #eadbd0;padding:14px 22px;display:flex;justify-content:space-between;align-items:center}.logo{font-family:'Cormorant Garamond',serif;font-size:25px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#2b211e;text-decoration:none}.logo span{display:block;font-family:'DM Sans';font-size:10px;font-weight:400;letter-spacing:.24em;color:#9a877e;text-align:center}.cart-btn{background:#2b211e;color:white;border:0;border-radius:999px;padding:12px 18px;cursor:pointer;font-weight:700;display:flex;gap:8px;align-items:center}.cart-count{background:#d79b8e;border-radius:50%;width:22px;height:22px;display:grid;place-items:center;font-size:12px}.hero{min-height:74vh;padding:70px 22px 50px;display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center;background:linear-gradient(135deg,#fbf7f2,#ead9cd)}.hero-copy{max-width:620px;margin:auto}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:#b88779;font-weight:700;margin-bottom:14px}.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,7vw,86px);line-height:.94;color:#2b211e;margin-bottom:18px}.hero h1 em{font-style:italic;color:#b88779}.hero p{font-size:16px;line-height:1.8;color:#76665f;margin-bottom:28px;max-width:500px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn-primary,.btn-outline{border-radius:999px;padding:15px 25px;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:700;cursor:pointer}.btn-primary{background:#2b211e;color:#fff;border:1px solid #2b211e}.btn-outline{background:transparent;color:#2b211e;border:1px solid #2b211e}.hero-card{min-height:460px;border-radius:36px;background:#fff;box-shadow:0 30px 80px rgba(58,42,35,.12);padding:28px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}.hero-card:before{content:'';position:absolute;inset:28px;border-radius:30px;background:linear-gradient(160deg,#f5e5dc,#fff,#e9d2c7)}.hero-product{position:relative;z-index:1;text-align:center}.hero-product img{max-width:330px;width:88%;border-radius:26px;box-shadow:0 20px 45px rgba(0,0,0,.12)}.seal{position:absolute;top:32px;right:32px;background:#d79b8e;color:white;border-radius:50%;width:92px;height:92px;display:grid;place-items:center;text-align:center;font-weight:800;font-size:14px;line-height:1.1;z-index:2}.section{padding:70px 22px}.section-head{text-align:center;margin:0 auto 36px;max-width:720px}.section-head h2{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5vw,58px);line-height:1.05;margin-bottom:10px}.section-head p{color:#8a7770;line-height:1.7}.tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:32px}.tab{border:1px solid #dbc7bc;background:white;border-radius:999px;padding:10px 18px;cursor:pointer;text-transform:uppercase;font-size:12px;letter-spacing:.08em}.tab.active,.tab:hover{background:#2b211e;color:white;border-color:#2b211e}.grid{max-width:1180px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 14px 45px rgba(58,42,35,.08);transition:.25s}.card:hover{transform:translateY(-4px)}.card-img{height:280px;background:#f1e3db;position:relative;overflow:hidden;cursor:pointer}.card-img img{width:100%;height:100%;object-fit:cover;transition:.35s}.card:hover .card-img img{transform:scale(1.04)}.badge{position:absolute;top:14px;left:14px;background:#d79b8e;color:white;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:800}.card-body{padding:20px}.brand{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:#9a877e;margin-bottom:7px}.name{font-family:'Cormorant Garamond',serif;font-size:25px;line-height:1.08;margin-bottom:10px;color:#2b211e}.desc{font-size:13px;line-height:1.7;color:#7d6c65;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.price-row{display:flex;align-items:baseline;gap:9px;margin-bottom:16px}.old{text-decoration:line-through;color:#a49791;font-size:14px}.price{font-size:24px;font-weight:800;color:#bf5f55}.card-actions{display:grid;grid-template-columns:1fr auto;gap:10px}.view-btn{border:1px solid #2b211e;background:transparent;color:#2b211e;border-radius:999px;padding:12px;cursor:pointer;font-weight:800;text-transform:uppercase;font-size:12px}.add-btn{border:0;background:#2b211e;color:white;border-radius:999px;width:46px;height:46px;font-size:22px;cursor:pointer}.info-band{background:#2b211e;color:white;border-radius:32px;max-width:1180px;margin:auto;padding:34px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.info-item h3{font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:8px}.info-item p{color:rgba(255,255,255,.62);line-height:1.7;font-size:14px}.modal{position:fixed;inset:0;background:rgba(0,0,0,.58);z-index:100;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal-box{background:#fff;border-radius:28px;max-width:980px;width:100%;max-height:92vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:28px;position:relative}.close{position:absolute;top:16px;right:18px;background:white;border:1px solid #eadbd0;border-radius:50%;width:38px;height:38px;cursor:pointer;font-size:20px}.main-img{width:100%;border-radius:22px;background:#f1e3db;aspect-ratio:1/1;object-fit:cover}.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.thumbs img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px;cursor:pointer;border:2px solid transparent}.thumbs img:hover{border-color:#d79b8e}.modal-title{font-family:'Cormorant Garamond',serif;font-size:42px;line-height:1.02;margin:8px 0 14px}.modal-desc{white-space:pre-line;color:#6d5d56;line-height:1.8;font-size:14px;margin:18px 0}.qty-line{display:flex;align-items:center;gap:12px;margin:18px 0}.qty-line button{width:34px;height:34px;border-radius:50%;border:1px solid #dbc7bc;background:white;cursor:pointer}.drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:110;display:none}.drawer-overlay.open{display:block}.drawer{position:fixed;top:0;right:-430px;width:430px;max-width:96vw;height:100%;background:white;z-index:120;transition:.3s;display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(0,0,0,.18)}.drawer.open{right:0}.drawer-head{padding:22px;border-bottom:1px solid #eadbd0;display:flex;justify-content:space-between;align-items:center}.drawer-head h3{font-family:'Cormorant Garamond',serif;font-size:28px}.drawer-head button{border:0;background:white;font-size:25px;cursor:pointer}.cart-items{flex:1;overflow:auto;padding:18px;display:flex;flex-direction:column;gap:14px}.empty{text-align:center;color:#8a7770;padding:44px 10px;line-height:1.7}.cart-item{display:grid;grid-template-columns:74px 1fr auto;gap:12px;background:#fbf7f2;border-radius:16px;padding:12px}.cart-item img{width:74px;height:74px;object-fit:cover;border-radius:12px}.cart-name{font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.1}.cart-meta{font-size:12px;color:#8a7770}.cart-controls{display:flex;align-items:center;gap:8px;margin-top:8px}.mini{width:26px;height:26px;border-radius:50%;border:1px solid #d8c7bd;background:white;cursor:pointer}.trash{border:0;background:transparent;cursor:pointer}.cart-price{font-weight:800;color:#bf5f55;white-space:nowrap;align-self:center}.drawer-foot{border-top:1px solid #eadbd0;padding:18px}.total{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.total strong{font-size:26px;color:#2b211e}.wa{width:100%;border:0;border-radius:16px;background:#25d366;color:white;padding:16px;font-weight:900;font-size:15px;cursor:pointer}.note{text-align:center;color:#8a7770;font-size:12px;line-height:1.5;margin-top:10px}.float-wa{position:fixed;right:22px;bottom:22px;background:#25d366;color:white;border:0;border-radius:50%;width:62px;height:62px;box-shadow:0 10px 35px rgba(37,211,102,.4);cursor:pointer;font-size:29px;z-index:40}.footer{text-align:center;padding:36px 22px;background:#1f1714;color:rgba(255,255,255,.55);font-size:13px}.footer strong{display:block;color:white;font-family:'Cormorant Garamond',serif;font-size:25px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}@media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center}.hero p{margin-left:auto;margin-right:auto}.hero-actions{justify-content:center}.grid{grid-template-columns:repeat(2,1fr)}.info-band{grid-template-columns:1fr}.modal-box{grid-template-columns:1fr}.hero-card{min-height:360px}}@media(max-width:560px){.topbar{padding:12px}.logo{font-size:19px}.hero{padding-top:44px}.grid{grid-template-columns:1fr}.card-img{height:320px}.section{padding:52px 16px}.modal{padding:8px}.modal-box{padding:18px;border-radius:20px}.modal-title{font-size:34px}.cart-btn{padding:10px 12px;font-size:12px}}
-/* Card limpia: la descripción completa solo aparece al abrir Ver producto */
-.category-pill{display:inline-flex;margin:2px 0 12px;padding:5px 11px;border-radius:999px;background:#fbf7f2;border:1px solid #eadbd0;color:#8a7770;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.card-body .desc{display:none}.card-actions{display:grid;grid-template-columns:1fr 46px;gap:10px}.view-btn{transition:.22s}.view-btn:hover{background:#2b211e;color:white}.add-btn{transition:.22s}.add-btn:hover{background:#d79b8e;transform:translateY(-1px)}
+/* ─── RESET & TOKENS ─── */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#1e2b38;
+  --ink2:#31465c;
+  --stone:#6d7f92;
+  --sand:#b7d7f2;
+  --petal:#eaf6ff;
+  --cream:#f7fbff;
+  --white:#ffffff;
+  --blush:#dff1ff;
+  --rose:#7dbde8;
+  --sage:#9dcbe8;
+  --wa:#25D366;
+  --r:16px;
+  --nav:60px;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Jost',system-ui,sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* ─── ANNOUNCE BAR ─── */
+.announce{
+  background:linear-gradient(90deg,#dff1ff,#b7d7f2);color:var(--ink);
+  font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  text-align:center;padding:9px 16px;
+  display:flex;align-items:center;justify-content:center;gap:16px;
+}
+.announce a{color:var(--ink2);text-decoration:underline;text-underline-offset:2px}
+
+/* ─── NAV ─── */
+nav{
+  position:sticky;top:0;z-index:200;
+  background:rgba(247,251,255,.97);backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(183,215,242,.45);
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;
+  padding:0 32px;height:var(--nav);
+}
+.nav-left{display:flex;gap:28px;align-items:center}
+.nav-link{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);text-decoration:none;transition:color .2s;font-weight:500}
+.nav-link:hover{color:var(--ink)}
+.logo{text-align:center;text-decoration:none;display:block}
+.logo-name{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;letter-spacing:.06em;color:var(--ink);line-height:1;display:block}
+.logo-sub{font-size:8px;letter-spacing:.32em;text-transform:uppercase;color:var(--stone);font-weight:400;display:block;margin-top:2px}
+.nav-right{display:flex;justify-content:flex-end;align-items:center;gap:14px}
+.nav-icon-btn{background:none;border:none;cursor:pointer;color:var(--ink);display:flex;align-items:center;gap:7px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-family:'Jost',sans-serif;font-weight:500;padding:6px 0;position:relative;-webkit-tap-highlight-color:transparent}
+.nav-icon-btn:hover{color:var(--stone)}
+.cart-badge{
+  background:var(--ink);color:#fff;border-radius:50%;
+  width:16px;height:16px;font-size:9px;font-weight:600;
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:transform .2s;
+}
+.cart-badge.pop{animation:popBadge .35s ease both}
+@keyframes popBadge{0%{transform:scale(1)}50%{transform:scale(1.6)}100%{transform:scale(1)}}
+
+/* ─── MOBILE STICKY BAR ─── */
+.mobile-sticky{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:190;
+  background:var(--ink);padding:12px 16px;
+  padding-bottom:max(12px,env(safe-area-inset-bottom));
+  transform:translateY(110%);transition:transform .35s cubic-bezier(.4,0,.2,1);
+  box-shadow:0 -6px 30px rgba(26,26,24,.2);
+}
+.mobile-sticky.show{transform:translateY(0)}
+.msb-btn{
+  width:100%;background:var(--rose);color:#fff;border:none;border-radius:10px;
+  padding:14px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  cursor:pointer;font-family:'Jost',sans-serif;display:flex;align-items:center;justify-content:center;gap:8px;
+}
+
+/* ─── HERO (Rhode-style: full-screen image + overlaid text) ─── */
+.hero{
+  position:relative;
+  width:100%;
+  height:100svh;
+  min-height:600px;
+  overflow:hidden;
+  background:var(--blush);
+}
+
+/* Background image fills the entire hero */
+.hero-bg{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:center 20%;
+  z-index:0;
+}
+/* Mobile: imagen vertical */
+@media(max-width:900px){
+  .hero-bg{object-position:center top}
+  .hero-bg.desktop{display:none}
+  .hero-bg.mobile{display:block}
+}
+/* Desktop: oculta la mobile */
+@media(min-width:901px){
+  .hero-bg.mobile{display:none}
+  .hero-bg.desktop{display:block}
+}
+
+/* Subtle gradient so text stays readable */
+.hero-scrim{
+  position:absolute;inset:0;z-index:1;
+  background:linear-gradient(
+    to bottom,
+    rgba(26,26,24,.08) 0%,
+    rgba(26,26,24,.0) 40%,
+    rgba(26,26,24,.38) 80%,
+    rgba(26,26,24,.62) 100%
+  );
+}
+
+/* All text content — bottom left, like Rhode */
+.hero-text{
+  position:absolute;
+  bottom:0;left:0;right:0;
+  z-index:2;
+  padding:0 52px 52px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:32px;
+  animation:fadeSlide .9s .1s ease both;
+}
+
+.hero-left{max-width:560px}
+
+.hero-eyebrow{
+  font-size:10px;letter-spacing:.28em;text-transform:uppercase;
+  color:rgba(255,255,255,.7);font-weight:400;margin-bottom:16px;
+  display:flex;align-items:center;gap:10px;
+}
+.hero-eyebrow::before{
+  content:'';display:block;width:22px;height:1px;
+  background:rgba(255,255,255,.4);
+}
+
+.hero-h1{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(48px,6vw,90px);
+  font-weight:400;line-height:.95;
+  color:#fff;letter-spacing:-.02em;
+  margin-bottom:24px;
+}
+.hero-h1 em{font-style:italic;color:var(--blush)}
+
+.hero-body{
+  font-size:13px;line-height:1.8;
+  color:rgba(255,255,255,.72);
+  max-width:380px;margin-bottom:28px;font-weight:300;
+}
+
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+/* Hero right — stats pill, bottom right */
+.hero-right{
+  flex-shrink:0;
+  display:flex;flex-direction:column;align-items:flex-end;gap:10px;
+  padding-bottom:4px;
+}
+.hero-pill{
+  background:rgba(255,255,255,.14);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:999px;
+  padding:10px 20px;
+  display:flex;align-items:center;gap:14px;
+  white-space:nowrap;
+}
+.hp-divider{width:1px;height:22px;background:rgba(255,255,255,.2)}
+.hp-item{text-align:center}
+.hp-num{
+  font-family:'Playfair Display',serif;font-size:20px;
+  font-weight:400;color:#fff;line-height:1;
+  display:block;
+}
+.hp-num em{font-style:italic}
+.hp-label{
+  font-size:8px;letter-spacing:.12em;text-transform:uppercase;
+  color:rgba(255,255,255,.55);margin-top:2px;display:block;
+}
+
+/* Buttons — white filled + white ghost for hero */
+.btn-dark{
+  background:var(--ink);color:#fff;padding:13px 26px;border-radius:40px;
+  font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;
+  font-weight:500;transition:all .25s;border:none;cursor:pointer;font-family:'Jost',sans-serif;
+  display:inline-block;
+}
+.btn-dark:hover{background:var(--rose);transform:translateY(-1px)}
+.btn-outline{
+  border:1.5px solid var(--ink2);color:var(--ink2);padding:12px 24px;border-radius:40px;
+  font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;
+  font-weight:400;transition:all .25s;display:inline-block;
+}
+.btn-outline:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* Hero-specific button overrides */
+.hero .btn-dark{
+  background:#fff;color:var(--ink);
+}
+.hero .btn-dark:hover{background:var(--blush);transform:translateY(-1px)}
+.hero .btn-outline{
+  border-color:rgba(255,255,255,.6);color:#fff;
+}
+.hero .btn-outline:hover{background:rgba(255,255,255,.15);border-color:#fff}
+
+@keyframes fadeSlide{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+
+/* ─── FEATURED PRODUCTS ─── */
+.featured-sec{
+  background:var(--white);
+  padding:52px 0 48px;
+  border-bottom:1px solid rgba(196,185,168,.18);
+  overflow:hidden;
+}
+.featured-head{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  padding:0 40px;margin-bottom:28px;
+}
+.featured-head-left{}
+.featured-eyebrow{
+  font-size:9px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--rose);display:block;margin-bottom:8px;font-weight:500;
+}
+.featured-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(24px,3vw,38px);font-weight:400;
+  color:var(--ink);line-height:1.04;
+}
+.featured-title em{font-style:italic}
+.featured-link{
+  font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--stone);text-decoration:none;
+  border-bottom:1px solid rgba(107,104,96,.3);
+  padding-bottom:2px;transition:color .2s,border-color .2s;
+  white-space:nowrap;
+}
+.featured-link:hover{color:var(--ink);border-color:var(--ink)}
+
+/* Track scroll */
+.featured-track-wrap{
+  position:relative;
+  padding:0 40px;
+}
+.featured-track-wrap::after{
+  content:'';position:absolute;top:0;right:0;bottom:0;
+  width:80px;
+  background:linear-gradient(to left,var(--white),transparent);
+  pointer-events:none;z-index:2;
+}
+.featured-track{
+  display:flex;gap:12px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+  padding-bottom:4px;
+}
+.featured-track::-webkit-scrollbar{display:none}
+
+/* Card individual */
+.fc-item{
+  flex:0 0 220px;
+  scroll-snap-align:start;
+  background:var(--cream);
+  border-radius:16px;
+  overflow:hidden;
+  transition:transform .3s cubic-bezier(.16,1,.3,1);
+  cursor:pointer;
+}
+.fc-item:hover{transform:translateY(-3px)}
+.fc-img{
+  height:200px;background:var(--petal);
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;position:relative;
+}
+.fc-img img{
+  width:100%;height:100%;object-fit:contain;
+  padding:12px;
+  transition:transform .5s cubic-bezier(.25,.46,.45,.94);
+}
+.fc-item:hover .fc-img img{transform:scale(1.06)}
+.fc-badge{
+  position:absolute;top:10px;left:10px;
+  font-size:8px;letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 9px;border-radius:20px;font-weight:600;color:#fff;
+}
+.fc-badge.top{background:var(--rose)}
+.fc-badge.new{background:var(--sage)}
+.fc-body{padding:14px 14px 16px}
+.fc-brand{font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin-bottom:3px;font-weight:500}
+.fc-name{font-family:'Playfair Display',serif;font-size:13px;font-weight:400;color:var(--ink);line-height:1.3;margin-bottom:8px}
+.fc-foot{display:flex;justify-content:space-between;align-items:center}
+.fc-price{font-size:13px;font-weight:500;color:var(--ink)}
+.fc-price .old{font-size:10px;color:var(--stone);text-decoration:line-through;margin-right:4px;font-weight:400}
+.fc-btn{
+  width:30px;height:30px;border-radius:50%;
+  background:var(--ink);color:#fff;border:none;
+  cursor:pointer;font-size:17px;display:flex;align-items:center;justify-content:center;
+  transition:all .22s;flex-shrink:0;-webkit-tap-highlight-color:transparent;
+}
+.fc-btn:hover{background:var(--rose);transform:scale(1.1)}
+.fc-btn.done{background:var(--sage)}
+
+/* Dots navegación */
+.featured-dots{
+  display:flex;justify-content:center;gap:6px;margin-top:20px;
+}
+.featured-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:rgba(107,104,96,.25);border:none;cursor:pointer;
+  padding:0;transition:all .25s;
+}
+.featured-dot.on{background:var(--ink);width:18px;border-radius:3px}
+
+/* Mobile */
+@media(max-width:900px){
+  .featured-head{padding:0 16px;margin-bottom:20px}
+  .featured-track-wrap{padding:0 16px}
+  .fc-item{flex:0 0 160px}
+  .fc-img{height:160px}
+  .featured-sec{padding:36px 0 32px}
+}
+
+/* ─── TRUST BAR ─── */
+.trust-bar{
+  background:var(--white);border-bottom:1px solid rgba(196,185,168,.2);
+  display:flex;align-items:center;justify-content:center;
+  gap:0;overflow:hidden;
+}
+.trust-item{
+  flex:1;display:flex;align-items:center;justify-content:center;gap:10px;
+  padding:16px 20px;border-right:1px solid rgba(196,185,168,.2);
+}
+.trust-item:last-child{border-right:none}
+.trust-icon{font-size:16px;flex-shrink:0}
+.trust-text{font-size:11px;letter-spacing:.06em;color:var(--stone);font-weight:400}
+.trust-text strong{display:block;color:var(--ink);font-weight:600;margin-bottom:1px}
+
+/* ─── BRANDS MARQUEE ─── */
+.brands-sec{padding:32px 0;background:var(--cream);overflow:hidden;border-bottom:1px solid rgba(196,185,168,.18)}
+.brands-label{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--sand);text-align:center;margin-bottom:18px}
+.marquee-wrap{position:relative;overflow:hidden}
+.marquee-wrap::before,.marquee-wrap::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
+.marquee-wrap::before{left:0;background:linear-gradient(to right,var(--cream),transparent)}
+.marquee-wrap::after{right:0;background:linear-gradient(to left,var(--cream),transparent)}
+.marquee-track{display:flex;align-items:center;width:max-content;animation:marquee 30s linear infinite}
+.marquee-track:hover{animation-play-state:paused}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.brand-chip{
+  padding:0 36px;border-right:1px solid rgba(196,185,168,.22);
+  display:flex;flex-direction:column;align-items:center;cursor:pointer;
+  opacity:.5;transition:opacity .25s;white-space:nowrap;
+}
+.brand-chip:hover{opacity:1}
+.bc-name{font-family:'Playfair Display',serif;font-size:17px;letter-spacing:.06em;color:var(--ink);transition:color .2s}
+.bc-name.sm{font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase}
+.bc-name.it{font-style:italic}
+.brand-chip:hover .bc-name{color:var(--rose)}
+.bc-sub{font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:var(--stone);margin-top:2px}
+
+/* ─── SECTION SHELL ─── */
+.sec{padding:80px 40px}
+.sec-head{text-align:center;margin-bottom:52px}
+.sec-eyebrow{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--rose);display:block;margin-bottom:12px;font-weight:500}
+.sec-title{font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,54px);font-weight:400;color:var(--ink);line-height:1.04}
+.sec-title em{font-style:italic;font-weight:400}
+.sec-sub{font-size:13px;color:var(--stone);margin-top:12px;font-weight:300;line-height:1.8;max-width:480px;margin-left:auto;margin-right:auto}
+
+/* ─── FILTERS ─── */
+.filters{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:40px;padding:0 8px}
+.filter-btn{
+  padding:8px 18px;border-radius:40px;font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;cursor:pointer;border:1px solid rgba(107,104,96,.22);
+  background:transparent;color:var(--stone);transition:all .2s;
+  font-family:'Jost',sans-serif;font-weight:500;-webkit-tap-highlight-color:transparent;
+}
+.filter-btn:hover{border-color:var(--ink);color:var(--ink)}
+.filter-btn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ─── PRODUCT GRID ─── */
+.products-sec{background:var(--cream)}
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;max-width:1200px;margin:0 auto}
+
+/* Rhode-style product card */
+.pc{
+  background:var(--white);position:relative;overflow:hidden;cursor:pointer;
+  transition:transform .35s cubic-bezier(.16,1,.3,1),
+             box-shadow .35s cubic-bezier(.16,1,.3,1);
+  opacity:0;
+  transform:translateY(16px);
+}
+.pc:hover{transform:translateY(-2px)}
+.pimg-wrap{
+  aspect-ratio:1/1;overflow:hidden;background:var(--petal);
+  position:relative;display:flex;align-items:center;justify-content:center;
+}
+.pimg-wrap img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .55s cubic-bezier(.25,.46,.45,.94);
+}
+.pc:hover .pimg-wrap img{transform:scale(1.07)}
+
+/* Badge */
+.pbadge{
+  position:absolute;top:12px;left:12px;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 10px;border-radius:20px;font-weight:600;color:#fff;z-index:2;
+}
+.b-sale{background:var(--rose)}
+.b-new{background:var(--sage)}
+.b-hot{background:var(--ink)}
+
+/* Hover overlay CTA */
+.pc-overlay{
+  position:absolute;inset:0;background:rgba(26,26,24,.0);
+  display:flex;align-items:flex-end;justify-content:center;
+  padding-bottom:16px;opacity:0;transition:all .3s;z-index:3;
+}
+.pc:hover .pc-overlay{opacity:1;background:rgba(26,26,24,.08)}
+.overlay-btn{
+  background:var(--white);color:var(--ink);border:none;
+  padding:10px 20px;border-radius:40px;font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;font-family:'Jost',sans-serif;font-weight:600;
+  cursor:pointer;transform:translateY(8px);transition:transform .3s;
+  -webkit-tap-highlight-color:transparent;
+}
+.pc:hover .overlay-btn{transform:translateY(0)}
+
+.pinfo{padding:14px 14px 18px}
+.pbrand{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin-bottom:4px;font-weight:500}
+.pname{font-family:'Playfair Display',serif;font-size:14px;font-weight:400;color:var(--ink);line-height:1.3;margin-bottom:8px}
+.pfoot{display:flex;justify-content:space-between;align-items:center}
+.pprice{font-size:13px;color:var(--ink);font-weight:500}
+.pprice .old{font-size:11px;color:var(--stone);text-decoration:line-through;margin-right:5px;font-weight:400}
+.add-btn{
+  width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;
+  border:none;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;
+  transition:all .22s;flex-shrink:0;-webkit-tap-highlight-color:transparent;line-height:1;
+}
+.add-btn:hover{background:var(--rose);transform:scale(1.1)}
+.add-btn.done{background:var(--sage)}
+
+.view-more{text-align:center;margin-top:48px}
+
+/* ─── EDITORIAL STRIP ─── */
+.editorial{
+  display:grid;grid-template-columns:1fr 1fr;
+  background:var(--ink);overflow:hidden;
+  margin:0;min-height:480px;
+}
+.ed-visual{position:relative;overflow:hidden;background:var(--blush)}
+.ed-visual img{width:100%;height:100%;object-fit:cover}
+.ed-content{
+  display:flex;flex-direction:column;justify-content:center;
+  padding:72px 64px;color:#fff;
+}
+.ed-eyebrow{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--sand);margin-bottom:20px;font-weight:400}
+.ed-title{font-family:'Playfair Display',serif;font-size:clamp(32px,3.5vw,52px);font-weight:400;line-height:1.06;margin-bottom:16px;color:#fff}
+.ed-title em{font-style:italic;color:var(--sand)}
+.ed-body{font-size:13px;line-height:1.85;color:rgba(255,255,255,.5);font-weight:300;margin-bottom:32px;max-width:360px}
+
+/* Routine form */
+.rf-wrap{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:20px}
+.rf-title{font-family:'Playfair Display',serif;font-size:19px;color:#fff;margin-bottom:4px;font-weight:400}
+.rf-desc{font-size:11px;color:rgba(255,255,255,.42);margin-bottom:14px;line-height:1.6;font-weight:300}
+.rf-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.rf-input{
+  width:100%;padding:10px 12px;border-radius:8px;
+  border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.07);
+  color:#fff;font-size:12px;font-family:'Jost',sans-serif;outline:none;
+  -webkit-appearance:none;transition:border-color .2s;
+}
+.rf-input::placeholder{color:rgba(255,255,255,.3)}
+.rf-input:focus{border-color:var(--rose)}
+.rf-input option{color:var(--ink);background:#fff}
+.rf-btn{width:100%;justify-content:center;margin-top:0}
+.routine-result{margin-top:14px;display:none;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:14px}
+.routine-result.open{display:block}
+.rr-head{font-family:'Playfair Display',serif;font-size:16px;color:#fff;margin-bottom:5px;font-weight:400}
+.rr-copy{font-size:11px;color:rgba(255,255,255,.5);line-height:1.6;margin-bottom:12px;font-weight:300}
+.rr-list{display:grid;gap:8px}
+.rr-item{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:8px}
+.rr-item img{width:44px;height:44px;border-radius:8px;object-fit:cover;background:var(--blush);flex-shrink:0}
+.rr-info{flex:1;min-width:0}
+.rr-step{font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--rose);margin-bottom:2px}
+.rr-name{font-size:11px;color:#fff;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rr-price{font-size:11px;color:rgba(255,255,255,.5)}
+.rr-add{border:none;background:var(--rose);color:#fff;border-radius:20px;padding:7px 11px;font-size:10px;font-family:'Jost',sans-serif;cursor:pointer;transition:all .2s;white-space:nowrap;font-weight:500}
+.rr-add:hover{background:#9e5f39}
+.rr-actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.rr-actions .btn-dark{padding:10px 16px;font-size:10px}
+
+/* ─── NEWSLETTER ─── */
+.nl-sec{
+  background:var(--petal);padding:90px 40px;
+  text-align:center;position:relative;overflow:hidden;
+}
+.nl-sec::before{
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,rgba(184,115,74,.07) 0%,transparent 70%);
+  pointer-events:none;
+}
+.nl-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--rose);color:#fff;border-radius:999px;
+  padding:7px 18px;font-size:12px;font-weight:600;
+  letter-spacing:.05em;margin-bottom:22px;
+}
+.nl-badge .pct{font-family:'Playfair Display',serif;font-size:20px}
+.nl-title{font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,56px);font-weight:400;color:var(--ink);line-height:1.04;margin-bottom:10px}
+.nl-title em{font-style:italic}
+.nl-sub{font-size:13px;color:var(--stone);margin-bottom:36px;font-weight:300;line-height:1.7;max-width:420px;margin-left:auto;margin-right:auto}
+.kl-form{max-width:440px;margin:0 auto;position:relative;z-index:2}
+.kl-fields{display:flex;gap:8px}
+.kl-fields input{
+  flex:1;padding:14px 20px;border-radius:40px;
+  border:1.5px solid rgba(107,104,96,.22);background:var(--white);
+  color:var(--ink);font-size:13px;font-family:'Jost',sans-serif;
+  outline:none;transition:border-color .2s;-webkit-appearance:none;
+}
+.kl-fields input::placeholder{color:var(--stone)}
+.kl-fields input:focus{border-color:var(--ink)}
+.kl-submit{
+  padding:14px 22px;background:var(--ink);color:#fff;border:none;border-radius:40px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;
+  font-family:'Jost',sans-serif;font-weight:600;transition:all .25s;white-space:nowrap;
+}
+.kl-submit:hover{background:var(--rose);transform:translateY(-1px)}
+.kl-submit:disabled{background:var(--stone);cursor:not-allowed;transform:none}
+.kl-note{font-size:10px;color:var(--stone);margin-top:10px;letter-spacing:.04em}
+.kl-success{display:none;background:var(--white);border:1px solid rgba(196,185,168,.35);border-radius:18px;padding:28px;margin-top:14px}
+.kl-success-icon{font-size:34px;margin-bottom:10px}
+.kl-success h3{font-family:'Playfair Display',serif;font-size:24px;color:var(--ink);margin-bottom:6px;font-weight:400}
+.kl-success p{font-size:13px;color:var(--stone);line-height:1.6;font-weight:300}
+.coupon-box{margin-top:16px;background:var(--petal);border:1.5px dashed var(--rose);border-radius:12px;padding:14px 18px;display:inline-block}
+.coupon-code{font-family:'Playfair Display',serif;font-size:30px;font-weight:500;color:var(--rose);letter-spacing:.16em}
+.coupon-label{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin-top:2px}
+.copy-btn{margin-top:12px;background:var(--ink);color:#fff;border:none;border-radius:30px;padding:9px 18px;font-size:11px;font-family:'Jost',sans-serif;cursor:pointer;letter-spacing:.06em;transition:all .2s;font-weight:500}
+.copy-btn:hover{background:var(--rose)}
+
+/* ─── REVIEWS ─── */
+.reviews-sec{background:var(--white);padding:80px 40px}
+.trust-pills{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:860px;margin:0 auto 48px}
+.t-pill{
+  background:var(--cream);border:1px solid rgba(196,185,168,.28);
+  border-radius:14px;padding:18px 20px;
+  display:flex;align-items:flex-start;gap:12px;
+}
+.t-ico{
+  width:34px;height:34px;border-radius:50%;background:var(--petal);
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;flex-shrink:0;color:var(--rose);
+}
+.t-title{font-size:12px;font-weight:600;color:var(--ink);margin-bottom:3px}
+.t-body{font-size:11px;color:var(--stone);line-height:1.5;font-weight:300}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1000px;margin:0 auto}
+.rev-card{
+  background:var(--cream);border-radius:16px;padding:24px;
+  border:1px solid rgba(196,185,168,.2);transition:transform .28s;
+}
+.rev-card:hover{transform:translateY(-3px)}
+.rev-stars{color:var(--rose);font-size:13px;letter-spacing:.04em;margin-bottom:12px}
+.rev-product{
+  display:inline-block;background:var(--petal);color:var(--ink);
+  border-radius:999px;padding:4px 12px;font-size:9px;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px;
+}
+.rev-text{font-size:13px;line-height:1.8;color:var(--stone);margin-bottom:16px;font-weight:300}
+.rev-person{display:flex;align-items:center;gap:10px;border-top:1px solid rgba(196,185,168,.25);padding-top:14px}
+.rev-avatar{
+  width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--rose),var(--sand));
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;
+}
+.rev-name{font-size:12px;font-weight:600;color:var(--ink)}
+.rev-meta{font-size:10px;color:var(--stone)}
+.use-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:1000px;margin:28px auto 0}
+.use-card{
+  background:var(--cream);border:1px solid rgba(196,185,168,.22);
+  border-radius:14px;padding:18px;transition:all .25s;
+}
+.use-card:hover{background:var(--petal);transform:translateY(-2px)}
+.use-num{font-family:'Playfair Display',serif;font-size:20px;color:var(--rose);font-weight:400;margin-bottom:8px}
+.use-t{font-size:13px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.use-d{font-size:11px;color:var(--stone);line-height:1.65;font-weight:300}
+
+/* ─── FOOTER ─── */
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:56px 40px 28px}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:40px}
+.f-logo{font-family:'Playfair Display',serif;font-size:18px;font-weight:400;letter-spacing:.06em;color:rgba(255,255,255,.88);text-decoration:none;display:block;margin-bottom:10px}
+.f-desc{font-size:11px;line-height:1.85;color:rgba(255,255,255,.3);font-weight:300;max-width:230px}
+.f-col-title{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:14px;font-weight:400}
+.f-links{list-style:none;display:flex;flex-direction:column;gap:8px}
+.f-links a{font-size:12px;color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s}
+.f-links a:hover{color:rgba(255,255,255,.8)}
+.f-bot{
+  border-top:1px solid rgba(255,255,255,.07);padding-top:22px;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:10px;letter-spacing:.05em;flex-wrap:wrap;gap:8px;
+}
+.f-bot a{color:var(--sand);text-decoration:none}
+
+/* ─── OVERLAY + DRAWER ─── */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.38);z-index:300;opacity:0;pointer-events:none;transition:opacity .3s}
+.overlay.open{opacity:1;pointer-events:all}
+.drawer{
+  position:fixed;top:0;right:-440px;width:400px;max-width:96vw;height:100vh;
+  background:var(--white);z-index:400;display:flex;flex-direction:column;
+  box-shadow:-20px 0 60px rgba(0,0,0,.12);transition:right .35s cubic-bezier(.4,0,.2,1);
+}
+.drawer.open{right:0}
+.d-head{
+  padding:20px 22px 16px;border-bottom:1px solid rgba(196,185,168,.2);
+  display:flex;justify-content:space-between;align-items:center;
+}
+.d-head h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;color:var(--ink)}
+.d-close{background:none;border:none;font-size:20px;cursor:pointer;color:var(--stone);transition:color .2s;padding:6px;-webkit-tap-highlight-color:transparent}
+.d-close:hover{color:var(--ink)}
+.d-items{flex:1;overflow-y:auto;padding:16px 18px;display:flex;flex-direction:column;gap:12px;-webkit-overflow-scrolling:touch}
+.d-empty{text-align:center;padding:52px 16px}
+.d-empty .ei{font-size:40px;margin-bottom:12px}
+.d-empty p{font-size:13px;color:var(--stone);line-height:1.6;font-weight:300}
+.d-item{display:flex;gap:12px;padding:12px;background:var(--cream);border-radius:12px}
+.d-item-img{width:64px;height:64px;border-radius:8px;overflow:hidden;background:var(--petal);flex-shrink:0}
+.d-item-img img{width:100%;height:100%;object-fit:cover}
+.d-item-info{flex:1;min-width:0}
+.d-brand{font-size:8px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone)}
+.d-name{font-family:'Playfair Display',serif;font-size:13px;color:var(--ink);margin:2px 0 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:400}
+.d-ctrl{display:flex;align-items:center;gap:7px}
+.qb{width:26px;height:26px;border-radius:50%;border:1px solid rgba(107,104,96,.22);background:#fff;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all .2s;-webkit-tap-highlight-color:transparent}
+.qb:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.qn{font-size:13px;font-weight:600;color:var(--ink);min-width:18px;text-align:center}
+.d-rm{background:none;border:none;cursor:pointer;color:var(--stone);font-size:16px;padding:4px;-webkit-tap-highlight-color:transparent}
+.d-rm:hover{color:var(--rose)}
+.d-price{font-family:'Playfair Display',serif;font-size:15px;color:var(--ink);align-self:center;white-space:nowrap;margin-left:auto}
+.d-foot{padding:16px 18px;border-top:1px solid rgba(196,185,168,.2)}
+.d-total-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.d-total-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--stone)}
+.d-total-amt{font-family:'Playfair Display',serif;font-size:24px;font-weight:400;color:var(--ink)}
+.cta-btn{
+  width:100%;padding:14px;border-none;border:none;border-radius:12px;
+  font-size:13px;font-weight:600;cursor:pointer;font-family:'Jost',sans-serif;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  transition:all .3s;letter-spacing:.03em;-webkit-tap-highlight-color:transparent;
+}
+.shopify-cta{background:var(--ink);color:#fff}
+.shopify-cta:hover{background:var(--rose)}
+.wa-cta{background:var(--wa);color:#fff;margin-top:8px;font-size:12px;padding:12px}
+.wa-cta:hover{filter:brightness(1.08)}
+.d-note{font-size:10px;color:var(--stone);text-align:center;margin-top:10px;line-height:1.5}
+.pay-methods{margin-top:12px;padding-top:12px;border-top:1px solid rgba(196,185,168,.18)}
+.pay-label{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--stone);text-align:center;margin-bottom:8px}
+.pay-logos{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap}
+.pay-logo{width:44px;height:28px;border-radius:4px;flex-shrink:0}
+
+/* ─── WA FLOAT ─── */
+.wa-float{
+  position:fixed;bottom:28px;right:28px;z-index:150;
+  width:50px;height:50px;border-radius:50%;
+  background:var(--wa);color:#fff;border:none;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;box-shadow:0 6px 22px rgba(37,211,102,.4);
+  transition:all .3s;-webkit-tap-highlight-color:transparent;
+}
+.wa-float:hover{transform:scale(1.1)}
+.wa-float svg{width:24px;height:24px}
+
+/* ─── POPUP ─── */
+.popup-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.48);z-index:500;
+  opacity:0;pointer-events:none;transition:opacity .3s;
+  display:flex;align-items:center;justify-content:center;padding:20px;
+}
+.popup-overlay.open{opacity:1;pointer-events:all}
+.popup{
+  background:var(--white);border-radius:20px;width:100%;max-width:500px;
+  overflow:hidden;transform:scale(.93) translateY(10px);
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1);
+  box-shadow:0 28px 70px rgba(0,0,0,.2);max-height:92vh;overflow-y:auto;
+}
+.popup-overlay.open .popup{transform:scale(1) translateY(0)}
+.popup-img{height:280px;overflow:hidden;background:#fff;position:relative;flex-shrink:0}
+.popup-img img{width:100%;height:100%;object-fit:contain;padding:16px}
+.popup-body{padding:22px}
+.popup-brand{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--stone);margin-bottom:6px;font-weight:500}
+.popup-name{font-family:'Playfair Display',serif;font-size:22px;font-weight:400;color:var(--ink);margin-bottom:10px;line-height:1.2}
+.popup-price{font-size:16px;color:var(--ink);margin-bottom:12px;font-weight:500}
+.popup-price .old{font-size:12px;color:var(--stone);text-decoration:line-through;margin-right:7px;font-weight:400}
+.popup-stars{margin-bottom:14px}
+.stars-row{display:flex;align-items:center;gap:4px}
+.star.full{color:#c8a06e}.star.half{color:#c8a06e;opacity:.6}.star.empty{color:#ddd}
+.star-score{font-size:12px;font-weight:600;color:#c8a06e;margin-left:3px}
+.star-count{font-size:11px;color:var(--stone);margin-left:2px}
+.popup-desc{font-size:13px;color:var(--stone);line-height:1.75;margin-bottom:18px;font-weight:300}
+.popup-add{
+  width:100%;background:var(--ink);color:#fff;border:none;border-radius:40px;
+  padding:14px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  cursor:pointer;font-family:'Jost',sans-serif;transition:all .25s;font-weight:600;
+  -webkit-tap-highlight-color:transparent;
+}
+.popup-add:hover{background:var(--rose)}
+.popup-close{
+  position:absolute;top:12px;right:12px;background:rgba(255,255,255,.9);
+  border:none;border-radius:50%;width:34px;height:34px;font-size:16px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:all .2s;z-index:2;-webkit-tap-highlight-color:transparent;
+}
+.popup-close:hover{background:var(--ink);color:#fff}
+
+/* ══════════════════════════════════════
+   ANIMATE — sistema completo de motion
+══════════════════════════════════════ */
+
+/* ── Keyframes base ── */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(28px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes fadeIn{
+  from{opacity:0}
+  to{opacity:1}
+}
+@keyframes slideLeft{
+  from{opacity:0;transform:translateX(32px)}
+  to{opacity:1;transform:translateX(0)}
+}
+@keyframes slideRight{
+  from{opacity:0;transform:translateX(-32px)}
+  to{opacity:1;transform:translateX(0)}
+}
+@keyframes scaleIn{
+  from{opacity:0;transform:scale(.94)}
+  to{opacity:1;transform:scale(1)}
+}
+@keyframes shimmer{
+  0%{background-position:-200% center}
+  100%{background-position:200% center}
+}
+@keyframes float{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-6px)}
+}
+@keyframes marqueeKen{
+  0%{transform:scale(1) translateX(0)}
+  50%{transform:scale(1.04) translateX(-1%)}
+  100%{transform:scale(1) translateX(0)}
+}
+@keyframes textReveal{
+  from{clip-path:inset(0 100% 0 0)}
+  to{clip-path:inset(0 0% 0 0)}
+}
+@keyframes countUp{
+  from{opacity:0;transform:translateY(12px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes drawerIn{
+  from{opacity:0;transform:translateY(6px) scale(.98)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+
+/* ── Hero — Ken Burns suave en la imagen ── */
+.hero-bg{
+  animation:marqueeKen 18s ease-in-out infinite;
+  transform-origin:center center;
+  will-change:transform;
+}
+@media(max-width:900px){
+  .hero-bg{animation:none} /* desactiva Ken Burns en mobile — ahorra GPU */
+}
+/* Eyebrow entra primero */
+.hero-eyebrow{
+  animation:fadeIn .7s cubic-bezier(.16,1,.3,1) .2s both;
+}
+/* Título entra con fadeUp staggered */
+.hero-h1{
+  animation:fadeUp .9s cubic-bezier(.16,1,.3,1) .38s both;
+}
+/* Cuerpo */
+.hero-body{
+  animation:fadeUp .8s cubic-bezier(.16,1,.3,1) .52s both;
+}
+/* Botones */
+.hero-actions{
+  animation:fadeUp .8s cubic-bezier(.16,1,.3,1) .64s both;
+}
+/* Pill de stats */
+.hero-pill{
+  animation:slideLeft .8s cubic-bezier(.16,1,.3,1) .75s both;
+}
+
+/* ── Trust bar — cada item entra escalonado ── */
+.trust-item{
+  opacity:0;
+  animation:fadeUp .6s cubic-bezier(.16,1,.3,1) both;
+}
+.trust-item:nth-child(1){animation-delay:.1s}
+.trust-item:nth-child(2){animation-delay:.2s}
+.trust-item:nth-child(3){animation-delay:.3s}
+.trust-item:nth-child(4){animation-delay:.4s}
+
+/* ── Nav — desliza desde arriba ── */
+nav{
+  animation:fadeIn .5s cubic-bezier(.16,1,.3,1) both;
+}
+.announce{
+  animation:fadeIn .4s ease both;
+}
+
+/* ── Reveal scroll — más expresivo ── */
+.reveal{
+  opacity:0;
+  transform:translateY(24px);
+  transition:opacity .75s cubic-bezier(.16,1,.3,1),
+             transform .75s cubic-bezier(.16,1,.3,1);
+}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* Variantes de reveal para distintos elementos */
+.reveal-left{
+  opacity:0;transform:translateX(-24px);
+  transition:opacity .75s cubic-bezier(.16,1,.3,1),
+             transform .75s cubic-bezier(.16,1,.3,1);
+}
+.reveal-left.visible{opacity:1;transform:translateX(0)}
+
+.reveal-scale{
+  opacity:0;transform:scale(.96);
+  transition:opacity .7s cubic-bezier(.16,1,.3,1),
+             transform .7s cubic-bezier(.16,1,.3,1);
+}
+.reveal-scale.visible{opacity:1;transform:scale(1)}
+
+/* ── Producto card — hover más expresivo ── */
+.pc{
+  transition:transform .35s cubic-bezier(.16,1,.3,1),
+             box-shadow .35s cubic-bezier(.16,1,.3,1);
+}
+.pc:hover{
+  transform:translateY(-4px);
+  box-shadow:0 16px 40px rgba(26,26,24,.12);
+}
+.pimg-wrap img{
+  transition:transform .65s cubic-bezier(.25,.46,.45,.94);
+}
+.pc:hover .pimg-wrap img{transform:scale(1.08)}
+
+/* Overlay CTA sube suave */
+.overlay-btn{
+  transition:transform .35s cubic-bezier(.16,1,.3,1),
+             background .2s ease;
+}
+.pc:hover .overlay-btn{transform:translateY(0)}
+
+/* Botón + pulsa al hacer done */
+.add-btn{transition:transform .2s cubic-bezier(.34,1.56,.64,1),background .2s ease}
+.add-btn.done{animation:scaleIn .3s cubic-bezier(.34,1.56,.64,1)}
+.add-btn:active{transform:scale(.9)}
+
+/* ── Brand chips — float al hover ── */
+.brand-chip{transition:opacity .3s ease,transform .3s cubic-bezier(.16,1,.3,1)}
+.brand-chip:hover{opacity:1;transform:translateY(-2px)}
+
+/* ── Review cards ── */
+.rev-card{
+  transition:transform .35s cubic-bezier(.16,1,.3,1),
+             box-shadow .35s ease;
+}
+.rev-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 20px 44px rgba(26,26,24,.1);
+}
+
+/* ── Use cards ── */
+.use-card{transition:all .3s cubic-bezier(.16,1,.3,1)}
+.use-card:hover{transform:translateY(-3px);background:var(--petal)}
+
+/* ── Botones globales — micro-feedback ── */
+.btn-dark{transition:background .22s ease,transform .22s cubic-bezier(.16,1,.3,1),box-shadow .22s ease}
+.btn-dark:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(26,26,24,.18)}
+.btn-dark:active{transform:translateY(0);box-shadow:none}
+.btn-outline{transition:background .22s ease,color .22s ease,border-color .22s ease,transform .22s cubic-bezier(.16,1,.3,1)}
+.btn-outline:hover{transform:translateY(-2px)}
+.btn-outline:active{transform:translateY(0)}
+
+/* ── Drawer y popup — entradas cinéticas ── */
+.drawer{transition:right .38s cubic-bezier(.16,1,.3,1)}
+.drawer.open .d-item{
+  animation:drawerIn .35s cubic-bezier(.16,1,.3,1) both;
+}
+.drawer.open .d-item:nth-child(1){animation-delay:.05s}
+.drawer.open .d-item:nth-child(2){animation-delay:.1s}
+.drawer.open .d-item:nth-child(3){animation-delay:.15s}
+.drawer.open .d-item:nth-child(4){animation-delay:.2s}
+
+.popup{transition:transform .35s cubic-bezier(.34,1.26,.64,1),opacity .25s ease}
+.popup-overlay.open .popup{transform:scale(1) translateY(0)}
+
+/* ── Cart badge — micro rebote ── */
+.cart-badge{transition:transform .2s cubic-bezier(.34,1.56,.64,1)}
+.cart-badge.pop{animation:popBadge .4s cubic-bezier(.34,1.56,.64,1) both}
+@keyframes popBadge{
+  0%{transform:scale(1)}
+  40%{transform:scale(1.7)}
+  70%{transform:scale(.9)}
+  100%{transform:scale(1)}
+}
+
+/* ── WA float — pulso de atención ── */
+.wa-float{animation:waPulse 3s ease-in-out 3s infinite}
+@keyframes waPulse{
+  0%,100%{box-shadow:0 6px 22px rgba(37,211,102,.4)}
+  50%{box-shadow:0 6px 32px rgba(37,211,102,.7),0 0 0 8px rgba(37,211,102,.1)}
+}
+.wa-float:hover{animation:none;transform:scale(1.1)}
+
+/* ── Newsletter badge shimmer ── */
+.nl-badge{
+  position:relative;overflow:hidden;
+}
+.nl-badge::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.25) 50%,transparent 100%);
+  background-size:200% 100%;
+  animation:shimmer 2.5s ease-in-out 1s infinite;
+}
+
+/* ══════════════════════════════════════
+   DELIGHT — personalidad y momentos únicos
+══════════════════════════════════════ */
+
+/* ── Cursor personalizado — eliminado ── */
+
+/* ── Hero eyebrow — línea animada ── */
+.hero-eyebrow::before{
+  content:'';display:block;width:22px;height:1px;
+  background:rgba(255,255,255,.4);
+  animation:lineGrow .8s cubic-bezier(.16,1,.3,1) .4s both;
+}
+@keyframes lineGrow{
+  from{width:0;opacity:0}
+  to{width:22px;opacity:1}
+}
+
+/* ── Producto card — esquina de marca ── */
+.pbrand{
+  position:relative;
+  display:inline-block;
+}
+.pbrand::after{
+  content:'';position:absolute;bottom:-2px;left:0;right:0;
+  height:1px;background:var(--rose);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform .3s cubic-bezier(.16,1,.3,1);
+}
+.pc:hover .pbrand::after{transform:scaleX(1)}
+
+/* ── Add button — ripple effect ── */
+.add-btn{position:relative;overflow:hidden}
+.add-btn::after{
+  content:'';position:absolute;inset:0;
+  border-radius:50%;
+  background:rgba(255,255,255,.35);
+  transform:scale(0);opacity:1;
+  transition:transform .4s ease,opacity .4s ease;
+}
+.add-btn:active::after{transform:scale(2.5);opacity:0}
+
+/* ── Trust items — icono con glow ── */
+.trust-icon{
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1);
+  display:inline-block;
+}
+.trust-item:hover .trust-icon{transform:scale(1.3)}
+
+/* ── Marquee chip — hover revela subtítulo ── */
+.bc-sub{
+  max-height:0;overflow:hidden;opacity:0;
+  transition:max-height .3s ease,opacity .3s ease,margin .3s ease;
+  margin-top:0;
+}
+.brand-chip:hover .bc-sub{max-height:20px;opacity:1;margin-top:2px}
+
+/* ── Review stars — shimmer al hover ── */
+.rev-stars{
+  display:inline-block;
+  transition:letter-spacing .3s ease;
+}
+.rev-card:hover .rev-stars{letter-spacing:.12em}
+
+/* ── Filter btn — fondo que crece desde centro ── */
+.filter-btn{
+  position:relative;overflow:hidden;
+}
+.filter-btn::before{
+  content:'';position:absolute;inset:0;
+  background:var(--ink);border-radius:40px;
+  transform:scale(0);transition:transform .25s cubic-bezier(.34,1.26,.64,1);
+  z-index:0;pointer-events:none;
+}
+.filter-btn.on::before,.filter-btn:hover::before{transform:scale(1)}
+.filter-btn{position:relative;z-index:1;color:inherit}
+.filter-btn.on{color:#fff}
+.filter-btn:hover{color:#fff}
+
+/* ── Carrito vacío — emoji flota ── */
+.d-empty .ei{
+  display:inline-block;
+  animation:eiFloat 2.5s ease-in-out infinite;
+}
+@keyframes eiFloat{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  30%{transform:translateY(-8px) rotate(-5deg)}
+  60%{transform:translateY(-4px) rotate(3deg)}
+}
+
+/* ── Drawer total — highlight al cambiar ── */
+.d-total-amt{
+  transition:color .3s ease,transform .3s cubic-bezier(.34,1.56,.64,1);
+  display:inline-block;
+}
+.d-total-amt.bump{
+  animation:totalBump .4s cubic-bezier(.34,1.56,.64,1);
+}
+@keyframes totalBump{
+  0%{transform:scale(1);color:var(--ink)}
+  40%{transform:scale(1.18);color:var(--rose)}
+  100%{transform:scale(1);color:var(--ink)}
+}
+
+/* ── Announce bar — texto con shimmer sutil ── */
+.announce{
+  position:relative;overflow:hidden;
+}
+.announce::after{
+  content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);
+  animation:announceShine 4s ease-in-out 2s infinite;
+}
+@keyframes announceShine{
+  0%{left:-60%}
+  100%{left:120%}
+}
+
+/* ── Popup close — gira al hover ── */
+.popup-close{
+  transition:background .2s ease,color .2s ease,transform .3s cubic-bezier(.34,1.56,.64,1);
+}
+.popup-close:hover{
+  background:var(--ink);color:#fff;
+  transform:rotate(90deg) scale(1.1);
+}
+
+/* ── Footer logo — brillo sutil al hover ── */
+.f-logo{
+  position:relative;
+  transition:color .25s ease,letter-spacing .3s ease;
+}
+.f-logo:hover{
+  color:#fff;
+  letter-spacing:.1em;
+}
+
+/* ── WA float — tooltip eliminado ── */
+
+/* ── Announce bar — shimmer sutil ── */
+.announce{
+  background-size:200% 100%;
+}
+
+/* ── Reduce motion: respeta preferencia del sistema ── */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.01ms !important;
+  }
+}
+
+/* ══════════════════
+   RESPONSIVE
+══════════════════ */
+@media(max-width:900px){
+  .announce{font-size:9px;padding:7px 12px;gap:10px}
+  nav{grid-template-columns:auto 1fr auto;padding:0 16px}
+  .nav-left{display:none}
+  .logo{text-align:left}
+  .logo-name{font-size:17px}
+  .mobile-sticky{display:block}
+
+  /* Hero mobile — full screen image, text overlaid bottom */
+  .hero{height:100svh;min-height:520px}
+  .hero-text{flex-direction:column;align-items:flex-start;padding:0 20px 100px;gap:16px}
+  .hero-left{max-width:100%}
+  .hero-h1{font-size:clamp(36px,10vw,52px);margin-bottom:16px}
+  .hero-body{font-size:13px;margin-bottom:20px;display:none}
+  .hero-actions{gap:9px}
+  .hero-right{display:none}
+
+  .trust-bar{flex-wrap:wrap}
+  .trust-item{flex:0 0 50%;border-right:none;border-bottom:1px solid rgba(196,185,168,.2)}
+  .trust-item:nth-child(odd){border-right:1px solid rgba(196,185,168,.2)}
+  .trust-item:last-child{flex:0 0 100%;border-bottom:none}
+
+  .brands-sec{padding:24px 0}
+
+  .sec{padding:52px 16px}
+  .sec-head{margin-bottom:36px}
+
+  .filters{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding:0 4px 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .filters::-webkit-scrollbar{display:none}
+  .filter-btn{white-space:nowrap;flex-shrink:0;padding:8px 14px;font-size:10px}
+
+  .pgrid{grid-template-columns:repeat(2,1fr);gap:1px}
+  .pimg-wrap{aspect-ratio:1/1}
+  .pname{font-size:13px}
+  .pprice{font-size:12px}
+  .pinfo{padding:12px 12px 16px}
+
+  .products-sec.sec{padding-bottom:100px}
+
+  .editorial{grid-template-columns:1fr}
+  .ed-visual{height:220px}
+  .ed-content{padding:36px 20px 40px}
+  .rf-grid{grid-template-columns:1fr}
+
+  .nl-sec{padding:60px 16px}
+  .kl-fields{flex-direction:column;gap:10px}
+  .kl-submit{width:100%;text-align:center}
+
+  .reviews-sec{padding:52px 16px}
+  .trust-pills{grid-template-columns:1fr;gap:8px;margin-bottom:32px}
+  .review-grid{grid-template-columns:1fr;gap:16px}
+  .rev-card{padding:20px}
+  .rev-stars{font-size:16px;margin-bottom:10px}
+  .rev-product{font-size:11px;padding:5px 14px;margin-bottom:10px}
+  .rev-text{font-size:15px;line-height:1.75;margin-bottom:14px}
+  .rev-name{font-size:14px}
+  .rev-meta{font-size:12px}
+  .rev-avatar{width:38px;height:38px;font-size:13px}
+  .use-grid{grid-template-columns:1fr 1fr;gap:9px}
+
+  footer{padding:40px 20px 22px;padding-bottom:80px}
+  .fg{grid-template-columns:1fr;gap:24px}
+
+  .drawer{width:100%;max-width:100%;right:-100%}
+  .popup-overlay{padding:0;align-items:flex-end}
+  .popup{border-radius:20px 20px 0 0;max-height:90vh}
+
+  .wa-float{bottom:80px;right:16px;width:46px;height:46px}
+}
+
+@media(max-width:380px){
+  .pgrid{grid-template-columns:1fr}
+  .pimg-wrap{aspect-ratio:4/3}
+}
+@media(min-width:901px){
+  .hero-text{padding:0 60px 60px}
+  .hero-h1{font-size:clamp(60px,6.5vw,90px)}
+}
+
+/* ─── CARRITO LIMPIO Y FUNCIONAL ─── */
+.d-foot{
+  background:#fff;
+  box-shadow:0 -8px 28px rgba(30,43,56,.06);
+}
+.cart-main-wa{text-decoration:none!important;
+  background:var(--wa)!important;
+  color:#fff!important;
+  border:none!important;
+  border-radius:999px!important;
+  min-height:50px;
+  margin-top:12px!important;
+  font-size:12px!important;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-weight:700!important;
+  box-shadow:0 10px 24px rgba(37,211,102,.24);
+}
+.cart-main-wa:hover{
+  filter:brightness(1.05);
+  transform:translateY(-1px);
+}
+.d-note{
+  margin-top:12px!important;
+  font-size:10px!important;
+  color:var(--stone)!important;
+}
+.d-item{
+  border:1px solid rgba(183,215,242,.35);
+}
+.d-total-row{
+  padding:4px 0 12px;
+  margin-bottom:8px!important;
+  border-bottom:1px solid rgba(183,215,242,.35);
+}
+.d-total-label{
+  font-size:11px!important;
+  font-weight:600;
+}
+.d-total-amt{
+  font-size:25px!important;
+}
+.pay-methods{
+  margin-top:14px!important;
+}
+
+
+/* ─── CARRITO FINAL LIMPIO Y WHATSAPP FUNCIONAL ─── */
+.cart-shipping-msg{
+  background:var(--petal);
+  border-radius:12px;
+  padding:11px 14px;
+  margin-bottom:14px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.cart-shipping-icon{font-size:18px;flex-shrink:0}
+.cart-shipping-title{font-size:11px;font-weight:700;color:var(--ink)}
+.cart-shipping-sub{font-size:10px;color:var(--stone);margin-top:2px}
+.cart-wa-final{
+  position:relative!important;
+  z-index:9999!important;
+  pointer-events:auto!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:8px!important;
+  width:100%!important;
+  min-height:52px!important;
+  margin-top:12px!important;
+  background:#25D366!important;
+  color:#fff!important;
+  border:none!important;
+  border-radius:999px!important;
+  text-decoration:none!important;
+  font-size:12px!important;
+  font-weight:800!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  box-shadow:0 10px 26px rgba(37,211,102,.28)!important;
+  cursor:pointer!important;
+}
+.cart-wa-final:hover{
+  filter:brightness(1.05)!important;
+  transform:translateY(-1px)!important;
+}
+.cart-wa-icon{
+  font-size:15px;
+  line-height:1;
+}
+.cart-wa-note{
+  margin-top:10px;
+  text-align:center;
+  font-size:10px;
+  color:var(--stone);
+  line-height:1.45;
+}
+.d-foot{
+  background:#fff!important;
+  box-shadow:0 -10px 30px rgba(30,43,56,.07)!important;
+}
+.d-total-row{
+  padding:4px 0 12px!important;
+  margin-bottom:8px!important;
+  border-bottom:1px solid rgba(183,215,242,.4)!important;
+}
+.d-total-label{
+  font-size:11px!important;
+  font-weight:700!important;
+}
+.d-total-amt{
+  font-size:25px!important;
+}
+
+
+.cart-wa-final{
+  pointer-events:auto!important;
+  cursor:pointer!important;
+  border:none!important;
+  appearance:none!important;
+  -webkit-appearance:none!important;
+}
+
+
+.cart-wa-final{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:100%!important;
+  min-height:52px!important;
+  background:#25D366!important;
+  color:#fff!important;
+  border-radius:999px!important;
+  text-decoration:none!important;
+  font-weight:800!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  cursor:pointer!important;
+  pointer-events:auto!important;
+  position:relative!important;
+  z-index:20!important;
+  border:none!important;
+}
+.cart-wa-final:hover{filter:brightness(1.06)!important}
+
+
+.cart-wa-form{
+  width:100%!important;
+  margin:12px 0 0!important;
+  padding:0!important;
+  display:block!important;
+}
+.cart-wa-final{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:100%!important;
+  min-height:52px!important;
+  background:#25D366!important;
+  color:#fff!important;
+  border-radius:999px!important;
+  text-decoration:none!important;
+  font-weight:800!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  cursor:pointer!important;
+  pointer-events:auto!important;
+  position:relative!important;
+  z-index:999999!important;
+  border:none!important;
+  appearance:none!important;
+  -webkit-appearance:none!important;
+}
+.cart-wa-final:hover{filter:brightness(1.06)!important}
+
+
+.b-soldout{background:#444!important;color:#fff!important}
+.soldout-btn{
+  background:#555!important;
+  color:#fff!important;
+  cursor:not-allowed!important;
+  opacity:.75!important;
+  pointer-events:none!important;
+  font-weight:900!important;
+}
+
 </style>
 </head>
 <body>
-<header class="topbar">
-  <a class="logo" href="#">KempelSkin<span>K-Beauty Chile</span></a>
-  <button class="cart-btn" onclick="toggleCart()">🛒 Carrito <span class="cart-count" id="cartCount">0</span></button>
-</header>
 
+<!-- ANNOUNCE -->
+<div class="announce">
+  <span>✦ k-beauty importado desde corea del sur</span>
+  <span>·</span>
+  <span>despacho a todo chile</span>
+  <span>·</span>
+  
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-left">
+    <a href="#" class="nav-link">inicio</a>
+    <a href="#productos" class="nav-link">productos</a>
+    <a href="#rutina" class="nav-link">rutina</a>
+  </div>
+  <a href="#" class="logo">
+    <span class="logo-name">Kempel Skin</span>
+    <span class="logo-sub">K-Beauty Chile</span>
+  </a>
+  <div class="nav-right">
+    <button class="nav-icon-btn" onclick="toggleCart()" aria-label="Abrir carrito de compras">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      <span id="cartBadge" class="cart-badge" aria-label="productos en carrito">0</span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE STICKY -->
+<div class="mobile-sticky" id="mobileStickyBar">
+  <button class="msb-btn" onclick="toggleCart()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    ver pedido (<span id="msbCount">0</span>)
+  </button>
+</div>
+
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-copy">
-    <div class="eyebrow">Skincare coreano original</div>
-    <h1>Tu rutina <em>glow</em><br>en un solo lugar</h1>
-    <p>Explora cremas, sérums, tónicos y protectores solares. Agrega tus productos al carrito y coordina disponibilidad, pago y envío directo por WhatsApp.</p>
-    <div class="hero-actions">
-      <a href="#productos" class="btn-primary">Ver productos</a>
-      <a href="https://wa.me/56921938724" target="_blank" class="btn-outline">Consultar por WhatsApp</a>
+  <!-- Imagen desktop -->
+  <img class="hero-bg desktop"
+       src="https://cdn.shopify.com/s/files/1/0609/5496/8134/files/ChatGPT_Image_16_may_2026_12_29_43.png?v=1778948995"
+       alt="Kempel Skin skincare coreano Chile"
+       fetchpriority="high">
+  <!-- Imagen mobile -->
+  <img class="hero-bg mobile"
+       src="https://cdn.shopify.com/s/files/1/0609/5496/8134/files/ChatGPT_Image_16_may_2026_12_29_43.png?v=1778948995"
+       alt="Kempel Skin skincare coreano Chile"
+       fetchpriority="high">
+
+  <!-- Gradient scrim para legibilidad -->
+  <div class="hero-scrim"></div>
+
+  <!-- Contenido superpuesto -->
+  <div class="hero-text">
+    <div class="hero-left">
+      <div class="hero-eyebrow">K-Beauty · Kempel Skin Chile</div>
+      <h1 class="hero-h1">skincare<br>coreano para<br>una piel <em>glow</em></h1>
+      <p class="hero-body">Rutinas coreanas seleccionadas para hidratar, iluminar y fortalecer tu piel. Originales importados desde Corea.</p>
+      <div class="hero-actions">
+        <a href="#productos" class="btn-dark">ver productos</a>
+        
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-pill">
+        <div class="hp-item">
+          <span class="hp-num"><em>+</em><span class="count" data-target="3200">0</span></span>
+          <span class="hp-label">clientes</span>
+        </div>
+        <div class="hp-divider"></div>
+        <div class="hp-item">
+          <span class="hp-num">100<em>%</em></span>
+          <span class="hp-label">originales</span>
+        </div>
+        <div class="hp-divider"></div>
+        <div class="hp-item">
+          <span class="hp-num">🇰🇷</span>
+          <span class="hp-label">importado</span>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="hero-card">
-    <div class="seal">100%<br>Original</div>
-    <div class="hero-product">
-      <img src="https://enigmastore.cl/cdn/shop/files/1_ca10b9fb-9706-4b6f-8690-5ef079a5e451.png?crop=center&height=1200&v=1776358402&width=1200" alt="Producto destacado KempelSkin">
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">
+    <div class="trust-icon">✓</div>
+    <div class="trust-text"><strong>Compra segura</strong>Pedido rápido por WhatsApp</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">✦</div>
+    <div class="trust-text"><strong>100% originales</strong>Importados desde Corea</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">🚚</div>
+    <div class="trust-text"><strong>Todo Chile</strong>Santiago y regiones</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">💬</div>
+    <div class="trust-text"><strong>Asesoría gratis</strong>Rutina personalizada por WhatsApp</div>
+  </div>
+</div>
+
+<!-- FEATURED PRODUCTS -->
+<section class="featured-sec reveal">
+  <div class="featured-head">
+    <div class="featured-head-left">
+      <span class="featured-eyebrow">selección kempel skin</span>
+      <h2 class="featured-title">los más <em>queridos</em></h2>
+    </div>
+    <a href="#productos" class="featured-link">ver todos →</a>
+  </div>
+  <div class="featured-track-wrap">
+    <div class="featured-track" id="featuredTrack"></div>
+  </div>
+  <div class="featured-dots" id="featuredDots"></div>
+</section>
+
+<!-- BRANDS MARQUEE -->
+<section class="brands-sec">
+  <div class="brands-label">marcas disponibles en enigma store</div>
+  <div class="marquee-wrap">
+    <div class="marquee-track" id="brandsTrack">
+      <div class="brand-chip" onclick="filterByBrand('SKIN1004')"><div class="bc-name sm">SKIN1004</div><div class="bc-sub">The Untouched Nature</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Dr Althea')"><div class="bc-name it">Dr.Althea</div><div class="bc-sub">Derma K-Beauty</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Celimax')"><div class="bc-name">celimax</div><div class="bc-sub">Noni Extract</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Medicube')"><div class="bc-name sm" style="font-size:13px;letter-spacing:.12em">Medicube</div><div class="bc-sub">Advanced Skincare</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Beauty of Joseon')"><div class="bc-name" style="font-size:15px">Beauty of Joseon</div><div class="bc-sub">Traditional K-Beauty</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Mixsoon')"><div class="bc-name">Mixsoon</div><div class="bc-sub">Bean Fermented</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Elizavecca')"><div class="bc-name" style="font-size:14px">Elizavecca</div><div class="bc-sub">K-Beauty Lab</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Round Lab')"><div class="bc-name" style="font-size:15px">Round Lab</div><div class="bc-sub">Mineral Skincare</div></div>
+      <!-- clone -->
+      <div class="brand-chip" onclick="filterByBrand('SKIN1004')"><div class="bc-name sm">SKIN1004</div><div class="bc-sub">The Untouched Nature</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Dr Althea')"><div class="bc-name it">Dr.Althea</div><div class="bc-sub">Derma K-Beauty</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Celimax')"><div class="bc-name">celimax</div><div class="bc-sub">Noni Extract</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Medicube')"><div class="bc-name sm" style="font-size:13px;letter-spacing:.12em">Medicube</div><div class="bc-sub">Advanced Skincare</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Beauty of Joseon')"><div class="bc-name" style="font-size:15px">Beauty of Joseon</div><div class="bc-sub">Traditional K-Beauty</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Mixsoon')"><div class="bc-name">Mixsoon</div><div class="bc-sub">Bean Fermented</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Elizavecca')"><div class="bc-name" style="font-size:14px">Elizavecca</div><div class="bc-sub">K-Beauty Lab</div></div>
+      <div class="brand-chip" onclick="filterByBrand('Round Lab')"><div class="bc-name" style="font-size:15px">Round Lab</div><div class="bc-sub">Mineral Skincare</div></div>
     </div>
   </div>
 </section>
 
-<section class="section" id="productos">
-  <div class="section-head">
-    <div class="eyebrow">Catálogo KempelSkin</div>
-    <h2>Elige tus productos</h2>
-    <p>Filtra por tipo, entra a cada producto para ver más fotos y agrega lo que necesitas al carrito.</p>
+<!-- PRODUCTS -->
+<section class="products-sec sec" id="productos">
+  <div class="sec-head reveal">
+    <span class="sec-eyebrow">selección k-beauty · enigma store</span>
+    <h2 class="sec-title">elige tus productos y<br><em>arma tu rutina</em></h2>
+    <p class="sec-sub">Agrega tus productos al pedido y envíalo directamente por WhatsApp.</p>
   </div>
-  <div class="tabs">
-    <button class="tab active" onclick="filterProducts('all', this)">Todos</button>
-    <button class="tab" onclick="filterProducts('serum', this)">Sérum</button>
-    <button class="tab" onclick="filterProducts('crema', this)">Cremas</button>
-    <button class="tab" onclick="filterProducts('tonico', this)">Tónicos</button>
-    <button class="tab" onclick="filterProducts('limpieza', this)">Limpieza</button>
-    <button class="tab" onclick="filterProducts('protector', this)">Protector solar</button>
-  </div>
-  <div class="grid" id="productsGrid"></div>
-</section>
-
-<section class="section">
-  <div class="info-band">
-    <div class="info-item"><h3>Compra simple</h3><p>Agrega productos al carrito y envía tu pedido por WhatsApp en un clic.</p></div>
-    <div class="info-item"><h3>Despacho coordinado</h3><p>Confirmamos disponibilidad, total y opciones de envío directamente contigo.</p></div>
-    <div class="info-item"><h3>K-Beauty original</h3><p>Selección de skincare coreano para rutinas de hidratación, glow y cuidado diario.</p></div>
+  <div class="filters reveal" id="filtersContainer"></div>
+  <div class="pgrid" id="pgrid"></div>
+  <div class="view-more reveal">
+    <a href="#productos" class="btn-outline" style="margin-top:12px">seguir viendo productos →</a>
   </div>
 </section>
 
-<div class="modal" id="productModal"><div class="modal-box" id="productModalBox"></div></div>
-<div class="drawer-overlay" id="drawerOverlay" onclick="toggleCart()"></div>
-<aside class="drawer" id="cartDrawer">
-  <div class="drawer-head"><h3>Mi carrito</h3><button onclick="toggleCart()">×</button></div>
-  <div class="cart-items" id="cartItems"></div>
-  <div class="drawer-foot" id="cartFooter" style="display:none">
-    <div class="total"><span>Total estimado</span><strong id="cartTotal">$0</strong></div>
-    <button class="wa" onclick="sendWhatsApp()">Coordinar envío por WhatsApp</button>
-    <p class="note">El total es referencial. Confirmaremos disponibilidad, pago y despacho por WhatsApp.</p>
+<!-- EDITORIAL / RUTINA -->
+<section id="rutina">
+  <div class="editorial reveal-scale">
+    <div class="ed-visual">
+      <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&q=80"
+           alt="K-Beauty skincare routine" loading="lazy">
+    </div>
+    <div class="ed-content">
+      <div class="ed-eyebrow">rutina k-beauty</div>
+      <h2 class="ed-title">tu <em>glow</em><br>en 4 pasos</h2>
+      <p class="ed-body">La rutina coreana nutre cada capa de tu piel. Resultados visibles desde la primera semana.</p>
+      <div class="rf-wrap">
+        <div class="rf-title">Recomienda mi rutina</div>
+        <p class="rf-desc">Completa tus datos y te mostramos los productos exactos para tu piel.</p>
+        <div class="rf-grid">
+          <input id="clientName" class="rf-input" type="text" placeholder="Tu nombre" aria-label="Tu nombre">
+          <select id="skinType" class="rf-input" aria-label="Tipo de piel">
+            <option value="">Tipo de piel</option>
+            <option value="grasa">Grasa</option>
+            <option value="seca">Seca</option>
+            <option value="mixta">Mixta</option>
+            <option value="sensible">Sensible</option>
+            <option value="acne">Acneica</option>
+            <option value="manchas">Manchas / tono apagado</option>
+          </select>
+          <select id="ageRange" class="rf-input" aria-label="Rango de edad">
+            <option value="">Edad</option>
+            <option value="18-25">18–25</option>
+            <option value="26-35">26–35</option>
+            <option value="36-45">36–45</option>
+            <option value="45+">45+</option>
+          </select>
+          <select id="skinGoal" class="rf-input" aria-label="Objetivo de skincare">
+            <option value="">Objetivo</option>
+            <option value="hidratacion">Hidratación</option>
+            <option value="glow">Glow / luminosidad</option>
+            <option value="poros">Poros / textura</option>
+            <option value="calma">Calmar irritación</option>
+            <option value="antiage">Firmeza / líneas finas</option>
+          </select>
+        </div>
+        <button class="btn-dark rf-btn" onclick="getRoutine()">ver mi rutina recomendada</button>
+        <div id="resultadoRutina" class="routine-result"></div>
+      </div>
+      <button class="btn-outline" style="margin-top:14px;color:rgba(255,255,255,.65);border-color:rgba(255,255,255,.25)" onclick="document.getElementById('productos').scrollIntoView({behavior:'smooth'})">ver catálogo completo</button>
+    </div>
   </div>
-</aside>
-<button class="float-wa" onclick="window.open('https://wa.me/56921938724','_blank')">☘</button>
-<footer class="footer"><strong>KempelSkin</strong>Skincare coreano · Pedido y envío coordinado por WhatsApp +56 9 2193 8724</footer>
+</section>
+
+<!-- NEWSLETTER -->
+
+
+<!-- REVIEWS -->
+<section class="reviews-sec" id="reviews">
+  <div class="sec-head reveal">
+    <span class="sec-eyebrow">confianza real · uso diario</span>
+    <h2 class="sec-title">rutinas que se adaptan<br><em>a cada piel</em></h2>
+  </div>
+  <div class="trust-pills reveal">
+    <div class="t-pill"><div class="t-ico">✓</div><div><div class="t-title">Compra segura</div><div class="t-body">Pedido por WhatsApp con atención personalizada.</div></div></div>
+    <div class="t-pill"><div class="t-ico">✦</div><div><div class="t-title">Productos originales</div><div class="t-body">K-Beauty seleccionado para tu rutina.</div></div></div>
+    <div class="t-pill"><div class="t-ico">🚚</div><div><div class="t-title">Despacho a todo Chile</div><div class="t-body">Envíos a Santiago y regiones.</div></div></div>
+  </div>
+  <div class="review-grid reveal">
+    <article class="rev-card">
+      <div class="rev-stars">★★★★★</div>
+      <div class="rev-product">SKIN1004 · Centella Ampoule</div>
+      <p class="rev-text">"Lo incorporé después de la limpieza y se siente liviano. Me ayudó a dejar la piel más calmada y cómoda durante el día."</p>
+      <div class="rev-person"><div class="rev-avatar">CS</div><div><div class="rev-name">Camila S.</div><div class="rev-meta">Verificada · Piel sensible</div></div></div>
+    </article>
+    <article class="rev-card">
+      <div class="rev-stars">★★★★★</div>
+      <div class="rev-product">Celimax · PORE+DARK SPOT Serum</div>
+      <p class="rev-text">"Lo uso en mi rutina de noche para manchas y textura. La piel queda con mejor apariencia y un glow más uniforme."</p>
+      <div class="rev-person"><div class="rev-avatar">GL</div><div><div class="rev-name">Gabriela L.</div><div class="rev-meta">Verificada · Manchas y glow</div></div></div>
+    </article>
+    <article class="rev-card">
+      <div class="rev-stars">★★★★★</div>
+      <div class="rev-product">Dr Althea · 345 Relief Cream</div>
+      <p class="rev-text">"La aplico como último paso. Me deja la piel hidratada, sin sensación pesada y con mejor confort durante todo el día."</p>
+      <div class="rev-person"><div class="rev-avatar">HB</div><div><div class="rev-name">Hernán B.</div><div class="rev-meta">Verificado · Hidratación</div></div></div>
+    </article>
+  </div>
+  <div class="use-grid reveal">
+    <div class="use-card"><div class="use-num">01</div><div class="use-t">Piel grasa</div><div class="use-d">Limpieza suave, control de brillo, sérum ligero y solar mate.</div></div>
+    <div class="use-card"><div class="use-num">02</div><div class="use-t">Piel seca</div><div class="use-d">Tónico hidratante, sérum humectante y crema nutritiva.</div></div>
+    <div class="use-card"><div class="use-num">03</div><div class="use-t">Piel sensible</div><div class="use-d">Centella, fórmulas calmantes y crema barrera.</div></div>
+    <div class="use-card"><div class="use-num">04</div><div class="use-t">Manchas / glow</div><div class="use-d">Luminosidad, tono uniforme y textura más suave.</div></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fg">
+    <div>
+      <a href="https://kempelskin.cl" class="f-logo">Kempel Skin</a>
+      <p class="f-desc">Tu tienda K-Beauty en Chile. Productos originales importados desde Corea del Sur.</p>
+    </div>
+    <div>
+      <div class="f-col-title">Marcas</div>
+      <ul class="f-links">
+        <li><a href="#productos" onclick="filterByBrand('Celimax')">Celimax</a></li>
+        <li><a href="#productos" onclick="filterByBrand('Mixsoon')">Mixsoon</a></li>
+        <li><a href="#productos" onclick="filterByBrand('SKIN1004')">Skin1004</a></li>
+        <li><a href="#productos" onclick="filterByBrand('Dr Althea')">Dr Althea</a></li>
+        <li><a href="#productos" onclick="filterByBrand('Medicube')">Medicube</a></li>
+        <li><a href="#productos" onclick="filterByBrand('Beauty of Joseon')">Beauty of Joseon</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-title">Contacto</div>
+      <ul class="f-links">
+        <li><a href="https://wa.me/56921938724">WhatsApp +56 9 2193 8724</a></li>
+        <li><a href="mailto:contacto@kempelskin.cl">contacto@kempelskin.cl</a></li>
+        <li><a href="https://kempelskin.cl/pages/politicas-de-envio" target="_blank">Política de envíos</a></li>
+        <li><a href="#">📍 Dardignac 461, Recoleta</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bot">
+    <span>© 2025 Kempel Skin</span>
+    <a href="#">Landing Kempel Skin</a>
+  </div>
+</footer>
+
+<!-- OVERLAY + DRAWER -->
+<div class="overlay" id="overlay" onclick="toggleCart()"></div>
+<div class="drawer" id="drawer">
+  <div class="d-head">
+    <h3>mi pedido</h3>
+    <button class="d-close" onclick="toggleCart()">✕</button>
+  </div>
+  <div class="d-items" id="ditems">
+    <div class="d-empty"><div class="ei">🌿</div><p>Tu carrito está vacío.<br>¡Agrega productos para armar tu rutina!</p></div>
+  </div>
+  <div class="d-foot" id="dfoot" style="display:none">
+
+    <div id="shippingMsg" class="cart-shipping-msg">
+      <span class="cart-shipping-icon">🚚</span>
+      <div>
+        <div class="cart-shipping-title" id="shippingMsgText">Envío a todo Santiago · $3.990</div>
+        <div class="cart-shipping-sub">Coordina entrega o retiro por WhatsApp</div>
+      </div>
+    </div>
+
+    <div class="d-total-row">
+      <span class="d-total-label">Total estimado</span>
+      <span class="d-total-amt" id="dtotal">$0</span>
+    </div>
+
+    
+<form id="waQuoteForm"
+      class="cart-wa-form"
+      action="https://api.whatsapp.com/send"
+      method="get"
+      target="_blank"
+      onsubmit="prepareWhatsAppQuote()">
+  <input type="hidden" name="phone" value="56921938724">
+  <input type="hidden" name="text" id="waQuoteText" value="Hola Kempel Skin, quiero cotizar productos de skincare coreano.">
+  <button class="cta-btn cart-wa-final" type="submit">
+    Confirmar pedido por WhatsApp
+  </button>
+</form>
+
+    
+
+    <!-- Medios de pago mejorados -->
+    <div class="pay-methods">
+      <p class="pay-label">🔒 Pago 100% seguro</p>
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:6px">
+        <!-- Visa -->
+        <svg width="48" height="30" viewBox="0 0 48 30" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="30" rx="4" fill="#fff" stroke="#e0d8d0" stroke-width="1"/><path d="M17 21L19.8 9h2.8L19.8 21H17zm10.8-11.2c-.56-.24-1.44-.48-2.48-.48-2.72 0-4.64 1.44-4.64 3.52 0 1.52 1.36 2.4 2.4 2.88 1.04.48 1.44.8 1.44 1.28 0 .72-.88 1.04-1.68 1.04-1.12 0-1.76-.16-2.64-.56l-.4-.16-.4 2.4c.64.32 1.92.56 3.2.56 2.88 0 4.8-1.44 4.8-3.68 0-1.2-.72-2.16-2.4-2.96-.96-.48-1.6-.72-1.6-1.2 0-.4.48-.88 1.6-.88.88 0 1.52.16 2 .4l.24.08.4-2.24zM33 9h-2.16c-.64 0-1.12.16-1.36.8L25.4 21h2.88s.48-1.28.56-1.6h3.52c.08.4.32 1.6.32 1.6H35L33 9zm-3.36 8l1.12-2.96.32-.8.16.96.56 2.8h-2.16zM16 9l-2.72 8.24-.32-1.44C12.4 13.6 10.48 11.36 8.4 10.4L10.88 21h2.96L18 9H16z" fill="#1A1F71"/><path d="M10 9H5.68L5.6 9.32c3.36.88 5.6 2.96 6.56 5.44L11.12 9.8C10.88 9.16 10.48 9 10 9z" fill="#F9A533"/></svg>
+        <!-- Mastercard -->
+        <svg width="48" height="30" viewBox="0 0 48 30" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="30" rx="4" fill="#fff" stroke="#e0d8d0" stroke-width="1"/><circle cx="18" cy="15" r="8" fill="#EB001B"/><circle cx="30" cy="15" r="8" fill="#F79E1B"/><path d="M24 8.54a8 8 0 0 1 0 12.92A8 8 0 0 1 24 8.54z" fill="#FF5F00"/></svg>
+        <!-- Webpay -->
+        <svg width="54" height="30" viewBox="0 0 54 30" xmlns="http://www.w3.org/2000/svg"><rect width="54" height="30" rx="4" fill="#fff" stroke="#e0d8d0" stroke-width="1"/><text x="6" y="17" font-family="Arial,sans-serif" font-weight="700" font-size="8" fill="#004B87">web</text><text x="22" y="17" font-family="Arial,sans-serif" font-weight="700" font-size="8" fill="#E30613">pay</text><text x="6" y="25" font-family="Arial,sans-serif" font-size="5.5" fill="#555">TRANSBANK</text></svg>
+        <!-- MercadoPago -->
+        <svg width="54" height="30" viewBox="0 0 54 30" xmlns="http://www.w3.org/2000/svg"><rect width="54" height="30" rx="4" fill="#fff" stroke="#e0d8d0" stroke-width="1"/><text x="4" y="14" font-family="Arial,sans-serif" font-weight="700" font-size="6.5" fill="#009EE3">mercado</text><text x="4" y="23" font-family="Arial,sans-serif" font-weight="700" font-size="6.5" fill="#009EE3">pago</text></svg>
+        <!-- Flow -->
+        <svg width="44" height="30" viewBox="0 0 44 30" xmlns="http://www.w3.org/2000/svg"><rect width="44" height="30" rx="4" fill="#fff" stroke="#e0d8d0" stroke-width="1"/><text x="5" y="20" font-family="Arial,sans-serif" font-weight="900" font-size="14" letter-spacing="-1" fill="#1A1A2E">FLOW</text><rect x="5" y="22" width="34" height="2" rx="1" fill="#00B4FF"/></svg>
+      </div>
+      <!-- Retiro gratis -->
+      <div style="
+        margin-top:10px;padding:8px 12px;
+        background:var(--cream);border-radius:8px;
+        display:flex;align-items:center;gap:7px;
+      ">
+        <span style="font-size:14px">📍</span>
+        <div style="font-size:10px;color:var(--stone);line-height:1.4">
+          <strong style="color:var(--ink);font-size:11px">Retiro gratis</strong> · Dardignac 461, Recoleta<br>
+          Lunes a viernes · Coordina por WhatsApp
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- POPUP -->
+<div class="popup-overlay" id="popupOverlay" onclick="closePopup(event)" role="dialog" aria-modal="true" aria-labelledby="popupName">
+  <div class="popup" id="popupBox">
+    <div class="popup-img" id="popupImg">
+      <img id="popupImgSrc" src="" alt="" loading="lazy">
+      <button class="popup-close" onclick="closePopupDirect()">✕</button>
+    </div>
+    <div class="popup-body">
+      <div class="popup-brand" id="popupBrand"></div>
+      <div class="popup-name" id="popupName"></div>
+      <div class="popup-price" id="popupPrice"></div>
+      <div class="popup-stars" id="popupStars"></div>
+      <div class="popup-desc" id="popupDesc"></div>
+      <button class="popup-add" id="popupAddBtn" onclick="popupAdd()">agregar al pedido</button>
+    </div>
+  </div>
+</div>
+
+<!-- WA FLOAT -->
+<a class="wa-float"
+   href="https://wa.me/56921938724?text=Hola,%20quiero%20comprar%20productos%20de%20Kempel%20Skin.%20%C2%BFMe%20pueden%20ayudar%3F"
+   target="_blank"
+   rel="noopener noreferrer"
+   title="WhatsApp"
+   aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+</a>
 
 <script>
-const WHATSAPP_NUMBER = '56921938724';
+/* ══════════════════════════════
+   PRODUCTOS (57 variantes)
+══════════════════════════════ */
+const PRODUCTS=[
 
-const PRODUCTS = [
-  {
-    id: 1,
-    name: 'Vitamin C Boosting Serum 30ml',
-    brand: 'Dr Althea',
-    price: 21990,
-    oldPrice: 24990,
-    category: 'serum',
-    images: [
-      'https://enigmastore.cl/cdn/shop/files/1_ca10b9fb-9706-4b6f-8690-5ef079a5e451.png?crop=center&height=1200&v=1776358402&width=1200',
-      'https://enigmastore.cl/cdn/shop/files/5_3e13b9fe-2aae-4218-8bfe-6a661be4f6ed.png?crop=center&height=1200&v=1776358426&width=1200',
-      'https://enigmastore.cl/cdn/shop/files/7_33b43807-7ed6-48c9-a7e7-c04eb1c4c185.png?crop=center&height=1200&v=1776358402&width=1200'
-    ],
-    desc: `Sérum facial con vitamina C que ayuda a iluminar la piel, mejorar la uniformidad del tono y reducir la apariencia de manchas.
 
-Textura ligera de rápida absorción, ideal para piel opaca, tono desigual o signos de fatiga.
+  {id:61,vid:'',name:'CENTELLIAN 24 - Expert Madeca Cream Active Renew PDRN',brand:'Centellian 24',price:23990,old:29990,cat:'crema',badge:'sale',bl:'−20%',img:'https://http2.mlstatic.com/D_Q_NP_905895-CBT105697846922_012026-O.webp',desc:'Crema diseñada para restaurar la vitalidad de la piel y combatir de manera efectiva los signos visibles del envejecimiento.',rat:4.8,routine:['antiage'],skin:['grasa','seca','mixta','sensible'],age:['30','31-40','40+']},
 
-Beneficios:
-• Aporta efecto glow
-• Ayuda a mejorar manchas visibles
-• Mejora la textura de la piel
-• Deja la piel más luminosa
+  {id:1,vid:'44946867683398',name:'CELIMAX PORE+DARK SPOT Brightening Serum 30ml',brand:'Celimax',price:19990,old:26990,cat:'serum',badge:'sale',bl:'−26%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/CELIMAXPORE_DARKSPOT.png?v=1777051955',desc:'Sérum iluminador con Noni que reduce manchas y poros, unifica el tono en 7 días.',rat:4.3},
 
-Modo de uso: aplicar sobre rostro limpio y tonificado. De día, complementar con protector solar.`
-  },
-  {
-    id: 7,
-    name: 'Gentle Vitamin C Serum 30ml',
-    brand: 'Dr Althea',
-    price: 21990,
-    oldPrice: 24990,
-    category: 'serum',
-    images: [
-      'https://enigmastore.cl/cdn/shop/files/1_caca54ad-49b8-4b73-ace8-93644d5985a6.png?crop=center&height=1200&v=1776357946&width=1200',
-      'https://enigmastore.cl/cdn/shop/files/2_e670acb5-ac63-4dc9-9d42-c64e5eef739b.png?crop=center&height=1200&v=1776357946&width=1200',
-      'https://enigmastore.cl/cdn/shop/files/6_85670f58-86d5-4c8c-a4d9-fc585c32d274.png?crop=center&height=1200&v=1776357946&width=1200'
-    ],
-    shortDesc: 'Sérum suave con vitamina C que ilumina, unifica el tono y aporta efecto glow sin irritar.',
-    desc: `Sérum suave con vitamina C que ilumina, unifica el tono y aporta efecto glow sin irritar.
+  {id:2,vid:'44946836521030',name:'CELIMAX THE VITA A RETINOL SHOT TIGHTENING SERUM 30ML',brand:'Celimax',price:19990,old:29990,cat:'serum',badge:'soldout',bl:'AGOTADO',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/celimax_retinol_botella_original.png?v=1777049883',desc:'Sérum antiedad con retinol que mejora la firmeza, reduce líneas finas y renueva la textura.',rat:4.5},
 
-Ideal para piel sensible, piel opaca o con tono desigual. Su textura ligera ayuda a mejorar la apariencia de manchas y deja la piel más luminosa.
+  {id:3,vid:'44946827247686',name:'CELIMAX VITA-A RETINAL SHOT BOOSTER 15ML',brand:'Celimax',price:17990,old:24990,cat:'crema',badge:'sale',bl:'−28%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_066ba8b7-236c-4a60-9a58-9d35c943c437.png?v=1777049025',desc:'Booster concentrado de retinal para combatir el envejecimiento y mejorar la elasticidad.',rat:4.4},
 
-Beneficios:
-• Ilumina y aporta glow
-• Unifica el tono de la piel
-• Ayuda a reducir manchas visibles
-• Fórmula suave apta para piel sensible
+  {id:4,vid:'44946795593798',name:'CELIMAX OIL CONTROL MATTIFYING SUN STICK 19G',brand:'Celimax',price:16990,old:24990,cat:'solar',badge:'sale',bl:'−32%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_a407e500-3049-4637-8151-5ec683a90995.png?v=1777048769',desc:'Protector solar SPF50+ en barra con efecto matificante.',rat:4.2},
 
-Modo de uso: aplicar unas gotas sobre rostro limpio y tonificado. Usar preferentemente de día y complementar con protector solar.`
-  },
-  {
-    id: 2,
-    name: '345 Relief Cream 50ml',
-    brand: 'Dr Althea',
-    price: 22990,
-    oldPrice: 27990,
-    category: 'crema',
-    images: [
-      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&q=80',
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=1200&q=80',
-      'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&q=80'
-    ],
-    desc: `Crema hidratante y calmante para piel sensible o debilitada.
+  {id:5,vid:'44946792349766',name:'CELIMAX THE REAL NONI ACNE BUBBLE CLEANSER 155ML',brand:'Celimax',price:16990,old:24990,cat:'limpieza',badge:'soldout',bl:'AGOTADO',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_cd12f495-0e2c-496d-827d-b7aed89b6d0a.png?v=1777047072',desc:'Limpiador espuma con Noni que purifica sin resecar.',rat:4.6},
 
-Ayuda a reforzar la barrera cutánea, aliviar sensación de tirantez y mantener la piel cómoda durante el día.
+  {id:6,vid:'44946788253766',name:'CELIMAX THE REAL NONI MOISTURE BALANCING TONER 150ML',brand:'Celimax',price:18990,old:29990,cat:'tonico',badge:'sale',bl:'−37%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_808ee928-a6f6-44aa-be09-5bf2bb0733b0.png?v=1777046835',desc:'Tónico hidratante con Noni que equilibra la piel.',rat:4.1},
 
-Beneficios:
-• Hidrata y calma
-• Apoya la barrera de la piel
-• Textura cómoda para uso diario
-• Ideal para piel sensible`
-  },
-  {
-    id: 3,
-    name: '147 Barrier Cream 50ml',
-    brand: 'Dr Althea',
-    price: 21990,
-    oldPrice: 26990,
-    category: 'crema',
-    images: [
-      'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=1200&q=80',
-      'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80',
-      'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1200&q=80'
-    ],
-    desc: `Crema de barrera ideal para piel seca, sensible o con sensación de deshidratación.
+  {id:7,vid:'44946781569094',name:'CELIMAX THE REAL NONI STARTER KIT',brand:'Celimax',price:16990,old:24990,cat:'kit',badge:'sale',bl:'−32%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_89414885-28fb-41ae-b166-670de52a5e0b.png?v=1777046464',desc:'Kit completo con tónico, sérum y crema Noni.',rat:4.5},
 
-Ayuda a mantener la hidratación y mejorar la suavidad de la piel.
+  {id:8,vid:'44908810764358',name:'Medicube - Collagen Night Wrapping Mask 75ml',brand:'Medicube',price:31990,old:47990,cat:'crema',badge:'sale',bl:'−33%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_e19e9f1f-4964-41d9-86a0-52067b9bd62e.png?v=1776375055',desc:'Mascarilla nocturna con colágeno que hidrata intensamente.',rat:4.3},
 
-Beneficios:
-• Hidratación diaria
-• Piel más suave
-• Apoyo a la barrera cutánea
-• Acabado confortable`
-  },
-  {
-    id: 4,
-    name: 'Noni Moisture Balancing Toner 150ml',
-    brand: 'Celimax',
-    price: 14990,
-    oldPrice: 18990,
-    category: 'tonico',
-    images: [
-      'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&q=80',
-      'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=1200&q=80',
-      'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=1200&q=80'
-    ],
-    desc: `Tónico hidratante con extracto de Noni para equilibrar, refrescar y preparar la piel.
+  {id:9,vid:'44908738510918',name:'Medicube - Deep Vita C Capsule Cream 55g',brand:'Medicube',price:40990,old:47990,cat:'crema',badge:'sale',bl:'−15%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_5a5854aa-4d63-42b0-bc0a-bc978808c778.png?v=1776374735',desc:'Crema con vitamina C que ilumina y unifica el tono.',rat:4.4},
 
-Beneficios:
-• Aporta hidratación ligera
-• Ayuda a calmar la piel
-• Prepara para sérum y crema
-• Ideal para rutina diaria`
-  },
-  {
-    id: 5,
-    name: 'Low pH Foam Cleanser',
-    brand: 'Celimax',
-    price: 11990,
-    oldPrice: 14990,
-    category: 'limpieza',
-    images: [
-      'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80',
-      'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&q=80',
-      'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=1200&q=80'
-    ],
-    desc: `Limpiador facial suave de pH bajo para retirar impurezas sin dejar sensación tirante.
+  {id:10,vid:'44908686671942',name:'Dr Althea - 345 Relief Cream Mist 60ml',brand:'Dr Althea',price:13990,old:16990,cat:'crema',badge:'soldout',bl:'AGOTADO',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_246efeea-1d9b-4a6f-842f-a9dae503e5d7.png?v=1776374364',desc:'Bruma facial calmante que hidrata y refresca en cualquier momento.',rat:4.6},
 
-Beneficios:
-• Limpieza suave
-• No reseca
-• Ideal para uso diario
-• Recomendado para piel sensible`
-  },
-  {
-    id: 6,
-    name: 'Water-Fit Sun Serum 50ml',
-    brand: 'SKIN1004',
-    price: 18990,
-    oldPrice: 22990,
-    category: 'protector',
-    images: [
-      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&q=80',
-      'https://images.unsplash.com/photo-1599305090598-fe179d501227?w=1200&q=80',
-      'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&q=80'
-    ],
-    desc: `Protector solar facial de textura ligera, ideal para uso diario.
+  {id:11,vid:'44908618252358',name:'Dr Althea - 345 Relief Cream',brand:'Dr Althea',price:23990,old:36900,cat:'crema',badge:'sale',bl:'−35%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_e67b28b4-197d-444d-b177-a0c9397bb2d4.png?v=1776374046',desc:'Crema calmante que reduce la irritación y fortalece la barrera.',rat:4.2},
 
-Beneficios:
-• Protección diaria
-• Acabado cómodo
-• Sensación hidratante
-• Fácil de integrar en la rutina`
-  }
+  {id:12,vid:'44908570181702',name:'Dr Althea - 147 Barrier Cream 50ml',brand:'Dr Althea',price:23990,old:36900,cat:'crema',badge:'sale',bl:'−35%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_e7aeae51-7fbc-4113-b783-884955d0c40f.png?v=1776373789',desc:'Crema nutritiva que repara la barrera e hidrata profundamente.',rat:4.5},
+
+  {id:13,vid:'44905255927878',name:'Dr Althea - Vitamin C Boosting Serum 30ml',brand:'Dr Althea',price:21990,old:28900,cat:'serum',badge:'sale',bl:'−24%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_ca10b9fb-9706-4b6f-8690-5ef079a5e451.png?v=1776358402',desc:'Sérum vitamina C que ilumina y aporta efecto glow.',rat:4.3},
+
+  {id:14,vid:'44905155493958',name:'Dr Althea - Gentle Vitamin C Serum 30ml',brand:'Dr Althea',price:21990,old:28900,cat:'serum',badge:'sale',bl:'−24%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_caca54ad-49b8-4b73-ace8-93644d5985a6.png?v=1776357946',desc:'Sérum suave para piel sensible que reduce manchas.',rat:4.1},
+
+  {id:15,vid:'44905054601286',name:'Dr Althea - Aqua Marine Deep Serum 30ml',brand:'Dr Althea',price:16990,old:19900,cat:'serum',badge:'sale',bl:'−15%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_d45e3ab4-fa4f-4977-ac1c-e2cbbc44a128.png?v=1776357485',desc:'Sérum hidratante marino que revitaliza y aporta luminosidad.',rat:4.4},
+
+  {id:16,vid:'44904812183622',name:'CENTELLIAN 24 - Madeca Cream Time Reverse 50ml',brand:'Centellian 24',price:22990,old:33990,cat:'crema',badge:'sale',bl:'−32%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_51c817b5-3a1b-4cd4-8131-a1bc7a460fc0.png?v=1776356530',desc:'Crema con centella que reduce líneas finas y mejora la firmeza.',rat:4.6},
+
+  {id:17,vid:'44904756805702',name:'Dr Althea - Aqua Glowing Sunscreen 45ml',brand:'Dr Althea',price:18990,old:24990,cat:'solar',badge:'sale',bl:'−24%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_cd1dec06-7fe1-43e4-aab8-9c890e406333.png?v=1776356042',desc:'Protector solar SPF50+ tipo gel que deja acabado glow natural.',rat:4.3},
+
+  {id:18,vid:'44904653127750',name:'Beauty of Joseon - Relief Sun Rice + B5 50ml',brand:'Beauty of Joseon',price:16990,old:24990,cat:'solar',badge:'sale',bl:'−32%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/4_b9225f21-3053-4bdf-b318-29badc8c0a14.png?v=1776355583',desc:'Solar SPF50+ PA++++ con extracto de arroz y B5.',rat:4.5},
+
+  {id:19,vid:'44901504745542',name:'SKIN1004 - Hyalu-Cica Water-Fit Sun Serum 50ml',brand:'SKIN1004',price:19990,old:25990,cat:'solar',badge:'sale',bl:'−23%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_ad25a448-546c-49e5-a557-99a3eb4b2ec5.png?v=1776281538',desc:'Sérum solar SPF50+ con ácido hialurónico y centella.',rat:4.4},
+
+  {id:20,vid:'44901499043910',name:'SKIN1004 - Hyalu-Cica Silky-fit Sun Stick 20g',brand:'SKIN1004',price:19990,old:25990,cat:'solar',badge:'sale',bl:'−23%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_b8ef15b4-80c5-4c51-8e58-d3195fde7810.png?v=1776276080',desc:'Protector en barra SPF50+ PA++++. Sin efecto blanco.',rat:4.2},
+
+  {id:21,vid:'44901494161478',name:'SKIN1004 - Hyalu-Cica First Ampoule 100ml',brand:'SKIN1004',price:21990,old:29990,cat:'serum',badge:'sale',bl:'−27%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_1b41907b-7749-445e-b0b1-93ed527def79.png?v=1776275512',desc:'Ampoule con ácido hialurónico y centella que hidrata y calma.',rat:4.6},
+
+  {id:22,vid:'44898026618950',name:'SKIN1004 - Madagascar Centella Air-Fit Suncream 50ml',brand:'SKIN1004',price:19990,old:24990,cat:'solar',badge:'sale',bl:'−20%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_59a3c3b5-ab63-4652-ab96-43dfaa7015f8.png?v=1776203186',desc:'Solar SPF50+ PA++++ con centella. Ligero, uso diario.',rat:4.1},
+
+  {id:23,vid:'44898019868742',name:'SKIN1004 - Madagascar Centella Cleansing Oil 200ml',brand:'SKIN1004',price:19990,old:26990,cat:'limpieza',badge:'sale',bl:'−26%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_a25f3c83-952d-4bb1-8a70-8670f28e3dc7.png?v=1776202879',desc:'Aceite limpiador que elimina maquillaje sin alterar la barrera.',rat:4.3},
+
+  {id:24,vid:'44898016591942',name:'SKIN1004 - Madagascar Centella Toning Toner 210ml',brand:'SKIN1004',price:19990,old:26990,cat:'tonico',badge:'sale',bl:'−26%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_bfb20fd2-c467-418b-8f16-96f71992edba.png?v=1776202646',desc:'Tónico con centella que calma e hidrata.',rat:4.5},
+
+  {id:25,vid:'44897997586502',name:'SKIN1004 - Madagascar Centella Ampoule Foam 125ml',brand:'SKIN1004',price:16990,old:21990,cat:'limpieza',badge:'sale',bl:'−23%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_6fe5b172-2803-4645-9d79-408f4f4b5869.png?v=1776202413',desc:'Limpiador espuma con centella para piel sensible.',rat:4.4},
+
+  {id:26,vid:'44897992769606',name:'SKIN1004 - Poremizing Quick Clay Stick Mask 27g',brand:'SKIN1004',price:18990,old:27990,cat:'limpieza',badge:'sale',bl:'−32%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_2e98dcf6-6f67-4acc-b19e-59295747ac0f.png?v=1776201513',desc:'Mascarilla de arcilla que limpia poros en profundidad.',rat:4.2},
+
+  {id:27,vid:'44897980186694',name:'SKIN1004 - Poremizing Fresh Ampoule 100ml',brand:'SKIN1004',price:21990,old:33990,cat:'serum',badge:'sale',bl:'−35%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_ef12da86-fb94-4a00-bef7-d17ae8113226.png?v=1776201121',desc:'Ampoule que minimiza poros y controla el sebo.',rat:4.6},
+
+  {id:28,vid:'44897963409478',name:'SKIN1004 - Madagascar Centella Travel Kit',brand:'SKIN1004',price:25990,old:44900,cat:'kit',badge:'sale',bl:'−42%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_d7a7b654-0b2e-46e9-a336-abdcdb9e0383.png?v=1776200805',desc:'Kit de viaje completo con centella.',rat:4.3},
+
+  {id:29,vid:'44897950335046',name:'SKIN1004 - Poremizing Light Gel Cream 75ml',brand:'SKIN1004',price:19990,old:24990,cat:'crema',badge:'sale',bl:'−20%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1-copia.png?v=1776200926',desc:'Gel crema que hidrata y minimiza poros.',rat:4.5},
+
+  {id:30,vid:'44897947123782',name:'ROUND LAB - Pine Calming Cica Trial Kit',brand:'Round Lab',price:16990,old:24990,cat:'kit',badge:'soldout',bl:'AGOTADO',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_d7623ffd-6244-4f98-8944-83016d6909f6.png?v=1776200031',desc:'Kit calmante para piel sensible con pino y centella.',rat:4.1},
+
+  {id:31,vid:'44897946042438',name:'ROUND LAB - 1025 Dokdo Trial Kit',brand:'Round Lab',price:16990,old:24990,cat:'kit',badge:'sale',bl:'−32%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_4e72bda0-1d36-4610-a244-ab72209e6b4b.png?v=1776199008',desc:'Kit con agua mineral de Dokdo para hidratar y calmar.',rat:4.4},
+
+  {id:32,vid:'44897942896710',name:'SKIN1004 - Tone Brightening Boosting Toner 210ml',brand:'SKIN1004',price:19990,old:26990,cat:'tonico',badge:'sale',bl:'−26%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_04d64c14-373d-40bb-b090-40a824b5470f.png?v=1776199514',desc:'Tónico iluminador que mejora la luminosidad.',rat:4.3},
+
+  {id:33,vid:'44897937752134',name:'SKIN1004 - Tone Brightening Cleansing Gel Foam 125ml',brand:'SKIN1004',price:16990,old:21990,cat:'limpieza',badge:'sale',bl:'−23%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_8534681b-a310-4e03-a9bf-d070baf40198.png?v=1776199193',desc:'Limpiador gel-espuma que ilumina el tono.',rat:4.2},
+
+  {id:34,vid:'44897936506950',name:'SKIN1004 - Tone Brightening Capsule Ampoule 100ml',brand:'SKIN1004',price:21990,old:31990,cat:'serum',badge:'sale',bl:'−31%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_4211135c-a243-4923-9c33-b0ff3ac1c14f.png?v=1776199015',desc:'Ampoule con cápsulas iluminadoras para efecto glow.',rat:4.6},
+
+  {id:35,vid:'44897933721670',name:'SKIN1004 - Tone Brightening Capsule Cream 75ml',brand:'SKIN1004',price:21990,old:34990,cat:'crema',badge:'sale',bl:'−37%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_b73982bb-ee06-4fa0-b1a2-13a843a04421.png?v=1776198774',desc:'Crema iluminadora que unifica el tono y deja la piel radiante.',rat:4.5},
+
+  {id:36,vid:'44897932542022',name:'CENTELLIAN 24 - Madeca Derma Mask Lifting (Pack 10)',brand:'Centellian 24',price:19980,old:22990,cat:'crema',badge:'sale',bl:'−13%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_93b5a9fa-559f-4dc2-ac80-ccb8219b6470.png?v=1776198480',desc:'Mascarilla reafirmante que mejora elasticidad.',rat:4.1},
+
+  {id:37,vid:'44897930674246',name:'CENTELLIAN 24 - Madeca Derma Mask Brightening (Pack 10)',brand:'Centellian 24',price:19980,old:22990,cat:'crema',badge:'sale',bl:'−13%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_85a2711d-6f48-4ccd-a7ce-3ef2cf58e157.png?v=1776198152',desc:'Mascarilla iluminadora que unifica el tono.',rat:4.4},
+
+  {id:38,vid:'44897929232454',name:'OOTD Triple Hyaluron Acid Serum Glowing Mask (Pack 10)',brand:'OOTD',price:19980,old:22990,cat:'crema',badge:'sale',bl:'−13%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_78ba345c-2de9-4cb4-b224-3b29618e096c.png?v=1776197865',desc:'Mascarilla con triple ácido hialurónico para efecto glow.',rat:4.3},
+
+  {id:39,vid:'44897929068614',name:'Mixsoon - Glass Skin Suitcase',brand:'Mixsoon',price:38990,old:58990,cat:'kit',badge:'sale',bl:'−34%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_c60d5a0b-e4c2-43d2-9873-8d3960fc94a8.png?v=1776198064',desc:'Set completo de rutina glass skin.',rat:4.6},
+
+  {id:40,vid:'44897928347718',name:'OOTD Retinol Serum Plumping Mask (Pack 10)',brand:'OOTD',price:19980,old:22990,cat:'crema',badge:'sale',bl:'−13%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_3dcca0f7-2089-467e-bf23-2430de47e6af.png?v=1776197333',desc:'Mascarilla con retinol que mejora firmeza y suaviza líneas.',rat:4.2},
+
+  {id:41,vid:'44897923465286',name:'Mixsoon - Collagen Glass Skin Mask 80ml',brand:'Mixsoon',price:21990,old:34990,cat:'crema',badge:'sale',bl:'−37%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/5_1e1c25aa-3dcf-4990-a2fe-51ee58496676.png?v=1776197394',desc:'Mascarilla con colágeno para hidratación y glass skin.',rat:4.5},
+
+  {id:42,vid:'44897912127558',name:'Mixsoon - Glacier Water Hyaluronic Acid Serum 100ml',brand:'Mixsoon',price:21990,old:33990,cat:'serum',badge:'sale',bl:'−35%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_78f1178f-486f-4d9c-a48e-8976eb736bf8.png?v=1776197184',desc:'Sérum con agua glaciar e ácido hialurónico.',rat:4.3},
+
+  {id:43,vid:'44897911898182',name:'MIDHA Rice Bran Scrub Foam 150ml',brand:'MIDHA',price:8990,old:12990,cat:'limpieza',badge:'sale',bl:'−31%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_1455ddd4-1324-4005-a887-919d9306a14f.png?v=1776197005',desc:'Limpiador espuma con salvado de arroz que exfolia suavemente.',rat:4.4},
+
+  {id:44,vid:'44897910718534',name:'MIDHA Rice Milk Body Lotion 500ml',brand:'MIDHA',price:12990,old:14990,cat:'crema',badge:'sale',bl:'−13%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_4f66a1f4-d1da-4a6a-bc20-9c25021dc424.png?v=1776196684',desc:'Loción corporal con extracto de arroz.',rat:4.1},
+
+  {id:45,vid:'44897910292550',name:'Mixsoon - Galactomyces Ferment Essence 100ml',brand:'Mixsoon',price:24990,old:37990,cat:'serum',badge:'sale',bl:'−34%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_7c32db3d-6427-4b36-83ab-d8cd439bcf20.png?v=1776196971',desc:'Esencia con galactomyces que ilumina y mejora la textura.',rat:4.6},
+
+  {id:46,vid:'44894443077702',name:'Mixsoon - Bean Tone 300ml',brand:'Mixsoon',price:21990,old:33990,cat:'tonico',badge:'sale',bl:'−35%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_3606b8ac-e92e-452f-8130-3a770a9ffe71.png?v=1776129168',desc:'Tónico con fermentados que hidrata y equilibra.',rat:4.2},
+
+  {id:47,vid:'44894437244998',name:'Mixsoon - Bean Cleansing Oil 195ml',brand:'Mixsoon',price:21990,old:32990,cat:'limpieza',badge:'sale',bl:'−33%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_c1ccde2b-060b-4401-b3c0-b2dcb0f73013.png?v=1776128426',desc:'Aceite limpiador con fermentados.',rat:4.5},
+
+  {id:48,vid:'44894431641670',name:'Mixsoon - Centella Cleansing Foam 150ml',brand:'Mixsoon',price:16990,old:23990,cat:'limpieza',badge:'sale',bl:'−29%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_877f8688-14c1-406a-aa39-c6cdb23d5cf0.png?v=1776127943',desc:'Espuma limpiadora con centella para piel sensible.',rat:4.3},
+
+  {id:49,vid:'44894403100742',name:'Mixsoon - Bean Cream 50ml',brand:'Mixsoon',price:25990,old:44990,cat:'crema',badge:'sale',bl:'−42%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_444b6d42-5179-4491-8417-1329ae87850c.png?v=1776127483',desc:'Crema con fermentados de soja que hidrata y fortalece.',rat:4.4},
+
+  {id:50,vid:'44894210424902',name:'Mixsoon - Bean Essence 50ml',brand:'Mixsoon',price:25990,old:42990,cat:'serum',badge:'sale',bl:'−40%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/4_ecbe9be4-2623-4a0a-8857-f231926d74a0.png?v=1776128024',desc:'Esencia fermentada que hidrata y aporta luminosidad.',rat:4.6},
+
+  {id:51,vid:'44894208917574',name:'Mixsoon - Soondy Centella Asiatica Essence',brand:'Mixsoon',price:24990,old:39990,cat:'serum',badge:'sale',bl:'−38%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_86e51094-a3b5-4c55-bfaf-b0ed8aafd5e9.png?v=1776118552',desc:'Esencia con centella que calma y fortalece la piel sensible.',rat:4.2},
+
+  {id:52,vid:'44894190534726',name:'Elizavecca - CER-100 Collagen Hair Essence 150ml',brand:'Elizavecca',price:16990,old:19900,cat:'cabello',badge:'sale',bl:'−15%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_6e171cfa-417c-41c5-8251-9bdfd6036810.png?v=1776116860',desc:'Esencia capilar con colágeno que repara y aporta brillo.',rat:4.1},
+
+  {id:53,vid:'44894160584774',name:'Elizavecca - CER-100 Collagen Hair Treatment 500ml',brand:'Elizavecca',price:16990,old:19990,cat:'cabello',badge:'sale',bl:'−15%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_e549aac6-151e-470d-9a30-8e2181778408.png?v=1776116108',desc:'Tratamiento capilar con colágeno para reparación intensiva.',rat:4.5},
+
+  {id:54,vid:'44894157668422',name:'Elizavecca - CER-100 Collagen Hair Shampoo 500ml',brand:'Elizavecca',price:16990,old:19990,cat:'cabello',badge:'sale',bl:'−15%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_56a8e062-1f29-4e87-92e9-4a78cf43b3f9.png?v=1776115814',desc:'Shampoo reparador con colágeno que aporta brillo.',rat:4.3},
+
+  {id:55,vid:'44894152163398',name:'Elizavecca - Cer-100 Hair Muscle Essence Oil 100ml',brand:'Elizavecca',price:15990,old:17900,cat:'cabello',badge:'sale',bl:'−11%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_0319c5d3-9b97-4578-839d-f7b068cd95f8.png?v=1776115472',desc:'Aceite capilar nutritivo que controla el frizz.',rat:4.4},
+
+  {id:56,vid:'44894143152198',name:'Elizavecca - Witch Piggy Hyaluronic Acid 97%',brand:'Elizavecca',price:13990,old:15900,cat:'serum',badge:'sale',bl:'−12%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_49b2add1-9707-4a5b-a988-11eb17d4988d.png?v=1776114963',desc:'Sérum con 97% de ácido hialurónico para hidratación intensa.',rat:4.6},
+
+  {id:57,vid:'44894124867654',name:'Elizavecca - CER-100 Collagen Ceramide Treatment 100ml',brand:'Elizavecca',price:11990,old:13900,cat:'cabello',badge:'sale',bl:'−14%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/1_7f91d4ae-f562-4c41-a8eb-4d1d3ecd2ef8.png?v=1776113402',desc:'Tratamiento capilar con colágeno y ceramidas.',rat:4.2},
+
+  {id:58,vid:'',name:'EQQUALBERRY - Bakuchiol Plumping Serum',brand:'EQQUALBERRY',price:21990,old:29990,cat:'serum',badge:'sale',bl:'−27%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/01-frasco-principal-lg_88014fb7-8e9d-4d04-98ce-7f789a088701.webp?v=1778708909',desc:'Ayuda a reafirmar, hidratar y suavizar líneas finas dejando la piel más firme y luminosa.',rat:4.7,routine:['antiage'],skin:['grasa','seca','mixta'],age:['31-40','40+']},
+
+
+  {id:59,vid:'',name:'EQQUALBERRY - Vitamin Illuminating Serum',brand:'EQQUALBERRY',price:21990,old:29990,cat:'serum',badge:'sale',bl:'−27%',img:'https://cdn.shopify.com/s/files/1/0609/5496/8134/files/EQQ000301_Vitamin_Illuminating_Serum.png?v=1779135037',desc:'Serum ayuda a iluminar, unificar el tono y reducir manchas mientras hidrata y deja la piel con un glow saludable.',rat:4.7,routine:['glow','manchas'],skin:['grasa','seca','mixta'],age:['15-20','21-30','31-40','40+']},
+
+
+  {id:60,vid:'',name:'EQQUALBERRY - Aloe PDRN Calming Serum',brand:'EQQUALBERRY',price:21990,old:29990,cat:'serum',badge:'sale',bl:'−27%',img:'https://vierosecosmetics.cl/wp-content/uploads/2026/03/eqqualberry-aloe-pdrn-calming-serum_8809875457788_DarBeauty.webp.jpeg',desc:'Serum ayuda a calmar irritaciones, reducir rojeces e hidratar profundamente mientras fortalece la barrera de la piel.',rat:4.9,routine:['hidratacion','glow','barrera','acne'],skin:['grasa','seca','mixta','sensible','acne'],age:['15-20','21-30','31-40','40+']},
+  {id:62,vid:'',name:'SKIN1004 - Madagascar Centella Tea-Trica Relief Ampoule 100ml',brand:'SKIN1004',price:21990,old:29990,cat:'serum',badge:'sale',bl:'−27%',img:'https://cdnx.jumpseller.com/tienda-mi-estilo1/image/66184674/thumb/1440/1440?1754348554',desc:'Serum calmante con centella y Tea Tree que ayuda a reducir rojeces, controlar el exceso de grasa e hidratar la piel sensible.',rat:4.8,routine:['barrera','acne'],skin:['sensible','acne'],age:['15-20','21-30','31-40','40+']},
+
+  {id:63,vid:'',name:'SKIN1004 - Madagascar Centella Tea-Trica Spot Cream 20ml',brand:'SKIN1004',price:18990,old:23990,cat:'crema',badge:'sale',bl:'−21%',img:'https://www.beautystore.cl/wp-content/uploads/2024/10/tea-trica-spot-cream-2.webp',desc:'La Tea-Trica Spot Cream ayuda a calmar granitos, reducir rojeces y controlar el exceso de grasa sin resecar la piel.',rat:4.7,routine:['barrera','acne'],skin:['sensible','acne'],age:['15-20','21-30']},
+
 ];
 
-let cart = [];
-let currentFilter = 'all';
-const formatPrice = n => '$' + Number(n).toLocaleString('es-CL');
-const discountOf = p => p.oldPrice ? Math.round((1 - p.price / p.oldPrice) * 100) : 0;
-const categoryLabel = category => ({serum:'Sérum', crema:'Crema', tonico:'Tónico', limpieza:'Limpieza', protector:'Protector solar'}[category] || category);
+const WA_NUM='56921938724';
+let cart=[];
+const SOLDOUT_IDS=[10,5,2,30];
 
-function renderProducts(filter = 'all') {
-  currentFilter = filter;
-  const grid = document.getElementById('productsGrid');
-  const filtered = filter === 'all' ? PRODUCTS : PRODUCTS.filter(p => p.category === filter);
-  grid.innerHTML = filtered.map(p => `
-    <article class="card">
-      <div class="card-img" onclick="openProduct(${p.id})">
-        <img src="${p.images[0]}" alt="${p.name}">
-        ${p.oldPrice ? `<span class="badge">-${discountOf(p)}%</span>` : ''}
-      </div>
-      <div class="card-body">
-        <div class="brand">${p.brand}</div>
-        <h3 class="name">${p.name}</h3>
-        <div class="category-pill">${categoryLabel(p.category)}</div>
-        <div class="price-row">
-          ${p.oldPrice ? `<span class="old">${formatPrice(p.oldPrice)}</span>` : ''}
-          <span class="price">${formatPrice(p.price)}</span>
-        </div>
-        <div class="card-actions">
-          <button class="view-btn" onclick="openProduct(${p.id})">Ver producto</button>
-          <button class="add-btn" onclick="addToCart(${p.id})" aria-label="Agregar ${p.name} al carrito">+</button>
-        </div>
-      </div>
-    </article>
-  `).join('') || '<p style="text-align:center;color:#8a7770;grid-column:1/-1">No hay productos en esta categoría.</p>';
+/* ── KLAVIYO ── */
+const KL_LIST_ID='Tb7x9k';
+const KL_COMPANY_ID='SCmJRc';
+const KL_COUPON='BESTORE';
+
+async function submitKlaviyo(){
+  const emailEl=document.getElementById('klEmail');
+  const btn=document.querySelector('.kl-submit');
+  const email=emailEl.value.trim();
+  if(!email||!email.includes('@')){emailEl.style.borderColor='#c0392b';emailEl.focus();setTimeout(()=>emailEl.style.borderColor='',2000);return}
+  btn.disabled=true;btn.textContent='enviando...';
+  try{
+    const res=await fetch('https://a.klaviyo.com/client/subscriptions/?company_id='+KL_COMPANY_ID,{
+      method:'POST',headers:{'Content-Type':'application/json','revision':'2023-12-15'},
+      body:JSON.stringify({data:{type:'subscription',attributes:{list_id:KL_LIST_ID,email,properties:{source:'landing-kbeauty',coupon:KL_COUPON}}}})
+    });
+    showKlaviyoSuccess(email);
+  }catch(err){showKlaviyoSuccess(email);console.warn('Klaviyo:',err)}
+}
+function showKlaviyoSuccess(email){
+  /* Guardamos el email para pre-fill en checkout */
+  window._subscriberEmail = email;
+  document.getElementById('klForm').style.opacity='0';
+  setTimeout(()=>{
+    document.getElementById('klForm').style.display='none';
+    document.getElementById('klSuccess').style.display='block';
+    document.getElementById('klCouponCode').textContent=KL_COUPON;
+    const name=email.split('@')[0].split('.')[0];
+    document.getElementById('klSuccessName').textContent=name.charAt(0).toUpperCase()+name.slice(1);
+  },300);
+}
+function goToCheckoutWithCoupon(){
+  /* Si tiene productos en el carrito, aplica cupón + lleva al cart */
+  if(cart.length){
+    const items=cart.map(i=>`${i.vid}:${i.qty}`).join(',');
+    window.open(`https://kempelskin.cl/discount/${KL_COUPON}?redirect=/cart/${items}`,'_blank');
+  } else {
+    /* Si no tiene productos, lleva a la tienda con cupón aplicado */
+    window.open(`https://kempelskin.cl/discount/${KL_COUPON}`,'_blank');
+  }
 }
 
-function filterProducts(cat, btn) {
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  btn.classList.add('active');
-  renderProducts(cat);
-}
 
-function openProduct(id) {
-  const p = PRODUCTS.find(x => x.id === id);
-  if (!p) return;
-  document.getElementById('productModalBox').innerHTML = `
-    <button class="close" onclick="closeProduct()">×</button>
-    <div>
-      <img class="main-img" id="modalMainImg" src="${p.images[0]}" alt="${p.name}">
-      <div class="thumbs">${p.images.map(img => `<img src="${img}" onclick="changeMainImage('${img.replace(/'/g, "&#39;")}')" alt="${p.name}">`).join('')}</div>
+const randomReviews=()=>Math.floor(Math.random()*16)+5;
+
+/* ── UTILS ── */
+const fmt=n=>'$'+n.toLocaleString('es-CL');
+const esc=s=>String(s||'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":"&#39;",'"':'&quot;'}[c]));
+
+/* ── RENDER PRODUCTS ── */
+function renderProds(list){
+  document.getElementById('pgrid').innerHTML=list.map(p=>`
+    <div class="pc">
+      <div class="pimg-wrap" onclick="openPopup(${p.id})">
+        <img src="${p.img}" alt="${esc(p.name)}" loading="lazy" decoding="async">
+        ${p.badge?`<span class="pbadge b-${p.badge}">${p.bl}</span>`:''}
+        <div class="pc-overlay">
+          <button class="overlay-btn" onclick="event.stopPropagation();openPopup(${p.id})">ver producto</button>
+        </div>
+      </div>
+      <div class="pinfo">
+        <div class="pbrand">${p.brand}</div>
+        <div class="pname">${esc(p.name)}</div>
+        <div class="pfoot">
+          <div class="pprice">${p.old?`<span class="old">${fmt(p.old)}</span>`:''} ${fmt(p.price)}</div>
+          <button class="add-btn" id="ab${p.id}" onclick="esAddToCart(${p.id},this)" aria-label="Agregar">+</button>
+        </div>
+      </div>
     </div>
-    <div>
-      <div class="brand">${p.brand}</div>
-      <h2 class="modal-title">${p.name}</h2>
-      ${p.oldPrice ? `<span class="badge" style="position:static;display:inline-block;margin-bottom:12px">-${discountOf(p)}%</span>` : ''}
-      <div class="price-row"><span class="old">${p.oldPrice ? formatPrice(p.oldPrice) : ''}</span><span class="price">${formatPrice(p.price)}</span></div>
-      <div class="modal-desc">${p.desc}</div>
-      <button class="btn-primary" onclick="addToCart(${p.id})">Agregar al carrito</button>
-    </div>`;
-  document.getElementById('productModal').classList.add('open');
+  `).join('');
 }
-function closeProduct(){document.getElementById('productModal').classList.remove('open')}
-function changeMainImage(img){document.getElementById('modalMainImg').src = img}
-document.getElementById('productModal').addEventListener('click', e => { if(e.target.id === 'productModal') closeProduct(); });
 
-function addToCart(id) {
-  const p = PRODUCTS.find(x => x.id === id);
-  const item = cart.find(x => x.id === id);
-  if (item) item.qty += 1;
-  else cart.push({...p, qty:1});
-  updateCart();
-  openCart();
+/* ── FILTERS ── */
+const CATS=[{k:'all',l:'Todos'},{k:'serum',l:'Sérum'},{k:'tonico',l:'Tónico'},{k:'crema',l:'Crema'},{k:'limpieza',l:'Limpieza'},{k:'solar',l:'Solar'},{k:'kit',l:'Kits'},{k:'cabello',l:'Cabello'}];
+
+function renderFilters(){
+  document.getElementById('filtersContainer').innerHTML=CATS.map((c,i)=>
+    `<button class="filter-btn${i===0?' on':''}" onclick="filterProds('${c.k}',this)" data-cat="${c.k}">${c.l}</button>`
+  ).join('');
 }
-function removeFromCart(id){cart = cart.filter(x => x.id !== id); updateCart();}
-function changeQty(id, delta){const item = cart.find(x => x.id === id); if(!item) return; item.qty += delta; if(item.qty <= 0) removeFromCart(id); else updateCart();}
-function updateCart(){
-  const count = cart.reduce((s,i)=>s+i.qty,0);
-  const total = cart.reduce((s,i)=>s+i.qty*i.price,0);
-  document.getElementById('cartCount').textContent = count;
-  document.getElementById('cartTotal').textContent = formatPrice(total);
-  document.getElementById('cartFooter').style.display = cart.length ? 'block' : 'none';
-  document.getElementById('cartItems').innerHTML = cart.length ? cart.map(i => `
-    <div class="cart-item">
-      <img src="${i.images[0]}" alt="${i.name}">
-      <div><div class="cart-name">${i.name}</div><div class="cart-meta">${i.brand}</div><div class="cart-controls"><button class="mini" onclick="changeQty(${i.id},-1)">−</button><span>${i.qty}</span><button class="mini" onclick="changeQty(${i.id},1)">+</button><button class="trash" onclick="removeFromCart(${i.id})">🗑</button></div></div>
-      <div class="cart-price">${formatPrice(i.price*i.qty)}</div>
-    </div>`).join('') : '<div class="empty">Tu carrito está vacío.<br>Agrega productos para coordinar tu pedido.</div>';
+function filterProds(cat,btn){
+  /* Asegura que siempre tomamos el button aunque el click venga de un pseudo-elemento */
+  const realBtn = btn.closest('.filter-btn') || btn;
+  document.querySelectorAll('.filter-btn').forEach(t=>t.classList.remove('on'));
+  realBtn.classList.add('on');
+  const filtered = cat==='all' ? PRODUCTS : PRODUCTS.filter(p=>p.cat===cat);
+  renderProds(filtered);
+  /* Reinicia stagger de cards */
+  setTimeout(()=>{
+    document.querySelectorAll('.pc').forEach((c,i)=>{
+      c.style.opacity='0';c.style.transform='translateY(16px)';
+      setTimeout(()=>{c.style.opacity='1';c.style.transform='translateY(0)';c.style.transition='opacity .35s ease, transform .35s ease'},i*35);
+    });
+  },10);
 }
-function openCart(){document.getElementById('cartDrawer').classList.add('open');document.getElementById('drawerOverlay').classList.add('open')}
-function toggleCart(){document.getElementById('cartDrawer').classList.toggle('open');document.getElementById('drawerOverlay').classList.toggle('open')}
-function sendWhatsApp(){
-  if(!cart.length) return;
-  const total = cart.reduce((s,i)=>s+i.qty*i.price,0);
-  let msg = `Hola KempelSkin 👋 Me gustaría coordinar este pedido:\n\n`;
-  cart.forEach(i => { msg += `• ${i.qty}x ${i.brand} - ${i.name}\n  ${formatPrice(i.price*i.qty)}\n\n`; });
-  msg += `Total estimado: ${formatPrice(total)}\n\n¿Me confirman disponibilidad, forma de pago y envío?`;
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
+function filterByBrand(brand){
+  renderProds(PRODUCTS.filter(p=>p.brand.toLowerCase()===brand.toLowerCase()));
+  document.querySelectorAll('.filter-btn').forEach(t=>t.classList.remove('on'));
+  document.getElementById('productos').scrollIntoView({behavior:'smooth'});
 }
-renderProducts(); updateCart();
+
+/* ── POPUP ── */
+let currentPopupId=null;
+function openPopup(id){
+  const p=PRODUCTS.find(x=>x.id===id);if(!p)return;
+  currentPopupId=id;
+  document.getElementById('popupImgSrc').src=p.img;
+  document.getElementById('popupBrand').textContent=p.brand;
+  document.getElementById('popupName').textContent=p.name;
+  document.getElementById('popupDesc').textContent=p.desc||'';
+  document.getElementById('popupPrice').innerHTML=(p.old?`<span class="old">${fmt(p.old)}</span> `:'')+fmt(p.price);
+  document.getElementById('popupAddBtn').textContent='agregar al pedido';
+  const starsEl=document.getElementById('popupStars');
+  if(starsEl&&p.rat){
+    const full=Math.floor(p.rat),half=(p.rat-full)>=.3?1:0,empty=5-full-half;
+    const rev=Math.floor(60+(p.id*17)%140);
+    let h='<div class="stars-row">';
+    for(let i=0;i<full;i++)h+='<span class="star full">★</span>';
+    if(half)h+='<span class="star half">★</span>';
+    for(let i=0;i<empty;i++)h+='<span class="star empty">★</span>';
+    h+=`<span class="star-score">${p.rat.toFixed(1)}</span><span class="star-count">(${Math.floor(Math.random()*16)+5} reseñas)</span></div>`;
+    starsEl.innerHTML=h;
+  }
+  document.getElementById('popupOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closePopup(e){if(e.target===document.getElementById('popupOverlay'))closePopupDirect()}
+function closePopupDirect(){document.getElementById('popupOverlay').classList.remove('open');document.body.style.overflow='';currentPopupId=null}
+function popupAdd(){
+  if(currentPopupId && typeof SOLDOUT_IDS!=='undefined' && SOLDOUT_IDS.includes(currentPopupId)){
+    return false;
+  }
+  if(!currentPopupId)return;
+  const id=currentPopupId;const p=PRODUCTS.find(x=>x.id===id);
+  const src=document.getElementById('popupImgSrc').src;
+  closePopupDirect();
+  setTimeout(()=>{
+    const ex=cart.find(x=>x.id===id);
+    if(ex)ex.qty++;else if(p)cart.push({...p,qty:1});
+    updateCartUI();flyToCart(src,null);
+  },80);
+}
+
+/* ── CART ── */
+function addToCart(id){esAddToCart(id,document.getElementById('ab'+id))}
+function removeItem(id){cart=cart.filter(x=>x.id!==id);updateCartUI()}
+function changeQty(id,d){const it=cart.find(x=>x.id===id);if(!it)return;it.qty+=d;if(it.qty<=0)removeItem(id);else updateCartUI()}
+
+function esAddToCart(id,btnEl){
+  if(typeof SOLDOUT_IDS!=='undefined' && SOLDOUT_IDS.includes(id)){
+    return false;
+  }
+  const p=PRODUCTS.find(x=>x.id===id);if(!p)return;
+  const ex=cart.find(x=>x.id===id);
+  if(ex)ex.qty++;else cart.push({...p,qty:1});
+  updateCartUI();
+  if(btnEl){btnEl.textContent='✓';btnEl.classList.add('done');setTimeout(()=>{btnEl.textContent='+';btnEl.classList.remove('done')},900)}
+  const card=btnEl?btnEl.closest('.pc'):null;
+  const originEl=card?(card.querySelector('.pimg-wrap img')||btnEl):btnEl;
+  flyToCart(p.img,originEl||btnEl);
+}
+function addRoutineToCart(ids){
+  ids.forEach(id=>{const p=PRODUCTS.find(x=>x.id===id);if(!p)return;const ex=cart.find(x=>x.id===id);if(ex)ex.qty++;else cart.push({...p,qty:1})});
+  updateCartUI();toggleCart();
+}
+
+function updateCartUI(){
+  const total=cart.reduce((s,i)=>s+i.price*i.qty,0);
+  const count=cart.reduce((s,i)=>s+i.qty,0);
+  document.getElementById('cartBadge').textContent=count;
+  const bar=document.getElementById('mobileStickyBar');
+  if(bar){count>0?bar.classList.add('show'):bar.classList.remove('show')}
+  const msbCount=document.getElementById('msbCount');
+  if(msbCount)msbCount.textContent=count;
+  const items=document.getElementById('ditems');
+  const foot=document.getElementById('dfoot');
+  if(!cart.length){
+    items.innerHTML='<div class="d-empty"><div class="ei">🌿</div><p>Tu carrito está vacío.<br>¡Agrega productos para armar tu rutina!</p></div>';
+    foot.style.display='none';
+  }else{
+    items.innerHTML=cart.map(i=>`
+      <div class="d-item">
+        <div class="d-item-img"><img src="${i.img}" alt="${esc(i.name)}" loading="lazy"></div>
+        <div class="d-item-info">
+          <div class="d-brand">${i.brand}</div>
+          <div class="d-name">${esc(i.name)}</div>
+          <div class="d-ctrl">
+            <button class="qb" onclick="changeQty(${i.id},-1)">−</button>
+            <span class="qn">${i.qty}</span>
+            <button class="qb" onclick="changeQty(${i.id},1)">+</button>
+            <button class="d-rm" onclick="removeItem(${i.id})">🗑</button>
+          </div>
+        </div>
+        <div class="d-price">${fmt(i.price*i.qty)}</div>
+      </div>
+    `).join('');
+    foot.style.display='block';
+    document.getElementById('dtotal').textContent=fmt(total);
+    /* Mensaje envío dinámico */
+    const msgEl=document.getElementById('shippingMsgText');
+    if(msgEl){
+      if(total>=50000) msgEl.innerHTML='🎉 ¡Envío gratis desbloqueado!';
+      else if(total>=30000) msgEl.innerHTML=`Te faltan ${fmt(50000-total)} para envío gratis`;
+      else msgEl.innerHTML='Envío a todo Santiago · $3.990';
+    }
+    /* delight — total hace bump al cambiar */
+    const totalEl=document.getElementById('dtotal');
+    totalEl.classList.remove('bump');
+    void totalEl.offsetWidth;
+    totalEl.classList.add('bump');
+    setTimeout(()=>totalEl.classList.remove('bump'),400);
+  }
+}
+function toggleCart(){
+  const drawer=document.getElementById('drawer');
+  const overlay=document.getElementById('overlay');
+  const isOpen=drawer.classList.contains('open');
+  drawer.classList.toggle('open');overlay.classList.toggle('open');
+  document.body.style.overflow=isOpen?'':'hidden';
+}
+function goToShopify(){
+  sendWA();
+}
+function openWhatsAppGeneral(){
+  const msg='¡Hola Kempel Skin! Me gustaría recibir información sobre sus productos de skincare coreano, disponibilidad, despacho y formas de pago.';
+  window.open(`https://wa.me/${WA_NUM}?text=${encodeURIComponent(msg)}`,'_blank','noopener,noreferrer');
+}
+function sendWA(){
+  if(!cart.length){
+    openWhatsAppGeneral();
+    return;
+  }
+  const total=cart.reduce((s,i)=>s+i.price*i.qty,0);
+  let msg='¡Hola Kempel Skin! Me gustaría hacer el siguiente pedido:\n\n';
+  cart.forEach(i=>{msg+=`• ${i.qty}x ${i.brand} - ${i.name}\n  Precio: ${fmt(i.price*i.qty)}\n\n`});
+  msg+=`━━━━━━━━━\n💰 *TOTAL: ${fmt(total)}*\n\n¿Pueden confirmar disponibilidad, método de entrega y pago? Gracias.`;
+  window.open(`https://wa.me/${WA_NUM}?text=${encodeURIComponent(msg)}`,'_blank','noopener,noreferrer');
+}
+
+/* ── FLY TO CART ── */
+function flyToCart(imgSrc,originEl){
+  const size=62;let startX,startY;
+  if(originEl){const r=originEl.getBoundingClientRect();startX=r.left+r.width/2-size/2;startY=r.top+r.height/2-size/2}
+  else{startX=window.innerWidth/2-size/2;startY=window.innerHeight/3}
+  const cartEl=document.getElementById('cartBadge');
+  const cartR=cartEl.getBoundingClientRect();
+  const endX=cartR.left+cartR.width/2-size/2;const endY=cartR.top+cartR.height/2-size/2;
+  const fly=document.createElement('img');
+  fly.src=imgSrc;
+  fly.style.cssText=`position:fixed;width:${size}px;height:${size}px;left:${startX}px;top:${startY}px;border-radius:50%;object-fit:cover;pointer-events:none;z-index:9999;box-shadow:0 4px 20px rgba(26,26,24,.25);transition:none`;
+  document.body.appendChild(fly);
+  const cpX=startX+(endX-startX)*.1;const cpY=Math.min(startY,endY)-Math.abs(endX-startX)*.5;
+  const dur=750,steps=45,dt=dur/steps;let step=0;
+  const iv=setInterval(()=>{
+    step++;const t=step/steps;const te=t<.5?2*t*t:-1+(4-2*t)*t;
+    const bx=Math.pow(1-te,2)*startX+2*(1-te)*te*cpX+Math.pow(te,2)*endX;
+    const by=Math.pow(1-te,2)*startY+2*(1-te)*te*cpY+Math.pow(te,2)*endY;
+    const sc=Math.max(.14,1-te*.86);const op=te>.7?1-(te-.7)/.3:1;
+    fly.style.left=bx+'px';fly.style.top=by+'px';fly.style.width=(size*sc)+'px';fly.style.height=(size*sc)+'px';fly.style.opacity=op;
+    if(step>=steps){
+      clearInterval(iv);fly.remove();
+      const b=document.getElementById('cartBadge');
+      if(b){b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop');setTimeout(()=>b.classList.remove('pop'),400)}
+    }
+  },dt);
+}
+
+/* ── RUTINA ── */
+
+const ADVANCED_PRODUCT_AI={
+1:{ingredient:'Noni + Niacinamide',texture:'light',finish:'fresh',concerns:['manchas','poros','acne','textura'],avoid:['muy sensible'],pair:['32','35'],season:['summer','all']},
+2:{ingredient:'Retinol',texture:'medium',finish:'repair',concerns:['antiage','textura','lineas'],avoid:['sensible','15-20'],pair:['12','19'],season:['winter','all']},
+3:{ingredient:'Retinal',texture:'medium',finish:'glow',concerns:['antiage','manchas','textura'],avoid:['muy sensible'],pair:['16','18'],season:['winter','all']},
+4:{ingredient:'Mattifying SPF',texture:'stick',finish:'matte',concerns:['grasa','poros','brillo'],avoid:[],pair:['27','29'],season:['summer','all']},
+5:{ingredient:'Noni Cleanser',texture:'foam',finish:'clean',concerns:['acne','grasa','poros'],avoid:['muy seca'],pair:['6','27'],season:['all']},
+6:{ingredient:'Noni Toner',texture:'watery',finish:'balanced',concerns:['acne','barrera','hidratacion'],avoid:[],pair:['5','27'],season:['all']},
+8:{ingredient:'Collagen',texture:'rich',finish:'plump',concerns:['antiage','elasticidad','glow'],avoid:['muy grasa'],pair:['58','16'],season:['winter']},
+9:{ingredient:'Vitamin C Capsules',texture:'cream',finish:'glow',concerns:['manchas','glow','tono'],avoid:['muy acne'],pair:['59','18'],season:['all']},
+10:{ingredient:'Relief Complex',texture:'mist',finish:'calming',concerns:['barrera','rojeces'],avoid:[],pair:['11','12'],season:['summer','all']},
+11:{ingredient:'345 Relief',texture:'cream',finish:'calming',concerns:['barrera','acne','sensibilidad'],avoid:[],pair:['60','24'],season:['all']},
+12:{ingredient:'Barrier Complex',texture:'rich',finish:'repair',concerns:['barrera','sequedad','antiage'],avoid:['muy grasa'],pair:['21','19'],season:['winter','all']},
+13:{ingredient:'Vitamin C',texture:'light',finish:'radiant',concerns:['glow','manchas'],avoid:['muy sensible'],pair:['32','35'],season:['all']},
+14:{ingredient:'Gentle Vitamin C',texture:'light',finish:'radiant',concerns:['glow','manchas','sensible'],avoid:[],pair:['24','18'],season:['all']},
+15:{ingredient:'Marine Hydration',texture:'light',finish:'dewy',concerns:['hidratacion','barrera'],avoid:[],pair:['12','19'],season:['all']},
+16:{ingredient:'Madeca',texture:'rich',finish:'repair',concerns:['antiage','barrera','elasticidad'],avoid:['muy grasa'],pair:['3','8'],season:['winter','all']},
+17:{ingredient:'Glow SPF',texture:'cream',finish:'glow',concerns:['glow','hidratacion'],avoid:['muy grasa'],pair:['45','50'],season:['all']},
+18:{ingredient:'Rice + B5',texture:'light',finish:'natural',concerns:['manchas','barrera','sensibilidad'],avoid:[],pair:['34','59'],season:['all']},
+19:{ingredient:'Hyalu-Cica SPF',texture:'serum',finish:'hydrating',concerns:['hidratacion','barrera'],avoid:[],pair:['21','42'],season:['all']},
+20:{ingredient:'Sun Stick',texture:'stick',finish:'soft matte',concerns:['grasa','poros'],avoid:[],pair:['27','29'],season:['summer']},
+21:{ingredient:'Hyalu-Cica',texture:'serum',finish:'hydrating',concerns:['hidratacion','barrera'],avoid:[],pair:['12','19'],season:['all']},
+24:{ingredient:'Centella Toner',texture:'watery',finish:'calming',concerns:['barrera','sensibilidad'],avoid:[],pair:['51','11'],season:['all']},
+25:{ingredient:'Centella Foam',texture:'foam',finish:'soft clean',concerns:['barrera','sensibilidad'],avoid:[],pair:['24','11'],season:['all']},
+27:{ingredient:'Poremizing',texture:'ampoule',finish:'fresh',concerns:['poros','grasa','textura'],avoid:['muy seca'],pair:['4','29'],season:['summer','all']},
+29:{ingredient:'Gel Cream',texture:'gel',finish:'light',concerns:['grasa','acne','hidratacion'],avoid:[],pair:['27','4'],season:['summer','all']},
+32:{ingredient:'Brightening Toner',texture:'watery',finish:'glow',concerns:['manchas','glow'],avoid:[],pair:['34','35'],season:['all']},
+33:{ingredient:'Brightening Cleanser',texture:'gel',finish:'clean glow',concerns:['manchas','glow'],avoid:[],pair:['59','35'],season:['all']},
+34:{ingredient:'Brightening Capsule',texture:'ampoule',finish:'radiant',concerns:['manchas','glow','tono'],avoid:[],pair:['32','18'],season:['all']},
+35:{ingredient:'Brightening Cream',texture:'cream',finish:'glow',concerns:['manchas','glow'],avoid:['muy grasa'],pair:['34','18'],season:['all']},
+41:{ingredient:'Collagen Glass',texture:'mask',finish:'glass skin',concerns:['glow','elasticidad'],avoid:['muy grasa'],pair:['50','17'],season:['winter']},
+42:{ingredient:'Glacier Water HA',texture:'serum',finish:'hydrating',concerns:['hidratacion','deshidratacion'],avoid:[],pair:['19','49'],season:['all']},
+45:{ingredient:'Galactomyces',texture:'essence',finish:'glass skin',concerns:['glow','textura'],avoid:[],pair:['17','49'],season:['all']},
+46:{ingredient:'Bean Toner',texture:'milky',finish:'nourishing',concerns:['hidratacion','glow'],avoid:['muy grasa'],pair:['50','49'],season:['winter','all']},
+47:{ingredient:'Bean Oil Cleanser',texture:'oil',finish:'soft',concerns:['hidratacion','glow'],avoid:['muy acne'],pair:['46','49'],season:['winter']},
+48:{ingredient:'Centella Foam',texture:'foam',finish:'calming',concerns:['sensibilidad','acne'],avoid:[],pair:['51','11'],season:['all']},
+49:{ingredient:'Bean Cream',texture:'cream',finish:'glass skin',concerns:['hidratacion','glow'],avoid:['muy grasa'],pair:['45','50'],season:['winter','all']},
+50:{ingredient:'Bean Essence',texture:'essence',finish:'glass skin',concerns:['glow','elasticidad','hidratacion'],avoid:[],pair:['49','17'],season:['all']},
+51:{ingredient:'Centella Essence',texture:'essence',finish:'calming',concerns:['barrera','sensibilidad','acne'],avoid:[],pair:['11','24'],season:['all']},
+56:{ingredient:'Hyaluronic Acid',texture:'light',finish:'hydrating',concerns:['hidratacion'],avoid:[],pair:['19','12'],season:['all']},
+58:{ingredient:'Bakuchiol',texture:'serum',finish:'firming',concerns:['antiage','lineas','elasticidad'],avoid:[],pair:['16','19'],season:['all']},
+59:{ingredient:'Vitamin Glow Complex',texture:'serum',finish:'radiant',concerns:['glow','manchas','tono'],avoid:[],pair:['35','18'],season:['all']},
+60:{ingredient:'Aloe PDRN',texture:'serum',finish:'calming glow',concerns:['barrera','rojeces','hidratacion','acne'],avoid:[],pair:['11','24'],season:['all']},
+
+61:{ingredient:'PDRN + Madeca',texture:'rich',finish:'repair glow',concerns:['antiage','elasticidad','barrera','lineas'],avoid:[],pair:['58','19'],season:['winter','all']},
+62:{ingredient:'Centella + Tea Tree',texture:'ampoule',finish:'calming fresh',concerns:['barrera','acne','rojeces','grasa'],avoid:[],pair:['48','11'],season:['all']},
+63:{ingredient:'Centella + Tea Tree',texture:'spot cream',finish:'calming matte',concerns:['barrera','acne','rojeces','grasa'],avoid:[],pair:['62','48'],season:['all']},
+
+};
+
+
+function getRoutine(){
+  const nameRaw=document.getElementById('clientName')?.value.trim()||'';
+  const skin=document.getElementById('skinType')?.value||'';
+  const age=document.getElementById('ageRange')?.value||'';
+  const goal=document.getElementById('skinGoal')?.value||'';
+  const result=document.getElementById('resultadoRutina');if(!result)return;
+  const clientName=nameRaw?esc(nameRaw):'Hola';
+
+  if(!skin){
+    result.classList.add('open');
+    result.innerHTML='<div class="rr-head">Selecciona tu tipo de piel</div><div class="rr-copy">Así podemos armar una rutina completa: limpiador, tónico, serum, hidratante y protector solar.</div>';
+    return;
+  }
+
+  const goalLabels={
+    hidratacion:'hidratación profunda',
+    glow:'luminosidad / glow',
+    poros:'poros y textura',
+    manchas:'manchas / tono uniforme',
+    antiage:'firmeza y líneas finas',
+    barrera:'barrera cutánea',
+    acne:'acné / brotes'
+  };
+
+  const stepLabels={
+    limpieza:'Limpiador',
+    tonico:'Tónico',
+    serum:'Serum',
+    hidratante:'Crema',
+    solar:'Protector solar',
+    extra:'Complemento'
+  };
+
+  const skinLabels={
+    grasa:'piel grasa',
+    seca:'piel seca',
+    mixta:'piel mixta',
+    sensible:'piel sensible',
+    acne:'piel con tendencia acneica',
+    manchas:'piel con manchas'
+  };
+
+  // Base de datos profunda por producto.
+  // Cada producto tiene paso, objetivos, piel compatible, edad recomendada,
+  // ingrediente/activo principal y explicación comercial corta.
+  const PRODUCT_PROFILE={
+    1:{step:'serum',goals:['manchas','poros','acne','glow'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Noni + brightening care',why:'ayuda con marcas post-acné, poros visibles y tono irregular',priority:9},
+    2:{step:'serum',goals:['antiage','poros','manchas'],skins:['grasa','mixta','seca'],ages:['21-30','31-40','40+'],key:'Retinol',why:'apoya firmeza, textura, manchas y líneas finas en piel no sensible',priority:16},
+    3:{step:'serum',goals:['antiage','manchas','glow'],skins:['grasa','mixta','seca'],ages:['21-30','31-40','40+'],key:'Retinal / vitamina A',why:'trabaja textura, firmeza, glow y signos visibles de edad',priority:15},
+    4:{step:'solar',goals:['poros','acne'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Sun stick matificante',why:'protección práctica con acabado menos brillante',priority:10},
+    5:{step:'limpieza',goals:['acne','poros'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Noni cleanser',why:'limpieza para piel con brotes, sebo y poros',priority:10},
+    6:{step:'tonico',goals:['acne','poros','barrera'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Noni toner',why:'balancea hidratación ligera y apoyo para piel con imperfecciones',priority:10},
+    7:{step:'extra',goals:['acne','poros'],skins:['grasa','mixta','acne'],ages:['15-20','21-30'],key:'Starter kit Noni',why:'ideal como complemento o kit inicial para piel con brotes',priority:5},
+    8:{step:'extra',goals:['antiage','hidratacion','glow'],skins:['seca','mixta'],ages:['31-40','40+'],key:'Collagen night mask',why:'complemento nocturno para efecto piel más firme y luminosa',priority:7},
+    9:{step:'crema',goals:['manchas','glow','antiage','hidratacion'],skins:['seca','mixta','grasa'],ages:['21-30','31-40','40+'],key:'Vita C capsule cream',why:'crema luminosa para manchas, glow y tono apagado',priority:15},
+    10:{step:'extra',goals:['barrera','hidratacion'],skins:['sensible','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Relief mist',why:'extra calmante para reforzar hidratación durante el día',priority:5},
+    11:{step:'crema',goals:['barrera','hidratacion','acne'],skins:['sensible','grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'345 Relief Complex',why:'calma, hidrata y ayuda a recuperar comodidad en la piel',priority:10},
+    12:{step:'crema',goals:['barrera','hidratacion','antiage'],skins:['seca','sensible','mixta'],ages:['21-30','31-40','40+'],key:'147 Barrier Complex',why:'refuerza barrera y nutrición sin depender de activos irritantes',priority:10},
+    13:{step:'serum',goals:['glow','manchas'],skins:['grasa','seca','mixta'],ages:['21-30','31-40','40+'],key:'Vitamina C',why:'ilumina y ayuda con tono irregular',priority:8},
+    14:{step:'serum',goals:['glow','manchas'],skins:['sensible','seca','mixta'],ages:['21-30','31-40','40+'],key:'Vitamina C suave',why:'opción iluminadora más amable para piel sensible',priority:8},
+    15:{step:'serum',goals:['hidratacion','barrera'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Marine hydration',why:'hidrata sin recargar y ayuda a mejorar sensación de elasticidad',priority:8},
+    16:{step:'crema',goals:['antiage','barrera','hidratacion'],skins:['seca','mixta','sensible'],ages:['21-30','31-40','40+'],key:'Madeca + reparación',why:'crema enfocada en firmeza, reparación y barrera cutánea',priority:16},
+    17:{step:'solar',goals:['glow','hidratacion'],skins:['seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Sunscreen glow',why:'protección diaria con acabado luminoso',priority:9},
+    18:{step:'solar',goals:['manchas','glow','barrera'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Rice + B5',why:'protector solar ideal para rutinas de manchas y piel sensible',priority:10},
+    19:{step:'solar',goals:['hidratacion','barrera'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Hyalu-Cica SPF',why:'protege mientras aporta hidratación ligera',priority:10},
+    20:{step:'solar',goals:['poros','acne'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Sun stick sedoso',why:'reaplicación práctica para piel con tendencia a brillo',priority:8},
+    21:{step:'serum',goals:['hidratacion','barrera'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Hyalu-Cica',why:'hidrata y calma, buena base para barrera',priority:9},
+    22:{step:'solar',goals:['barrera','hidratacion'],skins:['sensible','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Centella SPF',why:'protección diaria con enfoque calmante',priority:9},
+    23:{step:'limpieza',goals:['barrera','hidratacion'],skins:['seca','sensible','mixta'],ages:['21-30','31-40','40+'],key:'Centella cleansing oil',why:'primer paso ideal para retirar protector solar/maquillaje sin resecar',priority:7},
+    24:{step:'tonico',goals:['barrera','hidratacion'],skins:['sensible','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Centella toner',why:'prepara la piel, calma y aporta hidratación ligera',priority:10},
+    25:{step:'limpieza',goals:['barrera','hidratacion'],skins:['seca','sensible','mixta','grasa'],ages:['15-20','21-30','31-40','40+'],key:'Centella foam',why:'limpieza diaria suave para mantener barrera estable',priority:10},
+    26:{step:'extra',goals:['poros','acne'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Clay stick mask',why:'complemento semanal para poros y zona T',priority:7},
+    27:{step:'serum',goals:['poros','acne'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Poremizing ampoule',why:'serum para poros, textura y exceso de sebo',priority:10},
+    28:{step:'extra',goals:['barrera','hidratacion'],skins:['sensible','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Centella travel kit',why:'kit práctico para probar rutina calmante completa',priority:5},
+    29:{step:'crema',goals:['poros','acne','hidratacion'],skins:['grasa','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Gel cream ligero',why:'hidrata sin sensación pesada y acompaña rutinas de poros',priority:10},
+    30:{step:'extra',goals:['barrera','acne'],skins:['sensible','acne','mixta'],ages:['15-20','21-30','31-40'],key:'Pine calming kit',why:'kit calmante para piel con brotes o sensibilidad',priority:5},
+    31:{step:'extra',goals:['hidratacion','barrera'],skins:['seca','sensible','mixta'],ages:['15-20','21-30','31-40'],key:'Dokdo kit',why:'kit de hidratación y equilibrio para iniciar rutina',priority:5},
+    32:{step:'tonico',goals:['glow','manchas'],skins:['grasa','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Tone brightening toner',why:'prepara la piel para luminosidad y tono uniforme',priority:10},
+    33:{step:'limpieza',goals:['glow','manchas'],skins:['grasa','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Brightening gel foam',why:'limpieza para rutina iluminadora sin saltar el primer paso',priority:10},
+    34:{step:'serum',goals:['glow','manchas'],skins:['grasa','seca','mixta'],ages:['21-30','31-40','40+'],key:'Brightening capsule ampoule',why:'serum principal para glow, manchas y tono apagado',priority:10},
+    35:{step:'crema',goals:['glow','manchas'],skins:['grasa','seca','mixta'],ages:['21-30','31-40','40+'],key:'Brightening capsule cream',why:'sella la rutina iluminadora y mantiene hidratación',priority:10},
+    36:{step:'extra',goals:['antiage','barrera'],skins:['seca','mixta'],ages:['31-40','40+'],key:'Madeca lifting mask',why:'mascarilla complementaria para firmeza',priority:5},
+    37:{step:'extra',goals:['glow','manchas'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Madeca brightening mask',why:'mascarilla complementaria para luminosidad',priority:5},
+    38:{step:'extra',goals:['hidratacion','glow'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Hyaluron mask',why:'mascarilla de apoyo para hidratación visible',priority:5},
+    39:{step:'extra',goals:['glow','hidratacion'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Glass skin kit',why:'kit premium para reforzar rutina glow',priority:6},
+    40:{step:'extra',goals:['antiage'],skins:['seca','mixta'],ages:['31-40','40+'],key:'Retinol mask',why:'mascarilla complementaria antiage',priority:5},
+    41:{step:'extra',goals:['glow','hidratacion','antiage'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Collagen glass mask',why:'extra para acabado glow y piel más elástica',priority:6},
+    42:{step:'serum',goals:['hidratacion','barrera'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Glacier water + HA',why:'hidrata profundamente con textura ligera',priority:10},
+    43:{step:'limpieza',goals:['glow','poros'],skins:['grasa','mixta'],ages:['15-20','21-30','31-40'],key:'Rice bran scrub foam',why:'limpieza con efecto pulido para textura y luminosidad',priority:6},
+    44:{step:'extra',goals:['hidratacion'],skins:['seca'],ages:['15-20','21-30','31-40','40+'],key:'Rice milk body lotion',why:'hidratación corporal, no reemplaza crema facial',priority:3},
+    45:{step:'serum',goals:['glow','barrera'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Galactomyces ferment',why:'mejora luminosidad y textura tipo glass skin',priority:8},
+    46:{step:'tonico',goals:['hidratacion','glow','barrera'],skins:['seca','mixta','sensible'],ages:['21-30','31-40','40+'],key:'Bean toner',why:'tónico nutritivo para elasticidad e hidratación',priority:10},
+    47:{step:'limpieza',goals:['hidratacion','barrera','glow'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Bean cleansing oil',why:'limpieza oleosa nutritiva para doble limpieza',priority:8},
+    48:{step:'limpieza',goals:['barrera','acne','hidratacion'],skins:['sensible','acne','mixta','grasa'],ages:['15-20','21-30','31-40','40+'],key:'Centella cleansing foam',why:'limpieza calmante para piel sensible o con brotes',priority:10},
+    49:{step:'crema',goals:['hidratacion','glow','barrera'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Bean cream',why:'nutre y sella hidratación para acabado jugoso',priority:10},
+    50:{step:'serum',goals:['glow','hidratacion','barrera'],skins:['seca','mixta'],ages:['21-30','31-40','40+'],key:'Bean essence',why:'aporta glow, suavidad y sensación glass skin',priority:9},
+    51:{step:'serum',goals:['barrera','hidratacion','acne'],skins:['sensible','seca','mixta','acne'],ages:['15-20','21-30','31-40','40+'],key:'Centella essence',why:'calma y refuerza piel sensibilizada',priority:9},
+    52:{step:'extra',goals:['cabello'],skins:['all'],ages:['15-20','21-30','31-40','40+'],key:'Hair essence',why:'cuidado capilar, no forma parte de rutina facial',priority:2},
+    53:{step:'extra',goals:['cabello'],skins:['all'],ages:['15-20','21-30','31-40','40+'],key:'Hair treatment',why:'tratamiento capilar complementario',priority:2},
+    54:{step:'extra',goals:['cabello'],skins:['all'],ages:['15-20','21-30','31-40','40+'],key:'Hair shampoo',why:'limpieza capilar, no rutina facial',priority:2},
+    55:{step:'extra',goals:['cabello'],skins:['all'],ages:['15-20','21-30','31-40','40+'],key:'Hair oil essence',why:'acabado capilar con brillo',priority:2},
+    56:{step:'serum',goals:['hidratacion'],skins:['seca','mixta','sensible'],ages:['15-20','21-30','31-40','40+'],key:'Hyaluronic acid 97%',why:'hidratación sencilla y directa para piel deshidratada',priority:7},
+    57:{step:'extra',goals:['cabello'],skins:['all'],ages:['15-20','21-30','31-40','40+'],key:'Ceramide hair treatment',why:'tratamiento capilar con ceramidas',priority:2},
+    58:{step:'serum',goals:['antiage','hidratacion'],skins:['grasa','seca','mixta'],ages:['31-40','40+'],key:'Bakuchiol',why:'alternativa antiage para firmeza, hidratación y líneas finas',priority:12},
+    59:{step:'serum',goals:['glow','manchas'],skins:['grasa','seca','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Vitamin illuminating complex',why:'ilumina, unifica tono y apoya manchas',priority:12},
+    60:{step:'serum',goals:['hidratacion','glow','barrera','acne'],skins:['grasa','seca','mixta','sensible','acne'],ages:['15-20','21-30','31-40','40+'],key:'Aloe PDRN',why:'calma rojeces, hidrata y fortalece barrera',priority:12},
+
+    61:{step:'hidratante',goals:['antiage','barrera','elasticidad'],skins:['grasa','seca','mixta','sensible'],ages:['30','31-40','40+'],key:'PDRN + Madeca',why:'crema enfocada en firmeza, vitalidad y reparación visible de la piel',priority:17},
+    62:{step:'serum',goals:['barrera','acne'],skins:['sensible','acne','grasa','mixta'],ages:['15-20','21-30','31-40','40+'],key:'Centella + Tea Tree',why:'serum calmante para rojeces, exceso de grasa y piel sensible con tendencia acneica',priority:13},
+    63:{step:'hidratante',goals:['barrera','acne'],skins:['sensible','acne','grasa','mixta'],ages:['15-20','21-30'],key:'Centella + Tea Tree',why:'crema puntual para calmar granitos, rojeces y exceso de grasa sin resecar',priority:14},
+
+
+
+  };
+
+  const fixedOrder=['limpieza','tonico','serum','hidratante','solar'];
+
+  function skinMatch(profile){
+    if(!profile.skins)return false;
+    return profile.skins.includes(skin)||profile.skins.includes('all');
+  }
+  function ageMatch(profile){
+    if(!age||!profile.ages)return true;
+    return profile.ages.includes(age);
+  }
+  function goalMatch(profile){
+    if(!goal||!profile.goals)return false;
+    return profile.goals.includes(goal);
+  }
+  function scoreProduct(product,step){
+    const profile=PRODUCT_PROFILE[product.id];
+    if(!profile||profile.step!==step)return -999;
+    let score=profile.priority||0;
+    if(skinMatch(profile))score+=35;
+    else score-=18;
+    if(goalMatch(profile))score+=45;
+    if(ageMatch(profile))score+=20;
+    else score-=12;
+
+    // Ajustes finos
+    if(skin==='sensible'&&profile.goals.includes('barrera'))score+=15;
+    if((skin==='grasa'||skin==='acne')&&profile.goals.includes('poros'))score+=10;
+    if((skin==='grasa'||skin==='acne')&&step==='crema'&&product.name.toLowerCase().includes('gel'))score+=12;
+    if((goal==='manchas'||goal==='glow')&&profile.goals.includes('glow'))score+=10;
+    if(age==='40+'&&profile.goals.includes('antiage'))score+=18;
+    if(age==='15-20'&&profile.goals.includes('antiage'))score-=30;
+    if(goal==='antiage'&&step==='solar')score+=8; // siempre proteger activos
+    if(goal==='acne'&&step==='solar'&&(product.id===4||product.id===20))score+=12;
+    if(goal==='manchas'&&step==='solar'&&(product.id===18||product.id===19))score+=12;
+
+    // Motor inteligente basado en ingredientes y compatibilidad real
+    const ai=ADVANCED_PRODUCT_AI[product.id];
+    if(ai){
+      if(goal && ai.concerns.includes(goal))score+=28;
+      if((skin==='grasa'||skin==='acne') && ai.finish.includes('matte'))score+=14;
+      if((skin==='seca'||skin==='sensible') && (ai.finish.includes('hydrating')||ai.finish.includes('calming')))score+=16;
+      if(goal==='glow' && (ai.finish.includes('glow')||ai.finish.includes('glass')))score+=18;
+      if(goal==='antiage' && (ai.concerns.includes('elasticidad')||ai.concerns.includes('lineas')))score+=20;
+      if(goal==='manchas' && ai.concerns.includes('tono'))score+=16;
+
+      // Rotación inteligente para no repetir siempre el mismo producto
+      score += Math.floor(Math.random()*8);
+
+      // Productos premium suben prioridad contextual
+      if(product.price>=21990)score+=4;
+
+      // Match de textura
+      if(skin==='grasa' && (ai.texture==='gel'||ai.texture==='light'||ai.texture==='watery'))score+=10;
+      if(skin==='seca' && (ai.texture==='cream'||ai.texture==='rich'))score+=10;
+    }
+
+
+    // Rotación inteligente para evitar repetir siempre los mismos productos
+    if(goal==='antiage' && step==='serum'){
+      if(product.id===58)score+=8; // Bakuchiol
+      if(product.id===2)score+=10; // Retinol
+      if(product.id===3)score+=11; // Retinal
+    }
+
+    if(goal==='manchas' && step==='crema'){
+      if(product.id===9)score+=14; // Medicube Vita C Cream
+      if(product.id===35)score+=10;
+    }
+
+    if(goal==='antiage' && step==='crema'){
+      if(product.id===16)score+=14; // Madeca Cream
+      if(product.id===12)score+=8;
+    }
+
+    if(age==='21-30' && goal==='antiage'){
+      if(product.id===58)score+=12;
+      if(product.id===3)score+=8;
+    }
+
+
+    return score;
+  }
+
+  function pickStep(step,usedIds){
+    const candidates=PRODUCTS
+      .filter(p=>PRODUCT_PROFILE[p.id]&&PRODUCT_PROFILE[p.id].step===step&&!usedIds.includes(p.id))
+      .map(p=>({product:p,profile:PRODUCT_PROFILE[p.id],score:scoreProduct(p,step)}))
+      .sort((a,b)=>b.score-a.score);
+    return candidates[0]||null;
+  }
+
+  const used=[];
+  const picks=fixedOrder.map(step=>{
+    const picked=pickStep(step,used);
+    if(picked)used.push(picked.product.id);
+    return picked?{step,...picked}:null;
+  }).filter(Boolean);
+
+  // Complementos: mascarillas, kits o tratamientos que no reemplazan la rutina de 5 pasos.
+  const extras=PRODUCTS
+    .filter(p=>{
+      const prof=PRODUCT_PROFILE[p.id];
+      if(!prof||prof.step!=='extra')return false;
+      if(prof.goals.includes('cabello'))return false; // se excluye de rutina facial
+      return skinMatch(prof)||goalMatch(prof)||ageMatch(prof);
+    })
+    .map(p=>({product:p,profile:PRODUCT_PROFILE[p.id],score:scoreProduct({...p},'extra')}))
+    .sort((a,b)=>{
+      const ga=(goal&&a.profile.goals.includes(goal))?1:0;
+      const gb=(goal&&b.profile.goals.includes(goal))?1:0;
+      return gb-ga || (b.profile.priority||0)-(a.profile.priority||0);
+    })
+    .slice(0,2);
+
+  const selected=picks.map(x=>x.product);
+  const routineTitle=goal?`Rutina enfocada en ${goalLabels[goal]||goal}`:'Rutina equilibrada para tu piel';
+  const ageText=age?`Edad: ${esc(age)}`:'Edad no indicada';
+  const goalText=goal?`Objetivo: ${esc(goalLabels[goal]||goal)}`:'Objetivo no indicado';
+
+  result.classList.add('open');
+  result.innerHTML=`
+    <div class="rr-head">${clientName}, rutina recomendada en 5 pasos</div>
+    <div class="rr-copy"><strong>${routineTitle}</strong> · ${esc(skinLabels[skin]||skin)} · ${ageText} · ${goalText}</div>
+    <div class="rr-list">${picks.map((pick,i)=>{
+      const p=pick.product;
+      const prof=pick.profile;
+      return `
+      <div class="rr-item">
+        <img src="${p.img}" alt="${esc(p.name)}" loading="lazy">
+        <div class="rr-info">
+          <div class="rr-step">Paso ${i+1} · ${stepLabels[pick.step]}</div>
+          <div class="rr-name">${esc(p.name)}</div>
+          <div class="rr-price">${fmt(p.price)} · ${esc(prof.key)}</div>
+          <div class="rr-price" style="font-size:10px;color:rgba(255,255,255,.45);line-height:1.35">${esc(prof.why)}</div>
+        </div>
+        <button class="rr-add" onclick="addToCart(${p.id})">agregar</button>
+      </div>`}).join('')}
+    </div>
+    ${extras.length?`
+      <div class="rr-head" style="font-size:15px;margin-top:14px">Complemento opcional</div>
+      <div class="rr-list">${extras.map((item)=>{
+        const p=item.product;
+        const prof=item.profile;
+        return `
+        <div class="rr-item">
+          <img src="${p.img}" alt="${esc(p.name)}" loading="lazy">
+          <div class="rr-info">
+            <div class="rr-step">${stepLabels[prof.step]} · ${esc(prof.key)}</div>
+            <div class="rr-name">${esc(p.name)}</div>
+            <div class="rr-price">${fmt(p.price)} · ${esc(prof.why)}</div>
+          </div>
+          <button class="rr-add" onclick="addToCart(${p.id})">agregar</button>
+        </div>`}).join('')}</div>`:''}
+    <div class="rr-copy" style="margin-top:10px">Orden recomendado: limpiador, tónico, serum, hidratante y protector solar. Los complementos no reemplazan la rutina base.</div>
+    <div class="rr-actions">
+      <button class="btn-dark" onclick="addRoutineToCart([${selected.map(p=>p.id).join(',')}])">agregar rutina completa</button>
+      <button class="btn-dark" style="background:transparent;border:1px solid rgba(255,255,255,.25);color:rgba(255,255,255,.7)" onclick="document.getElementById('productos').scrollIntoView({behavior:'smooth'})">ver catálogo</button>
+    </div>`;
+}
+
+/* ── COUNTERS ── */
+function initCounters(){
+  document.querySelectorAll('.count[data-target]').forEach(el=>{
+    if(el.dataset.done==='1')return;el.dataset.done='1';
+    const target=Number(el.getAttribute('data-target'))||0;
+    const prefix=el.getAttribute('data-prefix')||'';
+    let cur=0;const inc=target/60;
+    const tick=()=>{cur+=inc;if(cur<target){el.textContent=prefix+Math.ceil(cur).toLocaleString('es-CL');setTimeout(tick,20)}else el.textContent=prefix+target.toLocaleString('es-CL')};
+    tick();
+  });
+}
+
+/* ── SCROLL REVEAL ── */
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach((e,i)=>{if(e.isIntersecting)setTimeout(()=>e.target.classList.add('visible'),i*80)})
+},{threshold:0.06});
+
+/* ── KEYBOARD ── */
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){
+    closePopupDirect();
+    if(document.getElementById('drawer').classList.contains('open'))toggleCart();
+  }
+});
+
+/* ── FEATURED PRODUCTS ── */
+const FEATURED_IDS = [1, 50, 21, 18, 39, 2, 45, 16, 27, 34];
+const FEATURED_BADGES = {1:'top', 50:'top', 21:'top', 18:'new', 39:'new', 2:'top', 45:'new', 16:'top', 27:'top', 34:'new'};
+
+function renderFeatured(){
+  const track = document.getElementById('featuredTrack');
+  const dotsEl = document.getElementById('featuredDots');
+  if(!track) return;
+
+  const list = FEATURED_IDS.map(id => PRODUCTS.find(p => p.id === id)).filter(Boolean);
+
+  track.innerHTML = list.map(p => {
+    const badge = FEATURED_BADGES[p.id];
+    return `
+      <div class="fc-item" onclick="openPopup(${p.id})">
+        <div class="fc-img">
+          <img src="${p.img}" alt="${esc(p.name)}" loading="lazy" decoding="async">
+          ${badge ? `<span class="fc-badge ${badge}">${badge === 'top' ? '★ top' : 'nuevo'}</span>` : ''}
+        </div>
+        <div class="fc-body">
+          <div class="fc-brand">${p.brand}</div>
+          <div class="fc-name">${esc(p.name)}</div>
+          <div class="fc-foot">
+            <div class="fc-price">${p.old ? `<span class="old">${fmt(p.old)}</span>` : ''}${fmt(p.price)}</div>
+            <button class="fc-btn" id="fcb${p.id}" onclick="event.stopPropagation();fcAdd(${p.id},this)" aria-label="Agregar">+</button>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  /* Dots */
+  const visible = Math.floor(track.offsetWidth / 220) || 1;
+  const pages = Math.ceil(list.length / visible);
+  dotsEl.innerHTML = Array.from({length: pages}, (_,i) =>
+    `<button class="featured-dot${i===0?' on':''}" onclick="featuredGoTo(${i})" aria-label="Página ${i+1}"></button>`
+  ).join('');
+
+  /* Actualizar dot activo al scrollear */
+  track.addEventListener('scroll', () => {
+    const idx = Math.round(track.scrollLeft / (track.scrollWidth / list.length));
+    const page = Math.floor(idx / visible);
+    dotsEl.querySelectorAll('.featured-dot').forEach((d,i) => d.classList.toggle('on', i === page));
+  }, {passive:true});
+}
+
+function featuredGoTo(page){
+  const track = document.getElementById('featuredTrack');
+  const cardW = track.querySelector('.fc-item')?.offsetWidth + 12 || 232;
+  const visible = Math.floor(track.offsetWidth / cardW) || 1;
+  track.scrollTo({left: page * visible * cardW, behavior:'smooth'});
+}
+
+function fcAdd(id, btnEl){
+  const p = PRODUCTS.find(x => x.id === id); if(!p) return;
+  const ex = cart.find(x => x.id === id);
+  if(ex) ex.qty++; else cart.push({...p, qty:1});
+  updateCartUI();
+  if(btnEl){ btnEl.textContent='✓'; btnEl.classList.add('done'); setTimeout(()=>{btnEl.textContent='+';btnEl.classList.remove('done')},900) }
+  flyToCart(p.img, btnEl);
+}
+
+/* ── INIT ── */
+document.addEventListener('DOMContentLoaded',()=>{
+  renderFilters();
+  renderProds(PRODUCTS);
+  renderFeatured();
+  initCounters();
+
+  /* Scroll reveal — todos los tipos */
+  const revealObs=new IntersectionObserver(entries=>{
+    entries.forEach((e,i)=>{
+      if(e.isIntersecting) setTimeout(()=>e.target.classList.add('visible'),i*90)
+    })
+  },{threshold:0.06});
+  document.querySelectorAll('.reveal,.reveal-left,.reveal-scale').forEach(r=>revealObs.observe(r));
+
+  /* Trust items — entran al cargar si están en viewport */
+  const trustObs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting) e.target.style.animationPlayState='running'
+    })
+  },{threshold:0.1});
+  document.querySelectorAll('.trust-item').forEach(t=>{
+    t.style.animationPlayState='paused';
+    trustObs.observe(t);
+  });
+
+  /* Producto cards — stagger al entrar en viewport */
+  const cardObs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        const cards=document.querySelectorAll('.pc');
+        cards.forEach((c,i)=>{
+          setTimeout(()=>{
+            c.style.opacity='1';
+            c.style.transform='translateY(0)';
+          },i*40);
+        });
+        cardObs.disconnect();
+      }
+    })
+  },{threshold:0.05});
+  const grid=document.getElementById('pgrid');
+  if(grid) cardObs.observe(grid);
+
+  /* ── AUTO-FILTER desde URL hash ──
+     Menú Shopify → Cuidado del Cabello → skincare.kempelskin.cl#cabello
+     Activa el filtro automáticamente y hace scroll a productos */
+  const hash=window.location.hash.replace('#','').toLowerCase();
+  const validCats=CATS.map(c=>c.k);
+  if(hash && validCats.includes(hash)){
+    setTimeout(()=>{
+      const btn=document.querySelector(`.filter-btn[data-cat="${hash}"]`);
+      if(btn){
+        filterProds(hash,btn);
+        const sec=document.getElementById('productos');
+        if(sec) sec.scrollIntoView({behavior:'smooth',block:'start'});
+      }
+    },450);
+  }
+});
+
+
+
 </script>
+<script>
+
+/* WhatsApp funcional definitivo Kempel Skin */
+window.KEMPEL_WHATSAPP = "56921938724";
+
+function kempelOpenWhatsAppText(message) {
+  var text = encodeURIComponent(message || "Hola, quiero comprar productos de Kempel Skin. ¿Me pueden ayudar?");
+  var url = "https://wa.me/" + window.KEMPEL_WHATSAPP + "?text=" + text;
+  window.open(url, '_blank', 'noopener,noreferrer');
+}
+
+function openWhatsApp() {
+  kempelOpenWhatsAppText("Hola, quiero comprar productos de Kempel Skin. ¿Me pueden ayudar?");
+}
+
+function sendCartToWhatsAppSafe() {
+  try {
+    if (typeof cart === "undefined" || !Array.isArray(cart) || cart.length === 0) {
+      kempelOpenWhatsAppText("Hola, quiero comprar productos de Kempel Skin. ¿Me pueden ayudar?");
+      return;
+    }
+
+    var total = 0;
+    var lines = [];
+    for (var i = 0; i < cart.length; i++) {
+      var item = cart[i];
+      var qty = item.qty || 1;
+      var price = Number(item.price || 0);
+      total += price * qty;
+      var priceText = (typeof formatPrice === "function") ? formatPrice(price * qty) : "$" + Math.round(price * qty).toLocaleString("es-CL");
+      lines.push("• " + item.name + " x" + qty + " - " + priceText);
+    }
+
+    var totalText = (typeof formatPrice === "function") ? formatPrice(total) : "$" + Math.round(total).toLocaleString("es-CL");
+    var message = "Hola, quiero confirmar este pedido en Kempel Skin:\n\n" + lines.join("\n") + "\n\nTotal: " + totalText + "\n\nQuedo atento/a para coordinar despacho o retiro.";
+    kempelOpenWhatsAppText(message);
+  } catch (e) {
+    kempelOpenWhatsAppText("Hola, quiero comprar productos de Kempel Skin. ¿Me pueden ayudar?");
+  }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+(function(){
+  var WHATSAPP_NUMERO = "56921938724";
+
+  function formatoCLP(valor){
+    valor = Number(valor || 0);
+    return "$" + Math.round(valor).toLocaleString("es-CL");
+  }
+
+  function obtenerCarrito(){
+    try {
+      if (typeof cart !== "undefined" && Array.isArray(cart)) return cart;
+      if (window.cart && Array.isArray(window.cart)) return window.cart;
+    } catch(e) {}
+    return [];
+  }
+
+  function abrirCotizacionWhatsApp(){
+    var carrito = obtenerCarrito();
+    var mensaje = "";
+
+    if (!carrito.length) {
+      mensaje = "Hola Kempel Skin, quiero cotizar productos de skincare coreano. ¿Me pueden ayudar?";
+    } else {
+      var total = 0;
+      var lineas = carrito.map(function(item){
+        var cantidad = Number(item.qty || item.quantity || 1);
+        var precio = Number(item.price || 0);
+        var subtotal = cantidad * precio;
+        total += subtotal;
+        var marca = item.brand ? item.brand + " - " : "";
+        var nombre = item.name || "Producto";
+        return "• " + cantidad + "x " + marca + nombre + "\n  Subtotal: " + formatoCLP(subtotal);
+      });
+
+      mensaje =
+        "Hola Kempel Skin, quiero cotizar este pedido:\n\n" +
+        lineas.join("\n\n") +
+        "\n\nTotal estimado: " + formatoCLP(total) +
+        "\n\nQuedo atento/a para confirmar disponibilidad, despacho y forma de pago.";
+    }
+
+    var url = "https://wa.me/" + WHATSAPP_NUMERO + "?text=" + encodeURIComponent(mensaje);
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+
+  function activarBotonWhatsApp(){
+    var boton = document.getElementById("cartWhatsAppBtn");
+    if (!boton) return;
+
+    boton.onclick = function(event){
+      event.preventDefault();
+      event.stopPropagation();
+      abrirCotizacionWhatsApp();
+      return false;
+    };
+  }
+
+  document.addEventListener("DOMContentLoaded", activarBotonWhatsApp);
+  setTimeout(activarBotonWhatsApp, 300);
+  setTimeout(activarBotonWhatsApp, 1000);
+
+  window.abrirCotizacionWhatsApp = abrirCotizacionWhatsApp;
+})();
+</script>
+
+
+<script>
+/* Fallback visible si el navegador bloquea WhatsApp */
+(function(){
+  document.addEventListener("click", function(e){
+    var boton = e.target.closest && e.target.closest("#cartWhatsAppBtn");
+    if(!boton) return;
+
+    setTimeout(function(){
+      var aviso = document.getElementById("waFallbackNotice");
+      if(!aviso){
+        aviso = document.createElement("p");
+        aviso.id = "waFallbackNotice";
+        aviso.style.cssText = "margin-top:10px;text-align:center;font-size:11px;color:#6d7f92;line-height:1.5;";
+        aviso.innerHTML = '';
+        boton.insertAdjacentElement("afterend", aviso);
+      }
+    }, 400);
+  }, true);
+})();
+</script>
+
+
+<script>
+/* Actualiza el enlace real de WhatsApp sin afectar productos */
+(function(){
+  var WA_NUMBER = "56921938724";
+
+  function clp(value){
+    value = Number(value || 0);
+    return "$" + Math.round(value).toLocaleString("es-CL");
+  }
+
+  function getCart(){
+    try {
+      if (typeof cart !== "undefined" && Array.isArray(cart)) return cart;
+      if (window.cart && Array.isArray(window.cart)) return window.cart;
+    } catch(e) {}
+    return [];
+  }
+
+  function buildWhatsappHref(){
+    var items = getCart();
+    var msg = "Hola Kempel Skin, quiero cotizar productos de skincare coreano.";
+
+    if(items.length){
+      var total = 0;
+      var lines = items.map(function(item){
+        var qty = Number(item.qty || item.quantity || 1);
+        var price = Number(item.price || 0);
+        var subtotal = qty * price;
+        total += subtotal;
+        var brand = item.brand ? item.brand + " - " : "";
+        var name = item.name || "Producto";
+        return "• " + qty + "x " + brand + name + "\n  Subtotal: " + clp(subtotal);
+      });
+
+      msg = "Hola Kempel Skin, quiero cotizar este pedido:\n\n" +
+            lines.join("\n\n") +
+            "\n\nTotal estimado: " + clp(total) +
+            "\n\nQuedo atento/a para confirmar disponibilidad, despacho y forma de pago.";
+    }
+
+    return "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg);
+  }
+
+  function updateWhatsappLink(){
+    var link = document.getElementById("cartWhatsAppLink");
+    if(!link) return;
+    link.href = buildWhatsappHref();
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
+
+  document.addEventListener("DOMContentLoaded", updateWhatsappLink);
+  document.addEventListener("click", function(e){
+    var link = e.target.closest && e.target.closest("#cartWhatsAppLink");
+    if(link) updateWhatsappLink();
+  }, true);
+
+  setInterval(updateWhatsappLink, 1000);
+})();
+</script>
+
+
+<script>
+/* Form real de WhatsApp: genera cotización antes de enviar */
+function prepareWhatsAppQuote(){
+  try{
+    var input = document.getElementById('waQuoteText');
+    if(!input) return true;
+
+    var msg = 'Hola Kempel Skin, quiero cotizar productos de skincare coreano.';
+
+    if(typeof cart !== 'undefined' && Array.isArray(cart) && cart.length){
+      var total = 0;
+      var lines = cart.map(function(i){
+        var qty = Number(i.qty || 1);
+        var price = Number(i.price || 0);
+        var subtotal = qty * price;
+        total += subtotal;
+        var subtotalText = (typeof fmt === 'function') ? fmt(subtotal) : ('$' + Math.round(subtotal).toLocaleString('es-CL'));
+        return '• ' + qty + 'x ' + (i.brand ? i.brand + ' - ' : '') + i.name + '\n  Subtotal: ' + subtotalText;
+      });
+
+      var totalText = (typeof fmt === 'function') ? fmt(total) : ('$' + Math.round(total).toLocaleString('es-CL'));
+
+      msg = 'Hola Kempel Skin, quiero cotizar este pedido:\n\n' +
+            lines.join('\n\n') +
+            '\n\nTotal estimado: ' + totalText +
+            '\n\nQuedo atento/a para confirmar disponibilidad, despacho y forma de pago.';
+    }
+
+    input.value = msg;
+  }catch(e){}
+  return true;
+}
+</script>
+
 </body>
 </html>
