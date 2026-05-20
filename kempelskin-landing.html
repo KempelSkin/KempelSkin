@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KempelSkin | Catálogo K-Beauty</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;background:#fbf7f2;color:#352b27}button,a{font-family:inherit}.topbar{position:sticky;top:0;z-index:50;background:rgba(251,247,242,.94);backdrop-filter:blur(14px);border-bottom:1px solid #eadbd0;padding:14px 22px;display:flex;justify-content:space-between;align-items:center}.logo{font-family:'Cormorant Garamond',serif;font-size:25px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#2b211e;text-decoration:none}.logo span{display:block;font-family:'DM Sans';font-size:10px;font-weight:400;letter-spacing:.24em;color:#9a877e;text-align:center}.cart-btn{background:#2b211e;color:white;border:0;border-radius:999px;padding:12px 18px;cursor:pointer;font-weight:700;display:flex;gap:8px;align-items:center}.cart-count{background:#d79b8e;border-radius:50%;width:22px;height:22px;display:grid;place-items:center;font-size:12px}.hero{min-height:74vh;padding:70px 22px 50px;display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center;background:linear-gradient(135deg,#fbf7f2,#ead9cd)}.hero-copy{max-width:620px;margin:auto}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:#b88779;font-weight:700;margin-bottom:14px}.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,7vw,86px);line-height:.94;color:#2b211e;margin-bottom:18px}.hero h1 em{font-style:italic;color:#b88779}.hero p{font-size:16px;line-height:1.8;color:#76665f;margin-bottom:28px;max-width:500px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn-primary,.btn-outline{border-radius:999px;padding:15px 25px;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:700;cursor:pointer}.btn-primary{background:#2b211e;color:#fff;border:1px solid #2b211e}.btn-outline{background:transparent;color:#2b211e;border:1px solid #2b211e}.hero-card{min-height:460px;border-radius:36px;background:#fff;box-shadow:0 30px 80px rgba(58,42,35,.12);padding:28px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}.hero-card:before{content:'';position:absolute;inset:28px;border-radius:30px;background:linear-gradient(160deg,#f5e5dc,#fff,#e9d2c7)}.hero-product{position:relative;z-index:1;text-align:center}.hero-product img{max-width:330px;width:88%;border-radius:26px;box-shadow:0 20px 45px rgba(0,0,0,.12)}.seal{position:absolute;top:32px;right:32px;background:#d79b8e;color:white;border-radius:50%;width:92px;height:92px;display:grid;place-items:center;text-align:center;font-weight:800;font-size:14px;line-height:1.1;z-index:2}.section{padding:70px 22px}.section-head{text-align:center;margin:0 auto 36px;max-width:720px}.section-head h2{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5vw,58px);line-height:1.05;margin-bottom:10px}.section-head p{color:#8a7770;line-height:1.7}.tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:32px}.tab{border:1px solid #dbc7bc;background:white;border-radius:999px;padding:10px 18px;cursor:pointer;text-transform:uppercase;font-size:12px;letter-spacing:.08em}.tab.active,.tab:hover{background:#2b211e;color:white;border-color:#2b211e}.grid{max-width:1180px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 14px 45px rgba(58,42,35,.08);transition:.25s}.card:hover{transform:translateY(-4px)}.card-img{height:280px;background:#f1e3db;position:relative;overflow:hidden;cursor:pointer}.card-img img{width:100%;height:100%;object-fit:cover;transition:.35s}.card:hover .card-img img{transform:scale(1.04)}.badge{position:absolute;top:14px;left:14px;background:#d79b8e;color:white;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:800}.card-body{padding:20px}.brand{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:#9a877e;margin-bottom:7px}.name{font-family:'Cormorant Garamond',serif;font-size:25px;line-height:1.08;margin-bottom:10px;color:#2b211e}.desc{font-size:13px;line-height:1.7;color:#7d6c65;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.price-row{display:flex;align-items:baseline;gap:9px;margin-bottom:16px}.old{text-decoration:line-through;color:#a49791;font-size:14px}.price{font-size:24px;font-weight:800;color:#bf5f55}.card-actions{display:grid;grid-template-columns:1fr auto;gap:10px}.view-btn{border:1px solid #2b211e;background:transparent;color:#2b211e;border-radius:999px;padding:12px;cursor:pointer;font-weight:800;text-transform:uppercase;font-size:12px}.add-btn{border:0;background:#2b211e;color:white;border-radius:999px;width:46px;height:46px;font-size:22px;cursor:pointer}.info-band{background:#2b211e;color:white;border-radius:32px;max-width:1180px;margin:auto;padding:34px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.info-item h3{font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:8px}.info-item p{color:rgba(255,255,255,.62);line-height:1.7;font-size:14px}.modal{position:fixed;inset:0;background:rgba(0,0,0,.58);z-index:100;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal-box{background:#fff;border-radius:28px;max-width:980px;width:100%;max-height:92vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:28px;position:relative}.close{position:absolute;top:16px;right:18px;background:white;border:1px solid #eadbd0;border-radius:50%;width:38px;height:38px;cursor:pointer;font-size:20px}.main-img{width:100%;border-radius:22px;background:#f1e3db;aspect-ratio:1/1;object-fit:cover}.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.thumbs img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px;cursor:pointer;border:2px solid transparent}.thumbs img:hover{border-color:#d79b8e}.modal-title{font-family:'Cormorant Garamond',serif;font-size:42px;line-height:1.02;margin:8px 0 14px}.modal-desc{white-space:pre-line;color:#6d5d56;line-height:1.8;font-size:14px;margin:18px 0}.qty-line{display:flex;align-items:center;gap:12px;margin:18px 0}.qty-line button{width:34px;height:34px;border-radius:50%;border:1px solid #dbc7bc;background:white;cursor:pointer}.drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:110;display:none}.drawer-overlay.open{display:block}.drawer{position:fixed;top:0;right:-430px;width:430px;max-width:96vw;height:100%;background:white;z-index:120;transition:.3s;display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(0,0,0,.18)}.drawer.open{right:0}.drawer-head{padding:22px;border-bottom:1px solid #eadbd0;display:flex;justify-content:space-between;align-items:center}.drawer-head h3{font-family:'Cormorant Garamond',serif;font-size:28px}.drawer-head button{border:0;background:white;font-size:25px;cursor:pointer}.cart-items{flex:1;overflow:auto;padding:18px;display:flex;flex-direction:column;gap:14px}.empty{text-align:center;color:#8a7770;padding:44px 10px;line-height:1.7}.cart-item{display:grid;grid-template-columns:74px 1fr auto;gap:12px;background:#fbf7f2;border-radius:16px;padding:12px}.cart-item img{width:74px;height:74px;object-fit:cover;border-radius:12px}.cart-name{font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.1}.cart-meta{font-size:12px;color:#8a7770}.cart-controls{display:flex;align-items:center;gap:8px;margin-top:8px}.mini{width:26px;height:26px;border-radius:50%;border:1px solid #d8c7bd;background:white;cursor:pointer}.trash{border:0;background:transparent;cursor:pointer}.cart-price{font-weight:800;color:#bf5f55;white-space:nowrap;align-self:center}.drawer-foot{border-top:1px solid #eadbd0;padding:18px}.total{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.total strong{font-size:26px;color:#2b211e}.wa{width:100%;border:0;border-radius:16px;background:#25d366;color:white;padding:16px;font-weight:900;font-size:15px;cursor:pointer}.note{text-align:center;color:#8a7770;font-size:12px;line-height:1.5;margin-top:10px}.float-wa{position:fixed;right:22px;bottom:22px;background:#25d366;color:white;border:0;border-radius:50%;width:62px;height:62px;box-shadow:0 10px 35px rgba(37,211,102,.4);cursor:pointer;font-size:29px;z-index:40}.footer{text-align:center;padding:36px 22px;background:#1f1714;color:rgba(255,255,255,.55);font-size:13px}.footer strong{display:block;color:white;font-family:'Cormorant Garamond',serif;font-size:25px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}@media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center}.hero p{margin-left:auto;margin-right:auto}.hero-actions{justify-content:center}.grid{grid-template-columns:repeat(2,1fr)}.info-band{grid-template-columns:1fr}.modal-box{grid-template-columns:1fr}.hero-card{min-height:360px}}@media(max-width:560px){.topbar{padding:12px}.logo{font-size:19px}.hero{padding-top:44px}.grid{grid-template-columns:1fr}.card-img{height:320px}.section{padding:52px 16px}.modal{padding:8px}.modal-box{padding:18px;border-radius:20px}.modal-title{font-size:34px}.cart-btn{padding:10px 12px;font-size:12px}}
+/* Card limpia: la descripción completa solo aparece al abrir Ver producto */
+.category-pill{display:inline-flex;margin:2px 0 12px;padding:5px 11px;border-radius:999px;background:#fbf7f2;border:1px solid #eadbd0;color:#8a7770;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.card-body .desc{display:none}.card-actions{display:grid;grid-template-columns:1fr 46px;gap:10px}.view-btn{transition:.22s}.view-btn:hover{background:#2b211e;color:white}.add-btn{transition:.22s}.add-btn:hover{background:#d79b8e;transform:translateY(-1px)}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#">KempelSkin<span>K-Beauty Chile</span></a>
+  <button class="cart-btn" onclick="toggleCart()">🛒 Carrito <span class="cart-count" id="cartCount">0</span></button>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">Skincare coreano original</div>
+    <h1>Tu rutina <em>glow</em><br>en un solo lugar</h1>
+    <p>Explora cremas, sérums, tónicos y protectores solares. Agrega tus productos al carrito y coordina disponibilidad, pago y envío directo por WhatsApp.</p>
+    <div class="hero-actions">
+      <a href="#productos" class="btn-primary">Ver productos</a>
+      <a href="https://wa.me/56921938724" target="_blank" class="btn-outline">Consultar por WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="seal">100%<br>Original</div>
+    <div class="hero-product">
+      <img src="https://enigmastore.cl/cdn/shop/files/1_ca10b9fb-9706-4b6f-8690-5ef079a5e451.png?crop=center&height=1200&v=1776358402&width=1200" alt="Producto destacado KempelSkin">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="productos">
+  <div class="section-head">
+    <div class="eyebrow">Catálogo KempelSkin</div>
+    <h2>Elige tus productos</h2>
+    <p>Filtra por tipo, entra a cada producto para ver más fotos y agrega lo que necesitas al carrito.</p>
+  </div>
+  <div class="tabs">
+    <button class="tab active" onclick="filterProducts('all', this)">Todos</button>
+    <button class="tab" onclick="filterProducts('serum', this)">Sérum</button>
+    <button class="tab" onclick="filterProducts('crema', this)">Cremas</button>
+    <button class="tab" onclick="filterProducts('tonico', this)">Tónicos</button>
+    <button class="tab" onclick="filterProducts('limpieza', this)">Limpieza</button>
+    <button class="tab" onclick="filterProducts('protector', this)">Protector solar</button>
+  </div>
+  <div class="grid" id="productsGrid"></div>
+</section>
+
+<section class="section">
+  <div class="info-band">
+    <div class="info-item"><h3>Compra simple</h3><p>Agrega productos al carrito y envía tu pedido por WhatsApp en un clic.</p></div>
+    <div class="info-item"><h3>Despacho coordinado</h3><p>Confirmamos disponibilidad, total y opciones de envío directamente contigo.</p></div>
+    <div class="info-item"><h3>K-Beauty original</h3><p>Selección de skincare coreano para rutinas de hidratación, glow y cuidado diario.</p></div>
+  </div>
+</section>
+
+<div class="modal" id="productModal"><div class="modal-box" id="productModalBox"></div></div>
+<div class="drawer-overlay" id="drawerOverlay" onclick="toggleCart()"></div>
+<aside class="drawer" id="cartDrawer">
+  <div class="drawer-head"><h3>Mi carrito</h3><button onclick="toggleCart()">×</button></div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="drawer-foot" id="cartFooter" style="display:none">
+    <div class="total"><span>Total estimado</span><strong id="cartTotal">$0</strong></div>
+    <button class="wa" onclick="sendWhatsApp()">Coordinar envío por WhatsApp</button>
+    <p class="note">El total es referencial. Confirmaremos disponibilidad, pago y despacho por WhatsApp.</p>
+  </div>
+</aside>
+<button class="float-wa" onclick="window.open('https://wa.me/56921938724','_blank')">☘</button>
+<footer class="footer"><strong>KempelSkin</strong>Skincare coreano · Pedido y envío coordinado por WhatsApp +56 9 2193 8724</footer>
+
+<script>
+const WHATSAPP_NUMBER = '56921938724';
+
+const PRODUCTS = [
+  {
+    id: 1,
+    name: 'Vitamin C Boosting Serum 30ml',
+    brand: 'Dr Althea',
+    price: 21990,
+    oldPrice: 24990,
+    category: 'serum',
+    images: [
+      'https://enigmastore.cl/cdn/shop/files/1_ca10b9fb-9706-4b6f-8690-5ef079a5e451.png?crop=center&height=1200&v=1776358402&width=1200',
+      'https://enigmastore.cl/cdn/shop/files/5_3e13b9fe-2aae-4218-8bfe-6a661be4f6ed.png?crop=center&height=1200&v=1776358426&width=1200',
+      'https://enigmastore.cl/cdn/shop/files/7_33b43807-7ed6-48c9-a7e7-c04eb1c4c185.png?crop=center&height=1200&v=1776358402&width=1200'
+    ],
+    desc: `Sérum facial con vitamina C que ayuda a iluminar la piel, mejorar la uniformidad del tono y reducir la apariencia de manchas.
+
+Textura ligera de rápida absorción, ideal para piel opaca, tono desigual o signos de fatiga.
+
+Beneficios:
+• Aporta efecto glow
+• Ayuda a mejorar manchas visibles
+• Mejora la textura de la piel
+• Deja la piel más luminosa
+
+Modo de uso: aplicar sobre rostro limpio y tonificado. De día, complementar con protector solar.`
+  },
+  {
+    id: 7,
+    name: 'Gentle Vitamin C Serum 30ml',
+    brand: 'Dr Althea',
+    price: 21990,
+    oldPrice: 24990,
+    category: 'serum',
+    images: [
+      'https://enigmastore.cl/cdn/shop/files/1_caca54ad-49b8-4b73-ace8-93644d5985a6.png?crop=center&height=1200&v=1776357946&width=1200',
+      'https://enigmastore.cl/cdn/shop/files/2_e670acb5-ac63-4dc9-9d42-c64e5eef739b.png?crop=center&height=1200&v=1776357946&width=1200',
+      'https://enigmastore.cl/cdn/shop/files/6_85670f58-86d5-4c8c-a4d9-fc585c32d274.png?crop=center&height=1200&v=1776357946&width=1200'
+    ],
+    shortDesc: 'Sérum suave con vitamina C que ilumina, unifica el tono y aporta efecto glow sin irritar.',
+    desc: `Sérum suave con vitamina C que ilumina, unifica el tono y aporta efecto glow sin irritar.
+
+Ideal para piel sensible, piel opaca o con tono desigual. Su textura ligera ayuda a mejorar la apariencia de manchas y deja la piel más luminosa.
+
+Beneficios:
+• Ilumina y aporta glow
+• Unifica el tono de la piel
+• Ayuda a reducir manchas visibles
+• Fórmula suave apta para piel sensible
+
+Modo de uso: aplicar unas gotas sobre rostro limpio y tonificado. Usar preferentemente de día y complementar con protector solar.`
+  },
+  {
+    id: 2,
+    name: '345 Relief Cream 50ml',
+    brand: 'Dr Althea',
+    price: 22990,
+    oldPrice: 27990,
+    category: 'crema',
+    images: [
+      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&q=80',
+      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=1200&q=80',
+      'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&q=80'
+    ],
+    desc: `Crema hidratante y calmante para piel sensible o debilitada.
+
+Ayuda a reforzar la barrera cutánea, aliviar sensación de tirantez y mantener la piel cómoda durante el día.
+
+Beneficios:
+• Hidrata y calma
+• Apoya la barrera de la piel
+• Textura cómoda para uso diario
+• Ideal para piel sensible`
+  },
+  {
+    id: 3,
+    name: '147 Barrier Cream 50ml',
+    brand: 'Dr Althea',
+    price: 21990,
+    oldPrice: 26990,
+    category: 'crema',
+    images: [
+      'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=1200&q=80',
+      'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80',
+      'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1200&q=80'
+    ],
+    desc: `Crema de barrera ideal para piel seca, sensible o con sensación de deshidratación.
+
+Ayuda a mantener la hidratación y mejorar la suavidad de la piel.
+
+Beneficios:
+• Hidratación diaria
+• Piel más suave
+• Apoyo a la barrera cutánea
+• Acabado confortable`
+  },
+  {
+    id: 4,
+    name: 'Noni Moisture Balancing Toner 150ml',
+    brand: 'Celimax',
+    price: 14990,
+    oldPrice: 18990,
+    category: 'tonico',
+    images: [
+      'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&q=80',
+      'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=1200&q=80',
+      'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=1200&q=80'
+    ],
+    desc: `Tónico hidratante con extracto de Noni para equilibrar, refrescar y preparar la piel.
+
+Beneficios:
+• Aporta hidratación ligera
+• Ayuda a calmar la piel
+• Prepara para sérum y crema
+• Ideal para rutina diaria`
+  },
+  {
+    id: 5,
+    name: 'Low pH Foam Cleanser',
+    brand: 'Celimax',
+    price: 11990,
+    oldPrice: 14990,
+    category: 'limpieza',
+    images: [
+      'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80',
+      'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&q=80',
+      'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=1200&q=80'
+    ],
+    desc: `Limpiador facial suave de pH bajo para retirar impurezas sin dejar sensación tirante.
+
+Beneficios:
+• Limpieza suave
+• No reseca
+• Ideal para uso diario
+• Recomendado para piel sensible`
+  },
+  {
+    id: 6,
+    name: 'Water-Fit Sun Serum 50ml',
+    brand: 'SKIN1004',
+    price: 18990,
+    oldPrice: 22990,
+    category: 'protector',
+    images: [
+      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&q=80',
+      'https://images.unsplash.com/photo-1599305090598-fe179d501227?w=1200&q=80',
+      'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&q=80'
+    ],
+    desc: `Protector solar facial de textura ligera, ideal para uso diario.
+
+Beneficios:
+• Protección diaria
+• Acabado cómodo
+• Sensación hidratante
+• Fácil de integrar en la rutina`
+  }
+];
+
+let cart = [];
+let currentFilter = 'all';
+const formatPrice = n => '$' + Number(n).toLocaleString('es-CL');
+const discountOf = p => p.oldPrice ? Math.round((1 - p.price / p.oldPrice) * 100) : 0;
+const categoryLabel = category => ({serum:'Sérum', crema:'Crema', tonico:'Tónico', limpieza:'Limpieza', protector:'Protector solar'}[category] || category);
+
+function renderProducts(filter = 'all') {
+  currentFilter = filter;
+  const grid = document.getElementById('productsGrid');
+  const filtered = filter === 'all' ? PRODUCTS : PRODUCTS.filter(p => p.category === filter);
+  grid.innerHTML = filtered.map(p => `
+    <article class="card">
+      <div class="card-img" onclick="openProduct(${p.id})">
+        <img src="${p.images[0]}" alt="${p.name}">
+        ${p.oldPrice ? `<span class="badge">-${discountOf(p)}%</span>` : ''}
+      </div>
+      <div class="card-body">
+        <div class="brand">${p.brand}</div>
+        <h3 class="name">${p.name}</h3>
+        <div class="category-pill">${categoryLabel(p.category)}</div>
+        <div class="price-row">
+          ${p.oldPrice ? `<span class="old">${formatPrice(p.oldPrice)}</span>` : ''}
+          <span class="price">${formatPrice(p.price)}</span>
+        </div>
+        <div class="card-actions">
+          <button class="view-btn" onclick="openProduct(${p.id})">Ver producto</button>
+          <button class="add-btn" onclick="addToCart(${p.id})" aria-label="Agregar ${p.name} al carrito">+</button>
+        </div>
+      </div>
+    </article>
+  `).join('') || '<p style="text-align:center;color:#8a7770;grid-column:1/-1">No hay productos en esta categoría.</p>';
+}
+
+function filterProducts(cat, btn) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  renderProducts(cat);
+}
+
+function openProduct(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (!p) return;
+  document.getElementById('productModalBox').innerHTML = `
+    <button class="close" onclick="closeProduct()">×</button>
+    <div>
+      <img class="main-img" id="modalMainImg" src="${p.images[0]}" alt="${p.name}">
+      <div class="thumbs">${p.images.map(img => `<img src="${img}" onclick="changeMainImage('${img.replace(/'/g, "&#39;")}')" alt="${p.name}">`).join('')}</div>
+    </div>
+    <div>
+      <div class="brand">${p.brand}</div>
+      <h2 class="modal-title">${p.name}</h2>
+      ${p.oldPrice ? `<span class="badge" style="position:static;display:inline-block;margin-bottom:12px">-${discountOf(p)}%</span>` : ''}
+      <div class="price-row"><span class="old">${p.oldPrice ? formatPrice(p.oldPrice) : ''}</span><span class="price">${formatPrice(p.price)}</span></div>
+      <div class="modal-desc">${p.desc}</div>
+      <button class="btn-primary" onclick="addToCart(${p.id})">Agregar al carrito</button>
+    </div>`;
+  document.getElementById('productModal').classList.add('open');
+}
+function closeProduct(){document.getElementById('productModal').classList.remove('open')}
+function changeMainImage(img){document.getElementById('modalMainImg').src = img}
+document.getElementById('productModal').addEventListener('click', e => { if(e.target.id === 'productModal') closeProduct(); });
+
+function addToCart(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  const item = cart.find(x => x.id === id);
+  if (item) item.qty += 1;
+  else cart.push({...p, qty:1});
+  updateCart();
+  openCart();
+}
+function removeFromCart(id){cart = cart.filter(x => x.id !== id); updateCart();}
+function changeQty(id, delta){const item = cart.find(x => x.id === id); if(!item) return; item.qty += delta; if(item.qty <= 0) removeFromCart(id); else updateCart();}
+function updateCart(){
+  const count = cart.reduce((s,i)=>s+i.qty,0);
+  const total = cart.reduce((s,i)=>s+i.qty*i.price,0);
+  document.getElementById('cartCount').textContent = count;
+  document.getElementById('cartTotal').textContent = formatPrice(total);
+  document.getElementById('cartFooter').style.display = cart.length ? 'block' : 'none';
+  document.getElementById('cartItems').innerHTML = cart.length ? cart.map(i => `
+    <div class="cart-item">
+      <img src="${i.images[0]}" alt="${i.name}">
+      <div><div class="cart-name">${i.name}</div><div class="cart-meta">${i.brand}</div><div class="cart-controls"><button class="mini" onclick="changeQty(${i.id},-1)">−</button><span>${i.qty}</span><button class="mini" onclick="changeQty(${i.id},1)">+</button><button class="trash" onclick="removeFromCart(${i.id})">🗑</button></div></div>
+      <div class="cart-price">${formatPrice(i.price*i.qty)}</div>
+    </div>`).join('') : '<div class="empty">Tu carrito está vacío.<br>Agrega productos para coordinar tu pedido.</div>';
+}
+function openCart(){document.getElementById('cartDrawer').classList.add('open');document.getElementById('drawerOverlay').classList.add('open')}
+function toggleCart(){document.getElementById('cartDrawer').classList.toggle('open');document.getElementById('drawerOverlay').classList.toggle('open')}
+function sendWhatsApp(){
+  if(!cart.length) return;
+  const total = cart.reduce((s,i)=>s+i.qty*i.price,0);
+  let msg = `Hola KempelSkin 👋 Me gustaría coordinar este pedido:\n\n`;
+  cart.forEach(i => { msg += `• ${i.qty}x ${i.brand} - ${i.name}\n  ${formatPrice(i.price*i.qty)}\n\n`; });
+  msg += `Total estimado: ${formatPrice(total)}\n\n¿Me confirman disponibilidad, forma de pago y envío?`;
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+renderProducts(); updateCart();
+</script>
+</body>
+</html>
